@@ -1,4 +1,6 @@
 ---
+import { url } from '../utils/paths';
+
 interface Props {
   currentPage?: string;
 }
@@ -22,15 +24,15 @@ const currentYear = new Date().getFullYear();
 
     <!-- Navigation Links: Exactly matches the Header pages -->
     <div class="flex flex-wrap items-center justify-center gap-5 sm:gap-6 text-xs font-cinzel uppercase tracking-wider text-stone-400">
-      <a href={`${import.meta.env.BASE_URL}monte`} class={`transition-colors ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>O Monte</a>
+      <a href={url('monte')} class={`transition-colors ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>O Monte</a>
       <span class="text-stone-700">·</span>
-      <a href={`${import.meta.env.BASE_URL}produtos`} class={`transition-colors ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Produtos</a>
+      <a href={url('produtos')} class={`transition-colors ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Produtos</a>
       <span class="text-stone-700">·</span>
-      <a href={`${import.meta.env.BASE_URL}visitas`} class={`transition-colors ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Visitas</a>
+      <a href={url('visitas')} class={`transition-colors ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Visitas</a>
       <span class="text-stone-700">·</span>
-      <a href={`${import.meta.env.BASE_URL}contactos`} class={`transition-colors ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Contactos</a>
+      <a href={url('contactos')} class={`transition-colors ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Contactos</a>
       <span class="text-stone-700">·</span>
-      <a href={`${import.meta.env.BASE_URL}loja`} class={`transition-colors ${currentPage === 'loja' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Loja Online</a>
+      <a href={url('loja')} class={`transition-colors ${currentPage === 'loja' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Loja Online</a>
     </div>
 
     <!-- Copyright -->
@@ -44,7 +46,7 @@ const currentYear = new Date().getFullYear();
 <!-- FLOATING HOME BUTTON THAT STOPS RIGHT AT THE FOOTER (NEVER ENTERS IT) -->
 <aside id="floating-home-btn-container" class="fixed bottom-6 right-4 sm:right-6 md:right-8 lg:right-10 xl:right-12 z-40 pointer-events-none transition-[bottom] duration-100 ease-out">
   <a 
-    href={import.meta.env.BASE_URL} 
+    href={url()} 
     class="pointer-events-auto group w-11 h-11 sm:w-12 sm:h-12 bg-[#1A1410]/95 hover:bg-[#F3D08A] border border-[#C5A059]/60 hover:border-[#F3D08A] text-[#F3D08A] hover:text-[#1A1410] shadow-[0_4px_25px_rgba(0,0,0,0.8)] backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
     title="Voltar ao Portal Monte da Colónia"
     aria-label="Voltar ao Portal Monte da Colónia"

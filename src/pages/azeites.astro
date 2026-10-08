@@ -1,5 +1,6 @@
 ---
-const target = `${import.meta.env.BASE_URL}produtos#azeites`;
+import { url } from '../utils/paths';
+const target = url('produtos#azeites');
 return Astro.redirect(target, 301);
 ---
 <!DOCTYPE html>

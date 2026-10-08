@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
+import { url } from '../utils/paths';
 
 // Scenery for visits & enotourism
 import imgDegustacao from '../assets/real_candidates/real-09-degustacao-copos.jpg';
@@ -224,7 +225,7 @@ const experiencias = [
           </div>
           <div class="flex flex-wrap items-center gap-3 shrink-0">
             <a 
-              href={`${import.meta.env.BASE_URL}contactos#mapa`} 
+              href={url('contactos#mapa')} 
               class="px-5 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
             >
               Ver Mapa & Percurso
