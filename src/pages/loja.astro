@@ -5,6 +5,8 @@ import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
 import imgVinha from '../assets/real_candidates/real-01-vinha-panorama.jpg';
 
+const b = import.meta.env.BASE_URL;
+
 // Products Catalog
 const products = [
   // VINHOS
@@ -16,7 +18,7 @@ const products = [
     specs: "750 ml · 14.5% Vol · 12 Meses Barrica",
     price: 19.50,
     badge: "Ouro Anuga",
-    image: "/assets/products/Reserva2023.jpeg",
+    image: `${b}assets/products/Reserva2023.jpeg`,
     description: "Cor granada profunda, notas de amoras silvestres, esteva e carvalho francês de Allier. Final longo e aveludado."
   },
   {
@@ -27,7 +29,7 @@ const products = [
     specs: "750 ml · 13.0% Vol · Fermentação a Frio",
     price: 11.50,
     badge: "Nova Colheita",
-    image: "/assets/products/Colheita-Selecionada-2024.jpeg",
+    image: `${b}assets/products/Colheita-Selecionada-2024.jpeg`,
     description: "Luminoso e mineral, aroma cítrico a lima madura e flor de laranjeira. Acidez tensa e refrescante."
   },
   {
@@ -38,7 +40,7 @@ const products = [
     specs: "750 ml · 12.5% Vol · Prensagem Suave",
     price: 12.00,
     badge: "Elegância",
-    image: "/assets/products/Rouriga-Rose-2024.jpeg",
+    image: `${b}assets/products/Rouriga-Rose-2024.jpeg`,
     description: "Rosa pálido com notas de romã fresca e framboesa silvestre. Frescura crocante e final mineral."
   },
   {
@@ -49,7 +51,7 @@ const products = [
     specs: "750 ml · 12.0% Vol · Bolha Fina",
     price: 22.00,
     badge: "Reserva Especial",
-    image: "/assets/products/Espumante-2020.jpeg",
+    image: `${b}assets/products/Espumante-2020.jpeg`,
     description: "Bolha finíssima, aroma de brioche tostado, maçã assada e noz. Cremoso, envolvente e requintado."
   },
   {
@@ -60,7 +62,7 @@ const products = [
     specs: "750 ml · 14.0% Vol · Tradição Alentejana",
     price: 14.50,
     badge: "Clássico",
-    image: "/assets/products/Escolha2023.jpeg",
+    image: `${b}assets/products/Escolha2023.jpeg`,
     description: "Perfil clássico alentejano com fruta madura e especiaria doce. Taninos redondos e boa estrutura gastronómica."
   },
   {
@@ -71,7 +73,7 @@ const products = [
     specs: "750 ml · 14.5% Vol · Estágio em Carvalho",
     price: 16.00,
     badge: "Edição Limitada",
-    image: "/assets/products/syrah-e-petit-verdot-2023-scaled.jpg",
+    image: `${b}assets/products/syrah-e-petit-verdot-2023-scaled.jpg`,
     description: "Vinho encorpado e sedutor, com notas de pimenta preta, amoras e cacau. Potencial de guarda extraordinário."
   },
   {
@@ -82,7 +84,7 @@ const products = [
     specs: "750 ml · 14.0% Vol · 10 Meses Barrica",
     price: 17.50,
     badge: "Monocasta",
-    image: "/assets/products/Cabernet-Sauvignon-2023-scaled.jpg",
+    image: `${b}assets/products/Cabernet-Sauvignon-2023-scaled.jpg`,
     description: "Intensidade aromática de cassis, pimento verde maduro e cedro. Estrutura tânica aristocrática."
   },
   {
@@ -93,7 +95,7 @@ const products = [
     specs: "750 ml · 12.5% Vol · Cuba de Inox",
     price: 10.50,
     badge: "Aromático",
-    image: "/assets/products/Fernao-Pires-2024.jpeg",
+    image: `${b}assets/products/Fernao-Pires-2024.jpeg`,
     description: "Exuberância floral de jasmim e tília, paladar macio e envolvente com final frutado e ligeiramente especiado."
   },
 
@@ -106,7 +108,7 @@ const products = [
     specs: "500 ml · Vidro Escuro UV · Extração a Frio",
     price: 8.90,
     badge: "Biológico",
-    image: "/assets/products/0000427_azeite-virgem-extra-bio-500ml_300.png",
+    image: `${b}assets/products/0000427_azeite-virgem-extra-bio-500ml_300.png`,
     description: "Frutado verde médio, aroma a folha de oliveira e maçã verde. Amargo e picante nobres e equilibrados."
   },
   {
@@ -117,7 +119,7 @@ const products = [
     specs: "250 ml · Galheteiro Luxo · Acidez < 0.15%",
     price: 6.50,
     badge: "Gourmet",
-    image: "/assets/products/azeite-virgem-extra-250ml.png",
+    image: `${b}assets/products/azeite-virgem-extra-250ml.png`,
     description: "Edição de colheita na aurora. Denso e complexo, com notas de rama de tomateiro e amêndoa verde."
   },
   {
@@ -128,7 +130,7 @@ const products = [
     specs: "2 L · Galão Prático com Vertedor",
     price: 22.00,
     badge: "Familiar",
-    image: "/assets/products/0000430_azeite-virgem-extra-2l_300.png",
+    image: `${b}assets/products/0000430_azeite-virgem-extra-2l_300.png`,
     description: "Ideal para uso doméstico frequente. Equilibrado, frutado maduro suave e de elevadíssimo valor nutricional."
   },
   {
@@ -139,7 +141,7 @@ const products = [
     specs: "5 L · Embalagem Económica Herdade",
     price: 48.00,
     badge: "Melhor Valor",
-    image: "/assets/products/0000432_azeite-virgem-extra-5l_300.png",
+    image: `${b}assets/products/0000432_azeite-virgem-extra-5l_300.png`,
     description: "O verdadeiro azeite das famílias alentejanas. Sabor autêntico, redondo e generoso para todas as confeções."
   },
   {
@@ -150,7 +152,7 @@ const products = [
     specs: "800 g líquido · Salmoura Tradicional",
     price: 5.80,
     badge: "Receita Familiar",
-    image: "/assets/products/0000414_azeitonas-mistas-08kg_300.png",
+    image: `${b}assets/products/0000414_azeitonas-mistas-08kg_300.png`,
     description: "Curadas de forma ancestral e temperadas com as ervas aromáticas dos pastos do Monte da Colónia."
   },
   {
@@ -161,7 +163,7 @@ const products = [
     specs: "500 ml · 6% Acidez Acética Natural",
     price: 4.20,
     badge: "Artesanal",
-    image: "/assets/products/vinagre-e1737217577722.jpg",
+    image: `${b}assets/products/vinagre-e1737217577722.jpg`,
     description: "Elaborado a partir de vinho selecionado da adega, estagiado pacientemente em madeira de carvalho."
   },
 
@@ -174,7 +176,7 @@ const products = [
     specs: "4 Itens · Caixa de Pinho Gravada a Fogo",
     price: 55.00,
     badge: "Mais Vendido",
-    image: "/assets/products/Nossos-Vinhos-scaled-e1729116627820.jpg",
+    image: `${b}assets/products/Nossos-Vinhos-scaled-e1729116627820.jpg`,
     description: "A essência completa do Monte da Colónia numa sofisticada caixa de madeira com selo de garantia da herdade."
   },
   {
@@ -185,7 +187,7 @@ const products = [
     specs: "3 Garrafas · Embalagem Presente Premium",
     price: 58.00,
     badge: "Exclusivo",
-    image: "/assets/products/Dark-blue-Merlot-w-cup.png",
+    image: `${b}assets/products/Dark-blue-Merlot-w-cup.png`,
     description: "O presente perfeito para amantes de grandes vinhos e momentos de brinde inesquecíveis."
   },
   {
@@ -196,7 +198,7 @@ const products = [
     specs: "4 Produtos Típicos da Herdade",
     price: 38.00,
     badge: "Gourmet",
-    image: "/assets/products/montedacolonia.jpg",
+    image: `${b}assets/products/montedacolonia.jpg`,
     description: "Transporte para a sua mesa os sabores mais puros e generosos de uma tarde em Vale de Seda."
   }
 ];

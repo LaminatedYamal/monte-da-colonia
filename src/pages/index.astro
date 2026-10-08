@@ -123,7 +123,7 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
             
             <!-- Medallion 1: O MONTE -->
             <a 
-              href="/monte" 
+              href={`${import.meta.env.BASE_URL}monte`} 
               class="satellite-medallion" 
               data-bg="bg-monte"
               style="--fan-x: -240px; --fan-y: 90px; --fan-delay: 50ms;" 
@@ -139,7 +139,7 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
 
             <!-- Medallion 2: PRODUTOS (VINHOS & AZEITES) -->
             <a 
-              href="/produtos" 
+              href={`${import.meta.env.BASE_URL}produtos`} 
               class="satellite-medallion" 
               data-bg="bg-produtos"
               style="--fan-x: -120px; --fan-y: 130px; --fan-delay: 110ms;" 
@@ -155,7 +155,7 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
 
             <!-- Medallion 3: LOJA ONLINE -->
             <a 
-              href="/loja" 
+              href={`${import.meta.env.BASE_URL}loja`} 
               class="satellite-medallion" 
               data-bg="bg-loja"
               style="--fan-x: 0px; --fan-y: 145px; --fan-delay: 170ms;" 
@@ -171,7 +171,7 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
 
             <!-- Medallion 4: VISITAS -->
             <a 
-              href="/visitas" 
+              href={`${import.meta.env.BASE_URL}visitas`} 
               class="satellite-medallion" 
               data-bg="bg-visitas"
               style="--fan-x: 120px; --fan-y: 130px; --fan-delay: 230ms;" 
@@ -188,7 +188,7 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
 
             <!-- Medallion 5: CONTACTOS -->
             <a 
-              href="/contactos" 
+              href={`${import.meta.env.BASE_URL}contactos`} 
               class="satellite-medallion" 
               data-bg="bg-contactos"
               style="--fan-x: 240px; --fan-y: 90px; --fan-delay: 290ms;" 
@@ -224,10 +224,10 @@ import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
 
   // Load Luminous Gold Logo Elements
   const houseGoldImg = new Image();
-  houseGoldImg.src = '/assets/logos/logo_house_gold.png';
+  houseGoldImg.src = `${import.meta.env.BASE_URL}assets/logos/logo_house_gold.png`;
 
   const textGoldImg = new Image();
-  textGoldImg.src = '/assets/logos/logo_text_gold.png';
+  textGoldImg.src = `${import.meta.env.BASE_URL}assets/logos/logo_text_gold.png`;
 
   let animationRunning = false;
 

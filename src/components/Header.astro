@@ -11,9 +11,9 @@ const { currentPage = '', isStore = false } = Astro.props;
   <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
     
     <!-- Brand Identity with Gold House Emblem -->
-    <a href="/" class="flex items-center gap-3.5 group" title="Voltar ao Portal Monte da Colónia">
+    <a href={import.meta.env.BASE_URL} class="flex items-center gap-3.5 group" title="Voltar ao Portal Monte da Colónia">
       <img 
-        src="/assets/logos/logo_house_gold.png" 
+        src={`${import.meta.env.BASE_URL}assets/logos/logo_house_gold.png`} 
         alt="Monte da Colónia" 
         class="h-10 sm:h-11 w-auto object-contain filter drop-shadow-[0_2px_8px_rgba(243,208,138,0.35)] group-hover:scale-105 transition-transform duration-300" 
       />
@@ -30,25 +30,25 @@ const { currentPage = '', isStore = false } = Astro.props;
     <!-- Desktop Navigation: Strictly Content Pages (No Loja Online in Menu List) -->
     <nav class="hidden md:flex items-center gap-7 lg:gap-8 text-xs font-cinzel uppercase tracking-[0.22em]">
       <a 
-        href="/monte" 
+        href={`${import.meta.env.BASE_URL}monte`} 
         class={`transition-colors py-1 ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold border-b border-[#C5A059]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         O Monte
       </a>
       <a 
-        href="/produtos" 
+        href={`${import.meta.env.BASE_URL}produtos`} 
         class={`transition-colors py-1 ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold border-b border-[#C5A059]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Produtos
       </a>
       <a 
-        href="/visitas" 
+        href={`${import.meta.env.BASE_URL}visitas`} 
         class={`transition-colors py-1 ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold border-b border-[#C5A059]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Visitas
       </a>
       <a 
-        href="/contactos" 
+        href={`${import.meta.env.BASE_URL}contactos`} 
         class={`transition-colors py-1 ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold border-b border-[#C5A059]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Contactos
@@ -73,7 +73,7 @@ const { currentPage = '', isStore = false } = Astro.props;
       ) : (
         <!-- Standard CTA across all pages: Loja Online -->
         <a 
-          href="/loja" 
+          href={`${import.meta.env.BASE_URL}loja`} 
           class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[11px] sm:text-xs uppercase tracking-[0.22em] font-semibold shadow-md hover:shadow-[#F3D08A]/25 transition-all duration-300"
         >
           Loja Online
@@ -99,32 +99,32 @@ const { currentPage = '', isStore = false } = Astro.props;
   <div id="mobile-menu" class="hidden md:hidden bg-[#14100D]/98 border-t border-[#C5A059]/30 px-6 py-6 transition-all duration-300">
     <nav class="flex flex-col gap-4 text-sm font-cinzel uppercase tracking-[0.22em]">
       <a 
-        href="/monte" 
+        href={`${import.meta.env.BASE_URL}monte`} 
         class={`py-1.5 transition-colors ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         O Monte
       </a>
       <a 
-        href="/produtos" 
+        href={`${import.meta.env.BASE_URL}produtos`} 
         class={`py-1.5 transition-colors ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Produtos
       </a>
       <a 
-        href="/visitas" 
+        href={`${import.meta.env.BASE_URL}visitas`} 
         class={`py-1.5 transition-colors ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Visitas
       </a>
       <a 
-        href="/contactos" 
+        href={`${import.meta.env.BASE_URL}contactos`} 
         class={`py-1.5 transition-colors ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
       >
         Contactos
       </a>
       <div class="pt-4 mt-2 border-t border-stone-800">
         <a 
-          href="/loja" 
+          href={`${import.meta.env.BASE_URL}loja`} 
           class="block text-center py-3 border border-[#F3D08A] bg-[#221A14] text-[#F3D08A] font-cinzel text-xs uppercase tracking-[0.25em] font-semibold"
         >
           Loja Online Oficial

@@ -3,6 +3,8 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://laminatedyamal.github.io',
+  base: '/monte-da-colonia',
   integrations: [tailwind()],
   server: {
     port: 4321,
