@@ -1,0 +1,4250 @@
+[
+  {
+    "id": 1273,
+    "date": "2026-05-12T20:09:34",
+    "date_gmt": "2026-05-12T20:09:34",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1273"
+    },
+    "modified": "2026-08-06T20:33:40",
+    "modified_gmt": "2026-08-06T20:33:40",
+    "slug": "regional-alentejano-monte-da-colonia-bag-in-box-5l-2025-2",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/regional-alentejano-monte-da-colonia-bag-in-box-5l-2025-2/",
+    "title": {
+      "rendered": "Regional Alentejano Monte da Colonia Bag in Box 5L 2025"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=78 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-branco-regional-alentejano-monte-da-colonia-bag-in-box-5l-2025/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-1273",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1273",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1273"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1273"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1273"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1273"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1263,
+    "date": "2026-05-12T20:03:31",
+    "date_gmt": "2026-05-12T20:03:31",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1263"
+    },
+    "modified": "2026-05-12T20:07:47",
+    "modified_gmt": "2026-05-12T20:07:47",
+    "slug": "escolha-2025",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/escolha-2025/",
+    "title": {
+      "rendered": "Escolha 2025"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=76 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-branco-escolha-2025/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-1263",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1263",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1263"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1263"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1263"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1263"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1256,
+    "date": "2026-05-12T19:54:44",
+    "date_gmt": "2026-05-12T19:54:44",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1256"
+    },
+    "modified": "2026-05-12T20:14:12",
+    "modified_gmt": "2026-05-12T20:14:12",
+    "slug": "tinto-monocasta-syrah-2025",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/tinto-monocasta-syrah-2025/",
+    "title": {
+      "rendered": "Tinto Monocasta Syrah 2025"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=74 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-monocasta-syrah-2025/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1256",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1256",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1256"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1256"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1256"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1256"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1242,
+    "date": "2026-02-04T21:55:30",
+    "date_gmt": "2026-02-04T21:55:30",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1242"
+    },
+    "modified": "2026-02-04T21:59:03",
+    "modified_gmt": "2026-02-04T21:59:03",
+    "slug": "regional-alentejano-tinto-monte-da-colonia-bag-in-box-5l-2025",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-5l-2025/",
+    "title": {
+      "rendered": "Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=71 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-regional-alentejano-monte-da-colonia-bag-in-box-5l-2025/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1242",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1242",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1242"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1242"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1242"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1242"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1232,
+    "date": "2026-02-04T21:49:17",
+    "date_gmt": "2026-02-04T21:49:17",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1232"
+    },
+    "modified": "2026-02-04T21:54:44",
+    "modified_gmt": "2026-02-04T21:54:44",
+    "slug": "regional-alentejano-tinto-monte-da-colonia-bag-in-box-20l-2025",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-20l-2025/",
+    "title": {
+      "rendered": "Regional Alentejano Tinto Monte da Colónia Bag in Box 20L 2025"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=69 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-regional-alentejano-monte-da-colonia-bag-in-box-20l-2025/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1232",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1232",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1232"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1232"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1232"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1232"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1219,
+    "date": "2025-10-02T15:45:45",
+    "date_gmt": "2025-10-02T15:45:45",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1219"
+    },
+    "modified": "2025-10-02T15:52:19",
+    "modified_gmt": "2025-10-02T15:52:19",
+    "slug": "tubo-de-vinho-tinto-regional-alentejano-2022-2l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/tubo-de-vinho-tinto-regional-alentejano-2022-2l/",
+    "title": {
+      "rendered": "Tubo de Vinho Tinto Regional Alentejano 2022 2L"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=67 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/tubo-de-vinho-tinto-regional-alentejano-2022-2l/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1177,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-1219",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1219",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1177"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1219"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1219"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1219"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1219"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1200,
+    "date": "2025-10-01T19:54:23",
+    "date_gmt": "2025-10-01T19:54:23",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1200"
+    },
+    "modified": "2025-10-01T19:59:57",
+    "modified_gmt": "2025-10-01T19:59:57",
+    "slug": "vinho-licoroso-alentejano-ig",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-licoroso-alentejano-ig/",
+    "title": {
+      "rendered": "Vinho Licoroso Alentejano &#8211; IG"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=65 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-licoroso-alentejano-ig/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1201,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      52
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-1200",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-licoroso",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1200",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1201"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1200"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1200"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1200"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1200"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1180,
+    "date": "2025-10-01T19:41:36",
+    "date_gmt": "2025-10-01T19:41:36",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1180"
+    },
+    "modified": "2025-10-01T19:52:13",
+    "modified_gmt": "2025-10-01T19:52:13",
+    "slug": "monte-da-colonia-edicao-especial-3l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/monte-da-colonia-edicao-especial-3l/",
+    "title": {
+      "rendered": "Monte da Colónia &#8211; Edição Especial 3L"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=63 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-monte-da-colonia-edicao-especial-3l/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1181,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-1180",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1180",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1181"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1180"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1180"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1180"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1180"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1178,
+    "date": "2025-10-01T19:39:29",
+    "date_gmt": "2025-10-01T19:39:29",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1178"
+    },
+    "modified": "2025-10-01T19:49:31",
+    "modified_gmt": "2025-10-01T19:49:31",
+    "slug": "monte-da-colonia-edicao-especial-15l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/monte-da-colonia-edicao-especial-15l/",
+    "title": {
+      "rendered": "Monte da Colónia &#8211; Edição Especial 1,5L"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=61 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-monte-da-colonia-edicao-especial-15l/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1179,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-1178",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1178",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1179"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1178"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1178"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1178"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1178"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1151,
+    "date": "2025-07-07T10:23:45",
+    "date_gmt": "2025-07-07T10:23:45",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1151"
+    },
+    "modified": "2025-10-01T18:30:46",
+    "modified_gmt": "2025-10-01T18:30:46",
+    "slug": "vinho-rose-monocasta-touriga-nacional-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-rose-monocasta-touriga-nacional-2024/",
+    "title": {
+      "rendered": "Vinho Rose Monocasta Touriga Nacional 2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=59 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-rose-monocasta-touriga-nacional-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1168,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      36
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-1151",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-rose",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1151",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1168"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1151"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1151"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1151"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1151"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1124,
+    "date": "2025-06-25T21:16:18",
+    "date_gmt": "2025-06-25T21:16:18",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1124"
+    },
+    "modified": "2025-10-01T18:28:57",
+    "modified_gmt": "2025-10-01T18:28:57",
+    "slug": "vinho-regional-alentejano-monocasta-touriga-nacional-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-regional-alentejano-monocasta-touriga-nacional-2024/",
+    "title": {
+      "rendered": "Vinho Regional Alentejano Monocasta Touriga Nacional  2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=55 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-vinho-regional-alentejano-monocasta-touriga-nacional-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1166,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1124",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1124",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1166"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1124"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1124"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1124"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1124"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1114,
+    "date": "2025-06-25T21:10:14",
+    "date_gmt": "2025-06-25T21:10:14",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1114"
+    },
+    "modified": "2025-10-01T19:22:24",
+    "modified_gmt": "2025-10-01T19:22:24",
+    "slug": "vinho-regional-alentejano-tinto-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-regional-alentejano-tinto-2024/",
+    "title": {
+      "rendered": "Vinho Regional Alentejano tinto 2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=53 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-vinho-regional-alentejano-tinto-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1171,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1114",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1114",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1171"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1114"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1114"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1114"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1114"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1104,
+    "date": "2025-06-25T20:58:22",
+    "date_gmt": "2025-06-25T20:58:22",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1104"
+    },
+    "modified": "2025-10-01T19:25:51",
+    "modified_gmt": "2025-10-01T19:25:51",
+    "slug": "vinho-regional-alentejano-tinto-colheita-selecionada-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-regional-alentejano-tinto-colheita-selecionada-2024/",
+    "title": {
+      "rendered": "Vinho Regional Alentejano Tinto Colheita Selecionada 2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=51 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-vinho-regional-alentejano-colheita-selecionada-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1172,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-1104",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1104",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1172"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1104"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1104"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1104"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1104"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1060,
+    "date": "2025-04-30T06:28:21",
+    "date_gmt": "2025-04-30T06:28:21",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1060"
+    },
+    "modified": "2025-10-01T18:29:52",
+    "modified_gmt": "2025-10-01T18:29:52",
+    "slug": "monocasta-monte-da-colonia-fernao-pires-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/monocasta-monte-da-colonia-fernao-pires-2024/",
+    "title": {
+      "rendered": "Monocasta Monte da Colonia Fernão Pires 2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=45 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-branco-monocasta-fernao-pires-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1167,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-1060",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1060",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1167"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1060"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1060"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1060"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1060"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1052,
+    "date": "2025-04-30T06:23:49",
+    "date_gmt": "2025-04-30T06:23:49",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1052"
+    },
+    "modified": "2025-05-16T08:00:37",
+    "modified_gmt": "2025-05-16T08:00:37",
+    "slug": "reserva-monte-da-colonia-2024",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/reserva-monte-da-colonia-2024/",
+    "title": {
+      "rendered": "Reserva Monte da Colónia 2024"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=44 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-branco-reserva-monte-da-colonia-2024/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 750,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-1052",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1052",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/750"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1052"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1052"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1052"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1052"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1030,
+    "date": "2025-04-04T21:41:22",
+    "date_gmt": "2025-04-04T21:41:22",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?post_type=product&#038;p=1030"
+    },
+    "modified": "2025-10-01T18:32:12",
+    "modified_gmt": "2025-10-01T18:32:12",
+    "slug": "espumante-branco-2020",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/espumante-branco-2020/",
+    "title": {
+      "rendered": "Espumante Branco 2020"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=11 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-rose-escolha-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1169,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      35
+    ],
+    "product_tag": [
+      46,
+      40
+    ],
+    "class_list": [
+      "post-1030",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-espumantes",
+      "product_tag-espumante",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/1030",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1169"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=1030"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=1030"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=1030"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=1030"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 760,
+    "date": "2025-01-18T13:00:59",
+    "date_gmt": "2025-01-18T13:00:59",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=760"
+    },
+    "modified": "2025-10-01T18:22:16",
+    "modified_gmt": "2025-10-01T18:22:16",
+    "slug": "vinho-tinto-escolha-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-tinto-escolha-2023/",
+    "title": {
+      "rendered": "Vinho Tinto Escolha 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=36 /]\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-escolha-2023/\">Ficha Nutricional </a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1163,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-760",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/760",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1163"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=760"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=760"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=760"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=760"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 747,
+    "date": "2025-01-18T11:24:37",
+    "date_gmt": "2025-01-18T11:24:37",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=747"
+    },
+    "modified": "2025-10-01T18:23:29",
+    "modified_gmt": "2025-10-01T18:23:29",
+    "slug": "vinho-tinto-reserva-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-tinto-reserva-2023/",
+    "title": {
+      "rendered": "Vinho Tinto Reserva 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=34 /]\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-reserva-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 1164,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-747",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/747",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/1164"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=747"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=747"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=747"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=747"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 674,
+    "date": "2024-11-07T09:00:21",
+    "date_gmt": "2024-11-07T09:00:21",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=674"
+    },
+    "modified": "2025-04-04T21:19:21",
+    "modified_gmt": "2025-04-04T21:19:21",
+    "slug": "azeitonas-mistas-5kg",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitonas-mistas-5kg/",
+    "title": {
+      "rendered": "Azeitonas Mistas &#8211; 5Kg"
+    },
+    "content": {
+      "rendered": "<p>Azeitonas mistas feitas a partir da variedade Cobrançosa, devidamente retalhadas e temperadas, prontas a servir. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<h4>[table id=23 /]</h4>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeitona-mista/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 675,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      47
+    ],
+    "product_tag": [
+      48
+    ],
+    "class_list": [
+      "post-674",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-azeitonas",
+      "product_tag-azeitonas",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/674",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/675"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=674"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=674"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=674"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=674"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 964,
+    "date": "2024-11-07T08:00:14",
+    "date_gmt": "2024-11-07T08:00:14",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=964"
+    },
+    "modified": "2025-04-04T21:19:38",
+    "modified_gmt": "2025-04-04T21:19:38",
+    "slug": "azeitonas-mistas-3kg",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitonas-mistas-3kg/",
+    "title": {
+      "rendered": "Azeitonas Mistas &#8211; 3Kg"
+    },
+    "content": {
+      "rendered": "<p>Azeitonas mistas feitas a partir da variedade Cobrançosa, devidamente retalhadas e temperadas, prontas a servir. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<h4>[table id=23 /]</h4>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeitona-mista/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 965,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      47
+    ],
+    "product_tag": [
+      48
+    ],
+    "class_list": [
+      "post-964",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-azeitonas",
+      "product_tag-azeitonas",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/964",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/965"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=964"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=964"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=964"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=964"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 676,
+    "date": "2024-11-07T07:00:16",
+    "date_gmt": "2024-11-07T07:00:16",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=676"
+    },
+    "modified": "2025-04-04T21:19:59",
+    "modified_gmt": "2025-04-04T21:19:59",
+    "slug": "azeitonas-mistas-2kg",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitonas-mistas-2kg/",
+    "title": {
+      "rendered": "Azeitonas Mistas &#8211; 2Kg"
+    },
+    "content": {
+      "rendered": "<p>Azeitonas mistas feitas a partir da variedade Cobrançosa, devidamente retalhadas e temperadas, prontas a servir. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<h4>[table id=23 /]</h4>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeitona-mista/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 677,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      47
+    ],
+    "product_tag": [
+      48
+    ],
+    "class_list": [
+      "post-676",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-azeitonas",
+      "product_tag-azeitonas",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/676",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/677"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=676"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=676"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=676"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=676"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 673,
+    "date": "2024-11-07T06:00:42",
+    "date_gmt": "2024-11-07T06:00:42",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=673"
+    },
+    "modified": "2025-04-04T21:20:17",
+    "modified_gmt": "2025-04-04T21:20:17",
+    "slug": "azeitonas-mistas-08kg",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitonas-mistas-08kg/",
+    "title": {
+      "rendered": "Azeitonas Mistas &#8211; 0,8Kg"
+    },
+    "content": {
+      "rendered": "<p>Azeitonas mistas feitas a partir da variedade Cobrançosa, devidamente retalhadas e temperadas, prontas a servir. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<h4>[table id=23 /]</h4>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeitona-mista/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 496,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      47
+    ],
+    "product_tag": [
+      48
+    ],
+    "class_list": [
+      "post-673",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-azeitonas",
+      "product_tag-azeitonas",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/673",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/496"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=673"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=673"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=673"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=673"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 652,
+    "date": "2024-11-07T05:05:58",
+    "date_gmt": "2024-11-07T05:05:58",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=652"
+    },
+    "modified": "2025-04-04T21:13:30",
+    "modified_gmt": "2025-04-04T21:13:30",
+    "slug": "azeite-virgem-5l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-5l/",
+    "title": {
+      "rendered": "Azeite Virgem &#8211; 5L"
+    },
+    "content": {
+      "rendered": "<p>PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=27 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 653,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      38
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-652",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-virgem",
+      "product_tag-azeite",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/652",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/653"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=652"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=652"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=652"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=652"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 494,
+    "date": "2024-11-07T05:00:03",
+    "date_gmt": "2024-11-07T05:00:03",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=494"
+    },
+    "modified": "2025-04-04T21:20:28",
+    "modified_gmt": "2025-04-04T21:20:28",
+    "slug": "azeitona-mista-250g",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitona-mista-250g/",
+    "title": {
+      "rendered": "Azeitona Mista &#8211; 250g"
+    },
+    "content": {
+      "rendered": "<p>Azeitonas mistas feitas a partir da variedade Cobrançosa, devidamente retalhadas e temperadas, prontas a servir. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<h4>[table id=23 /]</h4>\n<p>&nbsp;</p>\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeitona-mista/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 482,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      47
+    ],
+    "product_tag": [
+      48
+    ],
+    "class_list": [
+      "post-494",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-azeitonas",
+      "product_tag-azeitonas",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/494",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/482"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=494"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=494"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=494"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=494"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 667,
+    "date": "2024-11-06T10:00:12",
+    "date_gmt": "2024-11-06T10:00:12",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=667"
+    },
+    "modified": "2025-04-04T21:12:27",
+    "modified_gmt": "2025-04-04T21:12:27",
+    "slug": "azeite-virgem-extra-5l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-5l/",
+    "title": {
+      "rendered": "Azeite Virgem Extra &#8211; 5L"
+    },
+    "content": {
+      "rendered": "<p>O azeite virgem extra é o autêntico sumo 100% natural da azeitona (fruto da Oliveira), conservando assim o sabor, aroma e todas as propriedades benéficas para a saúde, que fazem dele o rei de todas as gorduras vegetais. Muito ao contrário dos óleos vegetais comuns, cuja extração é feita com solventes, processo químico pelo qual é extraído o óleo das sementes, o azeite virgem extra é a única gordura que é obtida diretamente do fruto.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=3 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 668,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      39
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-667",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-virgem-extra",
+      "product_tag-azeite",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/667",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/668"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=667"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=667"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=667"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=667"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 665,
+    "date": "2024-11-06T09:00:11",
+    "date_gmt": "2024-11-06T09:00:11",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=665"
+    },
+    "modified": "2025-04-04T21:12:05",
+    "modified_gmt": "2025-04-04T21:12:05",
+    "slug": "azeite-virgem-extra-3l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-3l/",
+    "title": {
+      "rendered": "Azeite Virgem Extra &#8211; 3L"
+    },
+    "content": {
+      "rendered": "<p>O azeite virgem extra é o autêntico sumo 100% natural da azeitona (fruto da Oliveira), conservando assim o sabor, aroma e todas as propriedades benéficas para a saúde, que fazem dele o rei de todas as gorduras vegetais. Muito ao contrário dos óleos vegetais comuns, cuja extração é feita com solventes, processo químico pelo qual é extraído o óleo das sementes, o azeite virgem extra é a única gordura que é obtida diretamente do fruto.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=3 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 666,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      39
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-665",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-virgem-extra",
+      "product_tag-azeite",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/665",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/666"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=665"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=665"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=665"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=665"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 663,
+    "date": "2024-11-06T08:00:45",
+    "date_gmt": "2024-11-06T08:00:45",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=663"
+    },
+    "modified": "2025-04-04T21:11:21",
+    "modified_gmt": "2025-04-04T21:11:21",
+    "slug": "azeite-virgem-extra-2l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-2l/",
+    "title": {
+      "rendered": "Azeite Virgem Extra &#8211; 2L"
+    },
+    "content": {
+      "rendered": "<p>O azeite virgem extra é o autêntico sumo 100% natural da azeitona (fruto da Oliveira), conservando assim o sabor, aroma e todas as propriedades benéficas para a saúde, que fazem dele o rei de todas as gorduras vegetais. Muito ao contrário dos óleos vegetais comuns, cuja extração é feita com solventes, processo químico pelo qual é extraído o óleo das sementes, o azeite virgem extra é a única gordura que é obtida diretamente do fruto.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=3 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 664,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      39
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-663",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-virgem-extra",
+      "product_tag-azeite",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/663",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/664"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=663"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=663"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=663"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=663"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 289,
+    "date": "2024-11-06T05:00:06",
+    "date_gmt": "2024-11-06T05:00:06",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=289"
+    },
+    "modified": "2025-04-04T21:08:07",
+    "modified_gmt": "2025-04-04T21:08:07",
+    "slug": "azeitevirgemextra250ml",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeitevirgemextra250ml/",
+    "title": {
+      "rendered": "Azeite Virgem Extra &#8211; 250ml"
+    },
+    "content": {
+      "rendered": "<p>O azeite virgem extra é o autêntico sumo 100% natural da azeitona (fruto da Oliveira), conservando assim o sabor, aroma e todas as propriedades benéficas para a saúde, que fazem dele o rei de todas as gorduras vegetais. Muito ao contrário dos óleos vegetais comuns, cuja extração é feita com solventes, processo químico pelo qual é extraído o óleo das sementes, o azeite virgem extra é a única gordura que é obtida diretamente do fruto.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=3 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra/\">Tabela Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 292,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      39
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-289",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-virgem-extra",
+      "product_tag-azeite",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/289",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/292"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=289"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=289"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=289"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=289"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 689,
+    "date": "2024-11-05T22:23:05",
+    "date_gmt": "2024-11-05T22:23:05",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=689"
+    },
+    "modified": "2024-11-05T22:30:48",
+    "modified_gmt": "2024-11-05T22:30:48",
+    "slug": "vinagre-de-vinho-tinto-250ml",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinagre-de-vinho-tinto-250ml/",
+    "title": {
+      "rendered": "Vinagre de Vinho Tinto &#8211; 250ml"
+    },
+    "content": {
+      "rendered": "<p>O vinagre de vinho Tinto Monte da Colónia, é um produto natural feito a partir dos nossos melhores vinhos através do processo tradicional. A diferença entre a industrialização e o processo tradicional está na velocidade em que a acetificação é feita (em que o vinho fica azedo). PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=33 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinagre-de-vinho-tinto/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 704,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      29
+    ],
+    "product_tag": [
+      49
+    ],
+    "class_list": [
+      "post-689",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-vinagres",
+      "product_tag-vinagre",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/689",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/704"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=689"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=689"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=689"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=689"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 678,
+    "date": "2024-11-05T22:15:03",
+    "date_gmt": "2024-11-05T22:15:03",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=678"
+    },
+    "modified": "2024-11-05T22:22:57",
+    "modified_gmt": "2024-11-05T22:22:57",
+    "slug": "vinagre-de-vinho-branco-250ml",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinagre-de-vinho-branco-250ml/",
+    "title": {
+      "rendered": "Vinagre de Vinho Branco &#8211; 250ml"
+    },
+    "content": {
+      "rendered": "<p>O vinagre de vinho Branco Monte da Colónia, é um produto natural feito a partir dos nossos melhores vinhos através do processo tradicional. A diferença entre a industrialização e o processo tradicional está na velocidade em que a acetificação é feita (em que o vinho fica azedo). PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=30 /]\n<p style=\"text-align: right;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinagre-de-vinho-branco/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 688,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      29
+    ],
+    "product_tag": [
+      49
+    ],
+    "class_list": [
+      "post-678",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-vinagres",
+      "product_tag-vinagre",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/678",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/688"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=678"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=678"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=678"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=678"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 960,
+    "date": "2024-11-05T09:00:45",
+    "date_gmt": "2024-11-05T09:00:45",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=960"
+    },
+    "modified": "2025-04-04T21:16:41",
+    "modified_gmt": "2025-04-04T21:16:41",
+    "slug": "azeite-virgem-extra-bio-5l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-bio-5l/",
+    "title": {
+      "rendered": "Azeite Virgem Extra Bio &#8211; 5L"
+    },
+    "content": {
+      "rendered": "<p>Azeite de Terroir de categoria superior produzido a partir da variedade de azeitona Galega, proveniente dos olivais tradicionais do Monte da Colónia, em modo de produção biológico. Existe uma criteriosa seleção dos frutos desde o campo até ao lagar, obtendo-se desta forma um azeite autêntico e genuíno, pleno de aromas e sabores. Este produto torna-se único devido à extração a frio e obtenção direta das azeitonas por processos mecânicos. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=25 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra-bio/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 961,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      37
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-960",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-bio",
+      "product_tag-azeite",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/960",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/961"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=960"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=960"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=960"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=960"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 962,
+    "date": "2024-11-05T08:00:26",
+    "date_gmt": "2024-11-05T08:00:26",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=962"
+    },
+    "modified": "2025-04-04T21:16:39",
+    "modified_gmt": "2025-04-04T21:16:39",
+    "slug": "azeite-virgem-extra-bio-2l",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-bio-2l/",
+    "title": {
+      "rendered": "Azeite Virgem Extra Bio &#8211; 2L"
+    },
+    "content": {
+      "rendered": "<p>Azeite de Terroir de categoria superior produzido a partir da variedade de azeitona Galega, proveniente dos olivais tradicionais do Monte da Colónia, em modo de produção biológico. Existe uma criteriosa seleção dos frutos desde o campo até ao lagar, obtendo-se desta forma um azeite autêntico e genuíno, pleno de aromas e sabores. Este produto torna-se único devido à extração a frio e obtenção direta das azeitonas por processos mecânicos. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=25 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra-bio/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 963,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      37
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-962",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-bio",
+      "product_tag-azeite",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/962",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/963"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=962"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=962"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=962"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=962"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 622,
+    "date": "2024-11-05T06:00:17",
+    "date_gmt": "2024-11-05T06:00:17",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=622"
+    },
+    "modified": "2025-04-04T21:16:37",
+    "modified_gmt": "2025-04-04T21:16:37",
+    "slug": "azeite-virgem-extra-bio-500ml",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-bio-500ml/",
+    "title": {
+      "rendered": "Azeite Virgem Extra Bio &#8211; 500ml"
+    },
+    "content": {
+      "rendered": "<p>Azeite de Terroir de categoria superior produzido a partir da variedade de azeitona Galega, proveniente dos olivais tradicionais do Monte da Colónia, em modo de produção biológico. Existe uma criteriosa seleção dos frutos desde o campo até ao lagar, obtendo-se desta forma um azeite autêntico e genuíno, pleno de aromas e sabores. Este produto torna-se único devido à extração a frio e obtenção direta das azeitonas por processos mecânicos. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=25 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra-bio/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 623,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      37
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-622",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-bio",
+      "product_tag-azeite",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/622",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/623"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=622"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=622"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=622"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=622"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 634,
+    "date": "2024-11-05T05:00:08",
+    "date_gmt": "2024-11-05T05:00:08",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=634"
+    },
+    "modified": "2025-04-04T21:16:34",
+    "modified_gmt": "2025-04-04T21:16:34",
+    "slug": "azeite-virgem-extra-bio-250ml",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/azeite-virgem-extra-bio-250ml/",
+    "title": {
+      "rendered": "Azeite Virgem Extra Bio &#8211; 250ml"
+    },
+    "content": {
+      "rendered": "<p>Azeite de Terroir de categoria superior produzido a partir da variedade de azeitona Galega, proveniente dos olivais tradicionais do Monte da Colónia, em modo de produção biológico. Existe uma criteriosa seleção dos frutos desde o campo até ao lagar, obtendo-se desta forma um azeite autêntico e genuíno, pleno de aromas e sabores. Este produto torna-se único devido à extração a frio e obtenção direta das azeitonas por processos mecânicos. PREÇO E DISPONIBILIDADE DE STOCK &#8211; SOB CONSULTA</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=25 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/azeite-virgem-extra-bio/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 638,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      37
+    ],
+    "product_tag": [
+      43
+    ],
+    "class_list": [
+      "post-634",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-bio",
+      "product_tag-azeite",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/634",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/638"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=634"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=634"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=634"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=634"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 451,
+    "date": "2024-09-21T09:56:35",
+    "date_gmt": "2024-09-21T09:56:35",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=451"
+    },
+    "modified": "2024-10-16T21:25:23",
+    "modified_gmt": "2024-10-16T21:25:23",
+    "slug": "escolha-2022",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/escolha-2022/",
+    "title": {
+      "rendered": "Escolha 2022"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<p>&nbsp;</p>\n",
+      "protected": false
+    },
+    "featured_media": 514,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-451",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/451",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/514"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=451"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=451"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=451"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=451"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 450,
+    "date": "2024-09-21T09:54:28",
+    "date_gmt": "2024-09-21T09:54:28",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=450"
+    },
+    "modified": "2025-10-02T15:43:20",
+    "modified_gmt": "2025-10-02T15:43:20",
+    "slug": "espumante-alentejano-branco-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/espumante-alentejano-branco-2023/",
+    "title": {
+      "rendered": "Espumante Alentejano Branco 2018"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;</p>\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-espumante-alentejano-branco-2020/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 745,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      35
+    ],
+    "product_tag": [
+      46,
+      40
+    ],
+    "class_list": [
+      "post-450",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-espumantes",
+      "product_tag-espumante",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/450",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/745"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=450"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=450"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=450"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=450"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 449,
+    "date": "2024-09-21T09:53:25",
+    "date_gmt": "2024-09-21T09:53:25",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=449"
+    },
+    "modified": "2025-04-04T20:13:18",
+    "modified_gmt": "2025-04-04T20:13:18",
+    "slug": "rose-escolha-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/rose-escolha-2023/",
+    "title": {
+      "rendered": "Rosé Escolha 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=40 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-rose-escolha-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 715,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      36
+    ],
+    "product_tag": [
+      45,
+      40
+    ],
+    "class_list": [
+      "post-449",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-rose",
+      "product_tag-rose",
+      "product_tag-vinho",
+      "first",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/449",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/715"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=449"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=449"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=449"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=449"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 448,
+    "date": "2024-09-21T09:51:35",
+    "date_gmt": "2024-09-21T09:51:35",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=448"
+    },
+    "modified": "2025-01-23T22:02:08",
+    "modified_gmt": "2025-01-23T22:02:08",
+    "slug": "colheita-selecionada-branco-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/colheita-selecionada-branco-2023/",
+    "title": {
+      "rendered": "Colheita Selecionada Branco 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=39 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-branco-colheita-selecionada-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 712,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      33
+    ],
+    "product_tag": [
+      44,
+      40
+    ],
+    "class_list": [
+      "post-448",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-brancos",
+      "product_tag-branco",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/448",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/712"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=448"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=448"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=448"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=448"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 446,
+    "date": "2024-09-21T09:48:39",
+    "date_gmt": "2024-09-21T09:48:39",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=446"
+    },
+    "modified": "2025-01-18T21:17:11",
+    "modified_gmt": "2025-01-18T21:17:11",
+    "slug": "vinho-tinto-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/vinho-tinto-2023/",
+    "title": {
+      "rendered": "Vinho Tinto 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=7 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-tinto-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 744,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-446",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/446",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/744"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=446"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=446"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=446"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=446"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 316,
+    "date": "2024-09-16T21:21:54",
+    "date_gmt": "2024-09-16T21:21:54",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?post_type=product&#038;p=316"
+    },
+    "modified": "2025-01-18T21:23:47",
+    "modified_gmt": "2025-01-18T21:23:47",
+    "slug": "duas-castas-petit-syrah-e-petit-verdot-2023",
+    "status": "publish",
+    "type": "product",
+    "link": "https://montedacolonia.pt/produto/duas-castas-petit-syrah-e-petit-verdot-2023/",
+    "title": {
+      "rendered": "Syrah e Petit Verdot 2023"
+    },
+    "content": {
+      "rendered": "",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "[table id=4 /]\n<p style=\"text-align: center;\"><a href=\"https://montedacolonia.pt/ficha-nutricional/vinho-syrah-e-petit-verdot-2023/\">Ficha Nutricional</a></p>\n",
+      "protected": false
+    },
+    "featured_media": 714,
+    "template": "",
+    "meta": [],
+    "product_brand": [],
+    "product_cat": [
+      34
+    ],
+    "product_tag": [
+      41,
+      40
+    ],
+    "class_list": [
+      "post-316",
+      "product",
+      "type-product",
+      "status-publish",
+      "has-post-thumbnail",
+      "product_cat-tintos",
+      "product_tag-tinto",
+      "product_tag-vinho",
+      "last",
+      "instock",
+      "shipping-taxable",
+      "product-type-simple"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product/316",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/product"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media/714"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=316"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "product_brand",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_brand?post=316"
+        },
+        {
+          "taxonomy": "product_cat",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat?post=316"
+        },
+        {
+          "taxonomy": "product_tag",
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_tag?post=316"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

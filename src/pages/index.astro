@@ -1,0 +1,650 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import bgPhotoDefault from '../assets/real_candidates/chatgpt-upscaled-vinhas.png';
+import bgPhotoMonte from '../assets/real_candidates/chatgpt-upscaled-monte.png';
+import bgPhotoProdutos from '../assets/real_candidates/real-01-vinha-panorama.jpg';
+import bgPhotoLoja from '../assets/real_candidates/real-11-caves-repouso.jpg';
+import bgPhotoVisitas from '../assets/real_candidates/real-09-degustacao-copos.jpg';
+import bgPhotoContactos from '../assets/real_candidates/real-03-flores-terraco.jpg';
+
+// Modal images kept for reference if needed
+import imgOlival from '../assets/real_candidates/real-06-olival-centenario.jpg';
+import imgFamilia from '../assets/real_candidates/real-04-familia-vinha.jpg';
+import imgDegustacao from '../assets/real_candidates/real-09-degustacao-copos.jpg';
+import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
+---
+
+<Layout title="Monte da Colónia | Tradição, Vinha & Olival no Alentejo">
+  <!-- SPLASH / HERO PORTAL LANDING (IMMERSIVE SINGLE-CANVAS EXPERIENCE) -->
+  <section id="splash-gateway" class="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center bg-stone-950 select-none">
+    
+    <!-- Dynamic Layered Background Photos with Smooth Cross-Fade on Medallion Hover -->
+    <div id="hero-bg-container" class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+      <!-- Default Vineyard Horizon -->
+      <Image 
+        id="bg-default"
+        src={bgPhotoDefault} 
+        alt="Herdade Monte da Colónia" 
+        class="hero-bg-layer is-active"
+        loading="eager"
+      />
+      <!-- O Monte Theme: Estate & house panorama -->
+      <Image 
+        id="bg-monte"
+        src={bgPhotoMonte} 
+        alt="O Monte e a Propriedade" 
+        class="hero-bg-layer"
+        loading="eager"
+      />
+      <!-- Produtos Theme: Full vineyard panorama -->
+      <Image 
+        id="bg-produtos"
+        src={bgPhotoProdutos} 
+        alt="Os Nossos Produtos - Vinha & Olival" 
+        class="hero-bg-layer"
+        loading="eager"
+      />
+      <!-- Loja Theme: Authentic Cellar & Bottles -->
+      <Image 
+        id="bg-loja"
+        src={bgPhotoLoja} 
+        alt="Loja Online e Caves Monte da Colónia" 
+        class="hero-bg-layer"
+        loading="eager"
+      />
+      <!-- Visitas Theme: Tasting & wine cellar glasses -->
+      <Image 
+        id="bg-visitas"
+        src={bgPhotoVisitas} 
+        alt="Visitas e Degustação" 
+        class="hero-bg-layer"
+        loading="eager"
+      />
+      <!-- Contactos Theme: Traditional courtyard terrace & flowers -->
+      <Image 
+        id="bg-contactos"
+        src={bgPhotoContactos} 
+        alt="Pátio e Contactos" 
+        class="hero-bg-layer"
+        loading="eager"
+      />
+
+      <!-- Luxury Dark Vignette -->
+      <div class="absolute inset-0 bg-radial-gradient from-transparent via-stone-950/50 to-stone-950/95 pointer-events-none"></div>
+    </div>
+
+    <!-- Center Drawing & Portal Container -->
+    <div class="relative z-10 flex flex-col items-center justify-center max-w-4xl w-full mx-auto px-6 text-center">
+      
+      <!-- 1. LOGO ANIMATION STAGE -->
+      <div class="relative flex flex-col items-center justify-center w-full max-w-[620px] md:max-w-[720px] min-h-[220px]">
+        
+        <!-- Authentic House Engraving -->
+        <div id="house-wrapper" class="relative w-36 sm:w-44 md:w-52 h-24 sm:h-28 md:h-34 mb-2 flex items-center justify-center overflow-visible">
+          <canvas id="house-draw-canvas" width="360" height="250" class="w-full h-full object-contain filter drop-shadow-[0_2px_16px_rgba(245,215,127,0.5)]"></canvas>
+        </div>
+
+        <!-- Authentic Calligraphy Text "Monte da Colónia" -->
+        <div id="text-wrapper" class="relative w-full max-w-[580px] sm:max-w-[680px] md:max-w-[740px] h-16 sm:h-20 md:h-24 flex items-center justify-center overflow-visible">
+          <canvas id="text-write-canvas" width="980" height="140" class="w-full h-full object-contain filter drop-shadow-[0_2px_18px_rgba(245,215,127,0.6)]"></canvas>
+        </div>
+
+      </div>
+
+      <!-- 2. SUBTITLE (Fades in after drawing) -->
+      <div id="subtitle-container" class="mt-5 opacity-0 translate-y-3 transition-all duration-1000 ease-out">
+        <p class="font-cinzel text-xs sm:text-sm md:text-base uppercase tracking-[0.45em] text-[#F3D08A] font-semibold drop-shadow-md">
+          Vale de Seda
+        </p>
+        <p class="font-cinzel text-[10px] sm:text-xs md:text-[13px] uppercase tracking-[0.35em] text-stone-300 font-normal mt-1.5 drop-shadow">
+          Tradição Familiar desde 1980
+        </p>
+      </div>
+
+      <!-- 3. RUSTIC RADIAL PORTAL (Fades in after drawing) -->
+      <div id="cta-container" class="mt-8 sm:mt-10 opacity-0 translate-y-4 transition-all duration-1000 ease-out relative w-full flex flex-col items-center">
+        
+        <div id="portal-wrapper" class="relative flex flex-col items-center justify-center">
+          
+          <!-- Main Trigger Button: Sinta o Alentejo -->
+          <button 
+            id="portal-btn" 
+            class="button-87 relative z-20 group cursor-pointer inline-flex items-center justify-center" 
+            role="button"
+            aria-expanded="false"
+            title="Clique para descobrir a herdade"
+          >
+            <span id="portal-btn-label">Sinta o Alentejo</span>
+          </button>
+
+          <!-- 5 RUSTIC SATELLITE MEDALLIONS (Radial Arc fanning out on click, 70px round circles) -->
+          <div id="radial-satellites" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-0 h-0 pointer-events-none z-10">
+            
+            <!-- Medallion 1: O MONTE -->
+            <a 
+              href="/monte" 
+              class="satellite-medallion" 
+              data-bg="bg-monte"
+              style="--fan-x: -240px; --fan-y: 90px; --fan-delay: 50ms;" 
+              aria-label="A História do Monte & Família"
+            >
+              <div class="medallion-circle">
+                <svg class="medallion-icon text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V9l7-5 7 5v12M10 21v-5a2 2 0 014 0v5"></path>
+                </svg>
+              </div>
+              <span class="medallion-label">O Monte</span>
+            </a>
+
+            <!-- Medallion 2: PRODUTOS (VINHOS & AZEITES) -->
+            <a 
+              href="/produtos" 
+              class="satellite-medallion" 
+              data-bg="bg-produtos"
+              style="--fan-x: -120px; --fan-y: 130px; --fan-delay: 110ms;" 
+              aria-label="Descobrir os Vinhos & Azeites"
+            >
+              <div class="medallion-circle">
+                <svg class="medallion-icon text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15a5 5 0 005-5V4H7v6a5 5 0 005 5zm0 0v5m-3 0h6M19 12a4 4 0 01-4 4"></path>
+                </svg>
+              </div>
+              <span class="medallion-label">Produtos</span>
+            </a>
+
+            <!-- Medallion 3: LOJA ONLINE -->
+            <a 
+              href="/loja" 
+              class="satellite-medallion" 
+              data-bg="bg-loja"
+              style="--fan-x: 0px; --fan-y: 145px; --fan-delay: 170ms;" 
+              aria-label="Loja Online Oficial · Encomenda Direta"
+            >
+              <div class="medallion-circle">
+                <svg class="medallion-icon text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                </svg>
+              </div>
+              <span class="medallion-label">Loja Online</span>
+            </a>
+
+            <!-- Medallion 4: VISITAS -->
+            <a 
+              href="/visitas" 
+              class="satellite-medallion" 
+              data-bg="bg-visitas"
+              style="--fan-x: 120px; --fan-y: 130px; --fan-delay: 230ms;" 
+              aria-label="Visitas & Provas de Vinho"
+            >
+              <div class="medallion-circle">
+                <svg class="medallion-icon text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="9" stroke-width="1.8"></circle>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 7v5l3 3"></path>
+                </svg>
+              </div>
+              <span class="medallion-label">Visitas</span>
+            </a>
+
+            <!-- Medallion 5: CONTACTOS -->
+            <a 
+              href="/contactos" 
+              class="satellite-medallion" 
+              data-bg="bg-contactos"
+              style="--fan-x: 240px; --fan-y: 90px; --fan-delay: 290ms;" 
+              aria-label="Localização & Contactos"
+            >
+              <div class="medallion-circle">
+                <svg class="medallion-icon text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+              </div>
+              <span class="medallion-label">Contactos</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</Layout>
+
+<!-- ANIMATION & INTERACTIVE PORTAL SCRIPT -->
+<script>
+  // DOM Elements
+  const houseCanvas = document.getElementById('house-draw-canvas') as HTMLCanvasElement;
+  const textCanvas = document.getElementById('text-write-canvas') as HTMLCanvasElement;
+  const subtitleContainer = document.getElementById('subtitle-container');
+  const ctaContainer = document.getElementById('cta-container');
+
+  // Load Luminous Gold Logo Elements
+  const houseGoldImg = new Image();
+  houseGoldImg.src = '/assets/logos/logo_house_gold.png';
+
+  const textGoldImg = new Image();
+  textGoldImg.src = '/assets/logos/logo_text_gold.png';
+
+  let animationRunning = false;
+
+  function runDrawingAnimation() {
+    if (animationRunning) return;
+    animationRunning = true;
+
+    // Reset visibility states
+    if (subtitleContainer) {
+      subtitleContainer.style.opacity = '0';
+      subtitleContainer.style.transform = 'translateY(12px)';
+    }
+    if (ctaContainer) {
+      ctaContainer.style.opacity = '0';
+      ctaContainer.style.transform = 'translateY(16px)';
+    }
+
+    const hCtx = houseCanvas ? houseCanvas.getContext('2d') : null;
+    const tCtx = textCanvas ? textCanvas.getContext('2d') : null;
+
+    if (hCtx) hCtx.clearRect(0, 0, houseCanvas.width, houseCanvas.height);
+    if (tCtx) tCtx.clearRect(0, 0, textCanvas.width, textCanvas.height);
+
+    // =========================================================================
+    // PHASE 1: DRAWING THE AUTHENTIC HOUSE ENGRAVING (Clean, elegant reveal)
+    // =========================================================================
+    const hDuration = 800; // 0.8s swift organic architectural reveal
+    const hStartTime = performance.now();
+    const hCanvasW = houseCanvas.width;   // 360
+    const hCanvasH = houseCanvas.height;  // 250
+
+    const hImgW = houseGoldImg.naturalWidth || 344;
+    const hImgH = houseGoldImg.naturalHeight || 236;
+    const hDrawX = Math.round((hCanvasW - hImgW) / 2);
+    const hDrawY = Math.round((hCanvasH - hImgH) / 2);
+
+    function animateHouse(now: number) {
+      const elapsed = now - hStartTime;
+      const p = Math.min(elapsed / hDuration, 1);
+      const ease = 1 - Math.pow(1 - p, 3);
+
+      if (hCtx && houseGoldImg.complete) {
+        hCtx.clearRect(0, 0, hCanvasW, hCanvasH);
+        hCtx.save();
+        hCtx.beginPath();
+        const revealH = hDrawY + (hImgH * ease);
+        hCtx.rect(0, 0, hCanvasW, revealH);
+        hCtx.clip();
+        hCtx.drawImage(houseGoldImg, hDrawX, hDrawY, hImgW, hImgH);
+        hCtx.restore();
+      }
+
+      if (p < 1) {
+        requestAnimationFrame(animateHouse);
+      } else {
+        if (hCtx) {
+          hCtx.clearRect(0, 0, hCanvasW, hCanvasH);
+          hCtx.drawImage(houseGoldImg, hDrawX, hDrawY, hImgW, hImgH);
+        }
+        setTimeout(startHandwritingText, 60);
+      }
+    }
+
+    requestAnimationFrame(animateHouse);
+
+    // =========================================================================
+    // PHASE 2: HANDWRITING THE CALLIGRAPHY "Monte da Colónia"
+    // =========================================================================
+    function startHandwritingText() {
+      if (!tCtx || !textCanvas) return;
+
+      const tDuration = 1100; // 1.1s swift cursive flow
+      const tStartTime = performance.now();
+      const canvasW = textCanvas.width;   // 980
+      const canvasH = textCanvas.height;  // 140
+
+      const imgW = textGoldImg.naturalWidth || 952;
+      const imgH = textGoldImg.naturalHeight || 124;
+      const drawX = Math.round((canvasW - imgW) / 2);
+      const drawY = Math.round((canvasH - imgH) / 2);
+
+      function animateText(now: number) {
+        const elapsed = now - tStartTime;
+        const p = Math.min(elapsed / tDuration, 1);
+
+        const ease = p < 0.5 
+          ? 4 * p * p * p 
+          : 1 - Math.pow(-2 * p + 2, 3) / 2;
+
+        tCtx.clearRect(0, 0, canvasW, canvasH);
+        const activeW = imgW * ease;
+        const revealRightEdge = drawX + activeW;
+
+        if (textGoldImg.complete) {
+          tCtx.save();
+          tCtx.beginPath();
+          tCtx.rect(0, 0, revealRightEdge, canvasH);
+          tCtx.clip();
+          tCtx.drawImage(textGoldImg, drawX, drawY, imgW, imgH);
+          tCtx.restore();
+        }
+
+        if (p < 1) {
+          requestAnimationFrame(animateText);
+        } else {
+          tCtx.clearRect(0, 0, canvasW, canvasH);
+          tCtx.drawImage(textGoldImg, drawX, drawY, imgW, imgH);
+
+          // Reveal Subtitle and Portal Button
+          if (subtitleContainer) {
+            subtitleContainer.style.opacity = '1';
+            subtitleContainer.style.transform = 'translateY(0)';
+          }
+
+          setTimeout(() => {
+            if (ctaContainer) {
+              ctaContainer.style.opacity = '1';
+              ctaContainer.style.transform = 'translateY(0)';
+            }
+          }, 180);
+
+          animationRunning = false;
+        }
+      }
+
+      requestAnimationFrame(animateText);
+    }
+  }
+
+  // Ensure assets are loaded before starting
+  function init() {
+    if (textGoldImg.complete && houseGoldImg.complete) {
+      setTimeout(runDrawingAnimation, 200);
+    } else {
+      let loaded = 0;
+      const onDone = () => {
+        loaded++;
+        if (loaded >= 2) setTimeout(runDrawingAnimation, 200);
+      };
+      textGoldImg.onload = onDone;
+      houseGoldImg.onload = onDone;
+    }
+  }
+
+  init();
+
+  // =========================================================================
+  // RUSTIC RADIAL PORTAL & HOVER BACKGROUND SWITCH LOGIC
+  // =========================================================================
+  const portalWrapper = document.getElementById('portal-wrapper');
+  const portalBtn = document.getElementById('portal-btn');
+  const satelliteLinks = document.querySelectorAll<HTMLAnchorElement>('.satellite-medallion');
+  const bgLayers = document.querySelectorAll<HTMLElement>('.hero-bg-layer');
+  const defaultBg = document.getElementById('bg-default');
+
+  // Helper to switch active background
+  function setActiveBackground(bgId: string | null) {
+    bgLayers.forEach(layer => {
+      if (bgId && layer.id === bgId) {
+        layer.classList.add('is-active');
+      } else if (!bgId && layer === defaultBg) {
+        layer.classList.add('is-active');
+      } else {
+        layer.classList.remove('is-active');
+      }
+    });
+  }
+
+  // Toggle Radial Medallions
+  if (portalBtn && portalWrapper) {
+    portalBtn.addEventListener('click', () => {
+      const isOpen = portalWrapper.classList.toggle('is-open');
+      portalBtn.setAttribute('aria-expanded', String(isOpen));
+      if (!isOpen) {
+        setActiveBackground(null);
+      }
+    });
+  }
+
+  // Medallion Hover Events: Swap background image to matching theme
+  satelliteLinks.forEach(link => {
+    const bgTarget = link.getAttribute('data-bg');
+    
+    link.addEventListener('mouseenter', () => {
+      if (bgTarget) {
+        setActiveBackground(bgTarget);
+      }
+    });
+
+    link.addEventListener('mouseleave', () => {
+      setActiveBackground(null);
+    });
+
+    // Also support focus for accessibility
+    link.addEventListener('focus', () => {
+      if (bgTarget) setActiveBackground(bgTarget);
+    });
+
+    link.addEventListener('blur', () => {
+      setActiveBackground(null);
+    });
+  });
+</script>
+
+<style is:global>
+  /* Universal focus outline reset to prevent Firefox active/focus crosshair box */
+  *:focus,
+  *:focus-visible {
+    outline: none !important;
+    box-shadow: none;
+  }
+
+  /* =========================================================================
+     BUTTON 87 ADAPTED TO MONTE DA COLÓNIA BRAND GOLD
+     ========================================================================= */
+  .button-87 {
+    padding: 15px 38px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    background-size: 200% auto;
+    color: #1c150c;
+    border-radius: 10px;
+    display: inline-flex;
+    border: 1px solid rgba(255, 238, 185, 0.35);
+    font-weight: 700;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.25em;
+    font-size: 13px;
+    box-shadow: 0px 4px 22px -6px rgba(243, 208, 138, 0.5);
+    background-image: linear-gradient(45deg, #B58838 0%, #F5D992 51%, #B58838 100%);
+    cursor: pointer !important;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    outline: none !important;
+    -moz-user-focus: ignore;
+  }
+
+  .button-87:hover {
+    background-position: right center;
+    color: #0d0a06;
+    box-shadow: 0px 6px 28px -4px rgba(243, 208, 138, 0.75);
+    text-decoration: none;
+  }
+
+  .button-87:active {
+    transform: scale(0.96);
+  }
+
+  .button-87::-moz-focus-inner {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* =========================================================================
+     HERO BACKGROUND LAYERS (CROSS-FADE ON MEDALLION HOVER)
+     ========================================================================= */
+  .hero-bg-layer {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.05);
+    filter: blur(2px) brightness(0.32);
+    opacity: 0;
+    transition: opacity 700ms cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+    will-change: opacity;
+  }
+
+  .hero-bg-layer.is-active {
+    opacity: 1;
+  }
+
+  /* =========================================================================
+     RUSTIC SATELLITE MEDALLIONS (RADIAL EXPANSION - CLEAN GEOMETRY)
+     ========================================================================= */
+  .satellite-medallion,
+  .satellite-medallion * {
+    cursor: pointer !important;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .satellite-medallion::-moz-focus-inner {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+
+  .satellite-medallion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer !important;
+    transform: translate3d(-50%, -50%, 0);
+    transition: transform 450ms cubic-bezier(0.16, 1, 0.3, 1), opacity 350ms ease;
+    transition-delay: 0ms;
+    z-index: 15;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  #portal-wrapper.is-open .satellite-medallion {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate3d(calc(-50% + var(--fan-x)), calc(-50% + var(--fan-y)), 0);
+    transition-delay: var(--fan-delay);
+  }
+
+  .medallion-circle {
+    width: 80px;
+    height: 80px;
+    aspect-ratio: 1 / 1 !important;
+    flex-shrink: 0 !important;
+    border-radius: 50% !important;
+    background: #1A1410;
+    border: 1.5px solid rgba(243, 208, 138, 0.6);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.7), inset 0 1px 1px rgba(255, 238, 185, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer !important;
+    transition: transform 250ms ease, background 250ms ease, border-color 250ms ease, box-shadow 250ms ease;
+  }
+
+  .medallion-icon,
+  .medallion-icon *,
+  .medallion-circle svg,
+  .medallion-circle path {
+    pointer-events: none !important;
+    cursor: pointer !important;
+  }
+
+  .medallion-icon {
+    width: 34px;
+    height: 34px;
+  }
+
+  .satellite-medallion:hover .medallion-circle {
+    transform: translateY(-4px);
+    border-color: #F3D08A;
+    background: #F3D08A;
+    box-shadow: 0 12px 32px rgba(243, 208, 138, 0.45);
+  }
+
+  .satellite-medallion:hover .medallion-circle svg {
+    color: #1A1410 !important;
+  }
+
+  .medallion-label {
+    margin-top: 8px;
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #F3D08A;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.95);
+    pointer-events: none !important;
+    cursor: pointer !important;
+    transition: color 200ms ease, transform 200ms ease;
+  }
+
+  .satellite-medallion:hover .medallion-label {
+    color: #FFF4D4;
+    transform: translateY(2px);
+  }
+
+  /* Responsive Fan for Smaller Devices */
+  @media (max-width: 640px) {
+    #portal-wrapper.is-open .satellite-medallion:nth-child(1) { --fan-x: -150px !important; --fan-y: 80px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(2) { --fan-x: -75px !important; --fan-y: 125px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(3) { --fan-x: 0px !important; --fan-y: 145px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(4) { --fan-x: 75px !important; --fan-y: 125px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(5) { --fan-x: 150px !important; --fan-y: 80px !important; }
+
+    .medallion-circle {
+      width: 58px;
+      height: 58px;
+    }
+
+    .medallion-icon {
+      width: 26px;
+      height: 26px;
+    }
+
+    .medallion-label {
+      font-size: 10.5px;
+      letter-spacing: 0.16em;
+    }
+  }
+
+  @keyframes modalIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95) translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+
+  .animate-modal {
+    animation: modalIn 350ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  }
+</style>

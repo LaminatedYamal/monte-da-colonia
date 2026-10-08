@@ -1,0 +1,250 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Scenery for visits & enotourism
+import imgDegustacao from '../assets/real_candidates/real-09-degustacao-copos.jpg';
+import imgBarricas from '../assets/real_candidates/real-11-caves-repouso.jpg';
+import imgVinhaPanorama from '../assets/real_candidates/real-01-vinha-panorama.jpg';
+import imgOlival from '../assets/real_candidates/real-06-olival-centenario.jpg';
+import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
+
+const experiencias = [
+  {
+    title: "Visita Clássica & Degustação da Adega",
+    duration: "1h 30min",
+    price: "15 € por pessoa",
+    description: "Visita guiada à adega e à sala de barricas de carvalho francês, acompanhada pela explicação do processo de vinificação e estágio. Conclui com uma prova comentada de 3 vinhos Monte da Colónia (Branco, Rosé e Tinto) acompanhada de pão tradicional alentejano e o nosso azeite virgem extra.",
+    inclui: ["Visita à Adega & Sala de Barricas", "Prova de 3 Vinhos Selecionados", "Pão Tradicional e Azeite Virgem Extra", "Acompanhamento Técnico"]
+  },
+  {
+    title: "Experiência Terroir, Vinha & Olival Centenário",
+    duration: "2h 30min",
+    price: "28 € por pessoa",
+    description: "Um mergulho profundo no ecossistema de Vale de Seda. Passeio a pé entre as linhas da vinha e o olival centenário de oliveiras Galegas. Visita detalhada ao lagar próprio e à adega, culminando numa prova sensorial de 4 vinhos (incluindo Reserva) e 2 azeites virgem extra, harmonizados com queijo curado de ovelha de Fronteira e enchidos regionais.",
+    inclui: ["Passeio Pedestre pela Vinha e Olival", "Visita ao Lagar Próprio e Adega", "Prova de 4 Vinhos (c/ Reserva) e 2 Azeites", "Tábua de Queijos e Enchidos Alentejanos"]
+  },
+  {
+    title: "Mesa da Herdade · Almoço com Harmonização",
+    duration: "4h 00min (Sob Reserva · Mínimo 4 pessoas)",
+    price: "55 € por pessoa",
+    description: "A mais autêntica hospitalidade da família Pereira. Após a visita completa à herdade, sente-se à mesa no pátio tradicional para um repasto confeccionado à moda antiga: açorda alentejana ou borrego no forno de lenha, harmonizado de princípio ao fim com os nossos melhores vinhos e espumante reserva.",
+    inclui: ["Visita Completa à Herdade", "Menu de 4 Pratos Tradicionais Alentejanos", "Harmonização Exclusiva de Vinhos da Herdade", "Café de Púcara e Sobremesa Típica"]
+  }
+];
+---
+
+<Layout 
+  title="Visitas & Enoturismo | Monte da Colónia" 
+  description="Venha visitar o Monte da Colónia em Vale de Seda, Fronteira. Passeios pelas vinhas e olivais centenários, visitas à adega de barricas e provas gastronómicas com a família."
+>
+  <Header currentPage="visitas" />
+
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+    
+    <!-- 1. HERO HEADER: VISITAS & ENOTURISMO -->
+    <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
+      <!-- Atmospheric Backdrop Image -->
+      <div class="absolute inset-0 z-0">
+        <Image 
+          src={imgDegustacao} 
+          alt="Enoturismo no Monte da Colónia" 
+          class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.05]"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-stone-950/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-stone-950/60"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.15em] uppercase text-white mb-4 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+          Visitas & <span class="font-serif italic font-light text-[#F3D08A]">Enoturismo</span>
+        </h1>
+
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto my-5"></div>
+
+        <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
+          "As nossas portas estão sempre abertas a quem queira partilhar da calma de Vale de Seda, provar o vinho nas caves e escutar as histórias da terra."
+        </p>
+
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+          <a 
+            href="#programas" 
+            class="px-6 sm:px-7 py-3 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14]/90 hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.22em] font-semibold transition-all duration-300"
+          >
+            Ver Experiências
+          </a>
+          <a 
+            href="#reserva" 
+            class="px-6 sm:px-7 py-3 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.22em] font-bold shadow-md hover:brightness-110 transition-all duration-300"
+          >
+            Fazer Reserva
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. EXPERIENCES SECTION -->
+    <section id="programas" class="py-24 sm:py-32 px-6 max-w-7xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-20">
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2B231D] font-normal">
+          Momentos de Partilha à Volta da Mesa
+        </h2>
+        <p class="text-stone-600 mt-4 text-base sm:text-lg font-light leading-relaxed">
+          Todas as visitas são conduzidas com dedicação personalizada, permitindo-lhe conhecer os rostos e a paixão por detrás de cada garrafa.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {experiencias.map((exp) => (
+          <div class="flex flex-col justify-between border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_25px_rgba(243,208,138,0.22)] hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 p-8 group">
+            <div>
+              <div class="flex justify-between items-start border-b border-stone-200 pb-4 mb-6">
+                <span class="font-cinzel text-xs uppercase tracking-wider text-[#C5A059] font-bold">
+                  {exp.duration}
+                </span>
+                <span class="font-serif text-lg font-normal text-[#2B231D]">
+                  {exp.price}
+                </span>
+              </div>
+
+              <h3 class="font-serif text-2xl text-[#2B231D] mb-4 font-normal">
+                {exp.title}
+              </h3>
+
+              <p class="text-sm text-stone-600 font-light leading-relaxed mb-6">
+                {exp.description}
+              </p>
+
+              <div class="space-y-2.5 pt-4 border-t border-stone-100">
+                <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 font-bold mb-2">O programa inclui:</p>
+                {exp.inclui.map((inc) => (
+                  <div class="flex items-center gap-2 text-xs text-stone-700">
+                    <span class="w-1.5 h-1.5 bg-[#C5A059]"></span>
+                    <span>{inc}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div class="pt-8 mt-6">
+              <a 
+                href={`#reserva?programa=${encodeURIComponent(exp.title)}`} 
+                class="w-full py-3 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#14100D] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 flex items-center justify-center cursor-pointer"
+              >
+                Reservar Experiência
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+
+    </section>
+
+    <!-- 3. RESERVATION FORM -->
+    <section id="reserva" class="py-24 px-6 max-w-4xl mx-auto">
+      <div class="border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_30px_rgba(243,208,138,0.25)] p-8 sm:p-12">
+        
+        <div class="text-center mb-10">
+          <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D]">
+            Marque a Sua Visita à Herdade
+          </h2>
+          <p class="text-stone-600 text-sm font-light mt-3">
+            Para garantir uma experiência de excelência e acompanhamento personalizado, as visitas requerem marcação com pelo menos 24 horas de antecedência.
+          </p>
+        </div>
+
+        <form 
+          action="mailto:loja@montedacolonia.pt" 
+          method="GET" 
+          class="space-y-4 text-xs"
+        >
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Nome Completo *</label>
+              <input type="text" name="nome" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Telefone / Telemóvel *</label>
+              <input type="tel" name="telefone" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Email *</label>
+              <input type="email" name="email" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Programa Pretendido *</label>
+              <select name="programa" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900">
+                <option value="Visita Clássica">Visita Clássica & Degustação (15 €)</option>
+                <option value="Experiência Terroir">Experiência Terroir, Vinha & Olival (28 €)</option>
+                <option value="Mesa da Herdade">Mesa da Herdade · Almoço com Harmonização (55 €)</option>
+                <option value="Personalizado">Programa Personalizado / Grupos</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Data Pretendida *</label>
+              <input type="date" name="data" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Número de Pessoas *</label>
+              <input type="number" name="pessoas" min="1" max="50" value="2" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Observações ou Restrições Alimentares</label>
+            <textarea name="notas" rows="3" placeholder="Indique eventuais alergias, idioma preferencial (PT, EN, ES, FR) ou pedidos especiais..." class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900"></textarea>
+          </div>
+
+          <div class="pt-4">
+            <button 
+              type="submit" 
+              class="w-full py-4 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer"
+            >
+              Confirmar Pedido de Marcação
+            </button>
+          </div>
+        </form>
+
+        <!-- Location & Trail Quick Assistance for Visitors -->
+        <div class="mt-12 bg-[#FAF8F5] border border-[#C5A059]/40 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-[0_0_20px_rgba(243,208,138,0.15)]">
+          <div class="space-y-1 text-center sm:text-left">
+            <p class="font-cinzel text-xs uppercase tracking-wider text-[#C5A059] font-bold">Localização & Acesso ao Monte</p>
+            <p class="font-serif text-lg text-[#2B231D] font-normal">A planear a sua viagem a Vale de Seda?</p>
+            <p class="text-xs text-stone-600 font-light">Consulte o mapa interativo, as coordenadas GPS e as instruções passo a passo para o percurso rural.</p>
+          </div>
+          <div class="flex flex-wrap items-center gap-3 shrink-0">
+            <a 
+              href="/contactos#mapa" 
+              class="px-5 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
+            >
+              Ver Mapa & Percurso
+            </a>
+            <a 
+              href="https://www.google.com/maps/dir/?api=1&destination=39.108765,-7.692824" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="px-5 py-2.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:brightness-110 transition-all duration-300"
+            >
+              Iniciar GPS
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <Footer currentPage="visitas" />
+</Layout>

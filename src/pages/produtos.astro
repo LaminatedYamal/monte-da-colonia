@@ -1,0 +1,944 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Hero scenery imagery
+import imgCaves from '../assets/real_candidates/real-11-caves-repouso.jpg';
+
+// CHAPTER I: CUVÉES (WINEMAKING)
+const cuvees = [
+  {
+    name: "Monte da Colónia Reserva Tinto",
+    shortName: "I. Reserva Tinto",
+    castas: "Alicante Bouschet, Touriga Nacional & Syrah",
+    estagio: "12 meses em barricas de carvalho francês",
+    ano: "2023",
+    tagline: "O Tempo Gravado em Carvalho",
+    descricao: "Cor granada profunda e impenetrável. No nariz, abre-se num diálogo sussurrado entre amoras silvestres maduras, esteva aromática e o tostado subtil da floresta de Allier. Na boca é veludo e músculo, terminando numa persistência infinita como a tarde alentejana.",
+    imagem: "/assets/products/Reserva2023.jpeg",
+    temperatura: "16°C – 18°C",
+    harmonizacao: "Carnes de caça no pote, borrego assado em forno de lenha e queijo de ovelha curado.",
+    id: "vinho-reserva-tinto"
+  },
+  {
+    name: "Monte da Colónia Colheita Selecionada Branco",
+    shortName: "II. Colheita Branco",
+    castas: "Antão Vaz, Arinto & Fernão Pires",
+    estagio: "Fermentação a frio e batonnage sobre borras finas",
+    ano: "2024",
+    tagline: "A Frescura da Brisa Noturna",
+    descricao: "Um vinho luminoso como a cal alentejana sob o sol da manhã. Perfume vibrante de flor de laranjeira, lima madura e uma mineralidade pedregosa nascida dos veios de xisto. Revela uma acidez tensa e cristalina que desperta a alma antes de um final cítrico irrepetível.",
+    imagem: "/assets/products/Colheita-Selecionada-2024.jpeg",
+    temperatura: "10°C – 12°C",
+    harmonizacao: "Peixe de mar grelhado, açorda alentejana de coentros e queijos frescos de cabra.",
+    id: "vinho-colheita-branco"
+  },
+  {
+    name: "Monte da Colónia Touriga Nacional Rosé",
+    shortName: "III. Touriga Rosé",
+    castas: "100% Touriga Nacional de Vale de Seda",
+    estagio: "Prensagem suave a baixa temperatura",
+    ano: "2024",
+    tagline: "O Poema da Pétala e da Fruta",
+    descricao: "Tonalidade pétala de rosa pálida, quase etérea. Irradia notas de romã recém-aberta, framboesas silvestres e uma brisa floral primaveril. De elegância extrema, abraça o palato com uma frescura crocante e uma delicadeza que convida a brindar sem pressa.",
+    imagem: "/assets/products/Rouriga-Rose-2024.jpeg",
+    temperatura: "8°C – 10°C",
+    harmonizacao: "Tardes ao pôr do sol, mariscos da costa atlântica, tábuas de enchidos finos e saladas de verão.",
+    id: "vinho-rose-touriga"
+  },
+  {
+    name: "Monte da Colónia Espumante Bruto",
+    shortName: "IV. Espumante Bruto",
+    castas: "Arinto & Baga Método Clássico",
+    estagio: "24 meses em cave sobre as leveduras",
+    ano: "Reserva",
+    tagline: "A Efervescência da Celebração",
+    descricao: "Bolha finíssima e persistente que sobe na taça como um rosário de luz. Notas de brioche tostado, noz, maçã assada e flor branca. Boca cremosa, envolvente, com uma frescura sublime que prolonga a celebração dos grandes momentos da vida.",
+    imagem: "/assets/products/Espumante-2020.jpeg",
+    temperatura: "6°C – 8°C",
+    harmonizacao: "Ostras, leitão assado, canapés de salmão fumado ou o brinde inicial de um encontro inesquecível.",
+    id: "vinho-espumante-bruto"
+  }
+];
+
+// CHAPTER II: OLIVE OIL (CAROUSEL: TRADICIONAL & BIOLÓGICO)
+const azeiteItems = [
+  {
+    id: "azeite-tradicional",
+    type: "Tradicional",
+    name: "Azeite Virgem Extra Tradicional",
+    variedades: "Galega & Cobrançosa Centenárias",
+    acidez: "< 0,18% Acidez",
+    metodo: "Extração mecânica a frio (< 27°C) no próprio dia",
+    formatos: "Garrafa Gourmet 250 ml · Vidro Escuro 500 ml · Galão 2 L · Garrafão 5 L",
+    tagline: "O Sabor Ancestral das Famílias Alentejanas",
+    descricao: "O azeite clássico que define a alma da herdade há mais de 40 anos. De perfil redondo, frutado maduro suave e de elevadíssimo valor nutricional, é extraído mecanicamente a frio no lagar da propriedade a partir de azeitonas colhidas no ponto perfeito de maturação.",
+    imagem: "/assets/products/azeite-virgem-extra-250ml.png",
+    utilizacao: "Culinária diária tradicional, tempero de saladas, peixes grelhados, açordas e cozinhados no pote.",
+    btnText: "Ver na Loja Online",
+    url: "/loja?cat=azeites"
+  },
+  {
+    id: "azeite-biologico",
+    type: "Biológico",
+    name: "Azeite Virgem Extra Biológico",
+    variedades: "Galega & Cobrançosa em Modo Biológico",
+    acidez: "< 0,18% Acidez · 100% Bio",
+    metodo: "Extração mecânica a frio imediata em lagar certificado",
+    formatos: "Garrafa Porcelana Branca 500 ml c/ Estojo · Galão Bio 2 L · Garrafão 5 L",
+    tagline: "Certificação Biológica · O Ouro Verde da Herdade",
+    descricao: "Extraído das oliveiras mais antigas da herdade cultivadas sem qualquer intervenção química de síntese. De tom dourado com reflexos esmeralda, evoca o aroma a erva fresca recém-cortada, folha de oliveira e maçã verde. Na boca, surge suave e aveludado, revelando um picante elegante e um amargo nobre que recorda a essência pura do Alentejo.",
+    imagem: "/assets/products/0000427_azeite-virgem-extra-bio-500ml_300.png",
+    utilizacao: "Finalização em cru sobre pão quente de forno a lenha, gaspacho alentejano, peixes nobres, queijos curados e degustação com flor de sal.",
+    btnText: "Ver na Loja Online",
+    url: "/loja?produto=azeite-bio-500ml"
+  }
+];
+
+// CHAPTER III: OLIVES (DEDICATED ARTISANAL CARD)
+const azeitonasItem = {
+  name: "Azeitonas Mistas Temperadas Tradicionais",
+  variedades: "Galega e Maçanilha colhidas nos olivais da herdade",
+  acidez: "Cura lenta e paciente em salmoura natural",
+  metodo: "Temperadas à mão com orégãos silvestres do monte e alho esmagado",
+  formatos: "Frasco de Vidro Tradicional 800 g · Balde Familiar 2 kg",
+  tagline: "O Gesto da Hospitalidade Alentejana",
+  descricao: "Apanhadas à mão e curtidas lentamente segundo o método ancestral da terra de Fronteira. Aromatizadas com orégãos colhidos nos pastos da propriedade e dentes de alho esmagados, são a personificação da generosidade alentejana servida no início de cada refeição.",
+  imagem: "/assets/products/0000414_azeitonas-mistas-08kg_300.png",
+  utilizacao: "Aperitivo indispensável à mesa, acompanhamento de queijos de cabra curados e elemento central de tábuas rústicas alentejanas.",
+  btnText: "Ver na Loja Online",
+  url: "/loja?produto=azeitonas-mistas-800g",
+  id: "azeitonas-mistas-800g"
+};
+
+// CHAPTER IV: AGED VINEGAR (DEDICATED CELLAR CARD)
+const vinagreItem = {
+  name: "Vinagre de Vinho Tradicional Envelhecido",
+  variedades: "Elaborado a partir de vinho selecionado da adega Monte da Colónia",
+  acidez: "6% Acidez Acética Natural e Equilibrada",
+  metodo: "Estágio prolongado em pipos e barricas de carvalho francês",
+  formatos: "Garrafa de Vidro 500 ml",
+  tagline: "A Nobreza da Madeira & do Tempo",
+  descricao: "Elaborado a partir de vinho criteriosamente selecionado das nossas próprias caves, este vinagre estagia pacientemente em madeira de carvalho francês, adquirindo uma complexidade balsâmica e uma harmonia de aromas que transformam qualquer prato numa celebração gastronómica.",
+  imagem: "/assets/products/vinagre-e1737217577722.jpg",
+  utilizacao: "Vinagretes para saladas campestres, escabeches de perdiz e caça, tempero de gaspacho alentejano e conservas tradicionais.",
+  btnText: "Ver na Loja Online",
+  url: "/loja?produto=vinagre-vinho-500ml",
+  id: "vinagre-vinho-500ml"
+};
+---
+
+<Layout 
+  title="Os Nossos Produtos | Monte da Colónia" 
+  description="Conheça a produção de autor do Monte da Colónia em Vale de Seda: vinhos de talhe nobre, azeite virgem extra de olival centenário, azeitonas mistas temperadas e vinagre de vinho envelhecido."
+>
+  <Header currentPage="produtos" />
+
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+    
+    <!-- 1. HERO HEADER: OS NOSSOS PRODUTOS -->
+    <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
+      <!-- Atmospheric Backdrop Image -->
+      <div class="absolute inset-0 z-0">
+        <Image 
+          src={imgCaves} 
+          alt="Caves do Monte da Colónia" 
+          class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.05]"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-stone-950/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-stone-950/60"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.15em] uppercase text-white mb-4 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+          Os Nossos <span class="font-serif italic font-light text-[#F3D08A]">Produtos</span>
+        </h1>
+
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto my-5"></div>
+
+        <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
+          "Da vinha enraizada no xisto ao olival centenário, dos pipos de carvalho às azeitonas colhidas à mão: quatro expressões autênticas da terra e da devoção familiar em Vale de Seda."
+        </p>
+
+        <!-- Chapter Jump Navigation: 4 Core Categories + Shop -->
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-3 sm:gap-4">
+          <a 
+            href="#vinhos" 
+            class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14]/90 hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
+          >
+            I. Vinhos
+          </a>
+          <a 
+            href="#azeites" 
+            class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14]/90 hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
+          >
+            II. Azeite
+          </a>
+          <a 
+            href="#azeitonas" 
+            class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14]/90 hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
+          >
+            III. Azeitonas
+          </a>
+          <a 
+            href="#vinagre" 
+            class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14]/90 hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300"
+          >
+            IV. Vinagre
+          </a>
+          <a 
+            href="/loja" 
+            class="px-5 sm:px-6 py-2.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:brightness-110 transition-all duration-300"
+          >
+            Loja Online
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CAPÍTULO I: OS VINHOS DE AUTOR -->
+    <!-- ========================================== -->
+    <section id="vinhos" class="py-24 sm:py-32 px-6 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="max-w-3xl space-y-6 mb-20">
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#2B231D] leading-tight font-normal">
+          A Alquimia da Uva & do Carvalho: <br />
+          <span class="italic text-stone-700">O Saber Enológico de Vale de Seda</span>
+        </h2>
+
+        <p class="text-stone-600 leading-relaxed font-light text-base sm:text-lg">
+          Em Vale de Seda, 20 hectares de vinha descansam sobre solos de xisto e granito banhados por um sol generoso e brisas límpidas. Sob o rigor enológico de Rui Vieira, a colheita manual respeita o ciclo natural de cada casta, e o estágio nas caves em barricas de carvalho francês de Allier lapida vinhos de perfil inconfundível: estruturados, sedutores e profundos.
+        </p>
+
+        <div class="pt-6 border-t border-stone-200 grid grid-cols-3 gap-6 sm:gap-10 max-w-xl">
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">20 ha</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Vinhas Nobres</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">12 Meses</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Carvalho Allier</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Manual</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Vindima Noturna</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wine 4-Cuvée Interactive Carousel -->
+      <div class="mt-12" id="wine-carousel-container">
+        
+        <!-- Mode Switcher Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3 mb-10">
+          {cuvees.map((c, idx) => (
+            <button 
+              type="button" 
+              class={`wine-tab px-5 py-2.5 text-xs font-cinzel uppercase tracking-[0.2em] font-semibold transition-all duration-300 border cursor-pointer ${idx === 0 ? 'border-[#C5A059] bg-[#C5A059] text-stone-950 shadow-md' : 'border-[#C5A059]/40 bg-stone-100/90 text-stone-700 hover:text-stone-950 hover:border-[#C5A059]'}`}
+              data-slide={idx}
+            >
+              {c.shortName}
+            </button>
+          ))}
+        </div>
+
+        <!-- Carousel Viewport -->
+        <div class="relative overflow-hidden" id="wine-carousel">
+          <div class="flex transition-transform duration-500 ease-in-out" id="wine-slides-track">
+            {cuvees.map((c, idx) => (
+              <div class="w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch px-1" data-wine-index={idx}>
+                
+                <!-- Bottle Visual with Light Aura & Straight Borders (Locked Height) -->
+                <div class="lg:col-span-5 flex justify-center items-center">
+                  <div class="relative w-full max-w-[340px] h-[460px] sm:h-[500px] lg:h-[550px] bg-gradient-to-b from-[#2B231D] to-[#14100D] border border-[#C5A059]/40 shadow-[0_0_28px_rgba(243,208,138,0.25)] hover:shadow-[0_0_38px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 flex items-center justify-center p-6 sm:p-8 group">
+                    <img 
+                      src={c.imagem} 
+                      alt={c.name} 
+                      class="max-h-[380px] sm:max-h-[420px] lg:max-h-[450px] w-auto max-w-[85%] object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <span class="absolute top-4 left-4 font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A] border border-[#C5A059]/40 px-2.5 py-1 bg-[#14100D]/80">
+                      {c.ano}
+                    </span>
+                    <span class="absolute top-4 right-4 font-cinzel text-[10px] uppercase tracking-widest text-[#FFF4D4] bg-[#C5A059]/30 border border-[#C5A059]/50 px-2.5 py-1">
+                      {idx + 1} / {cuvees.length}
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Storytelling & Tasting Notes (Locked Height Column & Fixed Baseline) -->
+                <div class="lg:col-span-7 flex flex-col justify-between h-auto lg:h-[550px]">
+                  <div class="space-y-4">
+                    <!-- Title & Tagline with Locked Min-Height -->
+                    <div class="min-h-[76px] sm:min-h-[84px] flex flex-col justify-center">
+                      <h3 class="font-serif text-2xl sm:text-3xl text-[#2B231D] font-normal leading-snug">
+                        {c.name}
+                      </h3>
+                      <p class="font-cinzel text-xs uppercase tracking-[0.22em] text-[#C5A059] font-medium mt-1">
+                        {c.tagline}
+                      </p>
+                    </div>
+
+                    <!-- Castas / Estágio with Locked Min-Height -->
+                    <div class="flex flex-wrap gap-x-6 gap-y-2 py-2.5 border-y border-stone-200/80 text-xs font-cinzel uppercase tracking-wider text-stone-600 min-h-[44px] items-center">
+                      <span><strong>Castas:</strong> {c.castas}</span>
+                      <span><strong>Estágio:</strong> {c.estagio}</span>
+                    </div>
+
+                    <!-- Description with Locked Min-Height -->
+                    <div class="min-h-[96px] sm:min-h-[104px] flex items-center">
+                      <p class="text-stone-700 leading-relaxed font-light text-base sm:text-lg italic font-serif">
+                        "{c.descricao}"
+                      </p>
+                    </div>
+
+                    <!-- Service & Pairing with Locked Min-Height -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1 text-xs text-stone-600 min-h-[64px]">
+                      <div class="border-l-2 border-[#C5A059] pl-3 flex flex-col justify-center">
+                        <p class="font-cinzel uppercase tracking-wider text-[#2B231D] font-bold">Serviço Ideal</p>
+                        <p class="font-light mt-0.5">{c.temperatura}</p>
+                      </div>
+                      <div class="border-l-2 border-[#C5A059] pl-3 flex flex-col justify-center">
+                        <p class="font-cinzel uppercase tracking-wider text-[#2B231D] font-bold">Mesa & Afeto</p>
+                        <p class="font-light mt-0.5">{c.harmonizacao}</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Locked Bottom Action Bar (Identical Baseline Across All Slides) -->
+                  <div class="mt-auto pt-5 border-t border-stone-200/80 flex items-center justify-between gap-4">
+                    <a 
+                      href={`/loja?produto=${c.id}`} 
+                      class="inline-block px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-[#F3D08A]/40 transition-all duration-300"
+                    >
+                      Ver na Loja Online
+                    </a>
+
+                    <!-- Next / Prev Controls -->
+                    <div class="flex items-center gap-2">
+                      <button 
+                        type="button" 
+                        class="wine-prev-btn w-10 h-10 border border-stone-300 hover:border-[#C5A059] bg-white hover:bg-[#F3D08A] text-stone-700 hover:text-stone-950 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm"
+                        aria-label="Vinho anterior"
+                        title="Vinho anterior"
+                      >
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                      </button>
+                      <button 
+                        type="button" 
+                        class="wine-next-btn w-10 h-10 border border-stone-300 hover:border-[#C5A059] bg-white hover:bg-[#F3D08A] text-stone-700 hover:text-stone-950 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm"
+                        aria-label="Próximo vinho"
+                        title="Próximo vinho"
+                      >
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            ))}
+          </div>
+
+          <!-- Dot Indicators -->
+          <div class="flex items-center justify-center gap-2.5 mt-8">
+            {cuvees.map((_, idx) => (
+              <button 
+                type="button" 
+                class={`wine-dot w-3 h-3 rounded-full transition-all cursor-pointer ${idx === 0 ? 'bg-[#C5A059]' : 'bg-stone-300 hover:bg-[#C5A059]/60'}`}
+                data-slide={idx} 
+                aria-label={`Vinho ${idx + 1}`}
+              ></button>
+            ))}
+          </div>
+        </div>
+
+      </div>
+      </div>
+
+    </section>
+
+    <!-- POETIC INTERMEZZO DIVIDER -->
+    <section class="py-16 bg-[#1A1410] text-[#F3D08A] relative overflow-hidden border-y border-[#C5A059]/30">
+      <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+        <svg class="w-10 h-10 mx-auto mb-4 text-[#C5A059]/50" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-8.983z"/>
+        </svg>
+        <blockquote class="font-serif text-xl sm:text-2xl md:text-3xl font-light italic leading-relaxed text-[#FFF4D4]">
+          "Vinho e azeite, vinagre e azeitonas temperadas: os frutos do solo de Vale de Seda partilham o mesmo compromisso com o tempo e com a verdade do Alentejo."
+        </blockquote>
+        <p class="font-cinzel text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C5A059] mt-6 font-semibold">
+          — A Coleção da Herdade
+        </p>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CAPÍTULO II: O AZEITE VIRGEM EXTRA -->
+    <!-- ========================================== -->
+    <section id="azeites" class="py-24 sm:py-32 px-6 max-w-7xl mx-auto border-b border-stone-200/70">
+      
+      <!-- Section Header -->
+      <div class="max-w-3xl space-y-6 mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#2B231D] leading-tight font-normal">
+          Cem Hectares de Troncos Centenários: <br />
+          <span class="italic text-stone-700">O Ouro Líquido do Nosso Lagar</span>
+        </h2>
+
+        <p class="text-stone-600 leading-relaxed font-light text-base sm:text-lg">
+          As variedades centenárias <strong>Galega</strong> e <strong>Cobrançosa</strong> moldam os olivais da herdade desde as origens de 1980. Na colheita outonal, a apanha da azeitona é realizada no zénite da sua frescura sensorial. Do ramo diretamente para o lagar próprio passam escassas horas, permitindo a extração mecânica a frio com acidez inferior a 0.18% e polifenóis preservados.
+        </p>
+
+        <div class="pt-6 border-t border-stone-200 grid grid-cols-3 gap-6 sm:gap-10 max-w-xl">
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">100 ha</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Olival Centenário</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">&lt; 0.18%</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Acidez Rara</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Frio</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Lagar Próprio</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Olive Oil 2-Slide Interactive Carousel (Tradicional & Biológico) -->
+      <div class="mt-12" id="oil-carousel-container">
+        
+        <!-- Mode Switcher Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-10">
+          <button 
+            type="button" 
+            id="tab-oil-0" 
+            class="oil-tab px-6 py-2.5 text-xs font-cinzel uppercase tracking-[0.2em] font-semibold transition-all duration-300 border border-[#C5A059] bg-[#C5A059] text-stone-950 shadow-md cursor-pointer"
+            data-slide="0"
+          >
+            I. Virgem Extra Tradicional
+          </button>
+          <button 
+            type="button" 
+            id="tab-oil-1" 
+            class="oil-tab px-6 py-2.5 text-xs font-cinzel uppercase tracking-[0.2em] font-semibold transition-all duration-300 border border-[#C5A059]/40 bg-stone-100/90 text-stone-700 hover:text-stone-950 hover:border-[#C5A059] cursor-pointer"
+            data-slide="1"
+          >
+            II. Virgem Extra Biológico
+          </button>
+        </div>
+
+        <!-- Carousel Viewport -->
+        <div class="relative overflow-hidden" id="oil-carousel">
+          <div class="flex transition-transform duration-500 ease-in-out" id="oil-slides-track">
+            {azeiteItems.map((item, idx) => (
+              <div class="w-full flex-shrink-0 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-stretch px-1" data-oil-index={idx}>
+                
+                <!-- Product Visual with Light Aura & Straight Borders (Locked Height) -->
+                <div class="lg:col-span-5 flex justify-center items-center">
+                  <div class="relative w-full max-w-[340px] h-[460px] sm:h-[500px] lg:h-[550px] bg-gradient-to-b from-[#2B231D] to-[#14100D] border border-[#C5A059]/40 shadow-[0_0_28px_rgba(243,208,138,0.25)] hover:shadow-[0_0_38px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 flex items-center justify-center p-6 sm:p-8 group">
+                    <img 
+                      src={item.imagem} 
+                      alt={item.name} 
+                      class="max-h-[380px] sm:max-h-[420px] lg:max-h-[450px] w-auto max-w-[85%] object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)] transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <span class="absolute top-4 left-4 font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A] border border-[#C5A059]/40 px-2.5 py-1 bg-[#14100D]/80">
+                      {item.acidez}
+                    </span>
+                    <span class="absolute top-4 right-4 font-cinzel text-[10px] uppercase tracking-widest text-[#FFF4D4] bg-[#C5A059]/30 border border-[#C5A059]/50 px-2.5 py-1">
+                      {item.type}
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Storytelling & Details (Locked Height Column & Fixed Baseline) -->
+                <div class="lg:col-span-7 flex flex-col justify-between h-auto lg:h-[550px]">
+                  <div class="space-y-3.5">
+                    <!-- Title & Tagline with Locked Min-Height -->
+                    <div class="min-h-[72px] sm:min-h-[80px] flex flex-col justify-center">
+                      <h3 class="font-serif text-2xl sm:text-3xl text-[#2B231D] font-normal leading-snug">
+                        {item.name}
+                      </h3>
+                      <p class="font-cinzel text-xs uppercase tracking-[0.22em] text-[#C5A059] font-medium mt-1">
+                        {item.tagline}
+                      </p>
+                    </div>
+
+                    <!-- Variedades / Processo with Locked Min-Height -->
+                    <div class="flex flex-wrap gap-x-6 gap-y-2 py-2 border-y border-stone-200/80 text-xs font-cinzel uppercase tracking-wider text-stone-600 min-h-[40px] items-center">
+                      <span><strong>Variedades:</strong> {item.variedades}</span>
+                      <span><strong>Processo:</strong> {item.metodo}</span>
+                    </div>
+
+                    <!-- Available Formats with Locked Min-Height -->
+                    <div class="bg-[#FAF4ED] border border-[#C5A059]/30 p-3.5 min-h-[68px] flex flex-col justify-center">
+                      <p class="font-cinzel text-[11px] uppercase tracking-wider text-[#14100D] font-bold mb-0.5">
+                        Formatos Disponíveis Direto do Lagar:
+                      </p>
+                      <p class="text-xs text-stone-700 font-light leading-relaxed">
+                        {item.formatos}
+                      </p>
+                    </div>
+
+                    <!-- Description with Locked Min-Height -->
+                    <div class="min-h-[88px] sm:min-h-[96px] flex items-center">
+                      <p class="text-stone-700 leading-relaxed font-light text-base sm:text-lg italic font-serif">
+                        "{item.descricao}"
+                      </p>
+                    </div>
+
+                    <!-- Harmonização with Locked Min-Height -->
+                    <div class="border-l-2 border-[#C5A059] pl-3 text-xs text-stone-600 min-h-[48px] flex flex-col justify-center">
+                      <p class="font-cinzel uppercase tracking-wider text-[#2B231D] font-bold">Harmonização Culinária</p>
+                      <p class="font-light mt-0.5">{item.utilizacao}</p>
+                    </div>
+                  </div>
+
+                  <!-- Locked Bottom Action Bar (Identical Baseline Across All Slides) -->
+                  <div class="mt-auto pt-5 border-t border-stone-200/80 flex items-center justify-between gap-4">
+                    <a 
+                      href={item.url} 
+                      class="inline-block px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-[#F3D08A]/40 transition-all duration-300"
+                    >
+                      {item.btnText}
+                    </a>
+
+                    <!-- Next / Prev Controls -->
+                    <div class="flex items-center gap-2">
+                      <button 
+                        type="button" 
+                        class="oil-prev-btn w-10 h-10 border border-stone-300 hover:border-[#C5A059] bg-white hover:bg-[#F3D08A] text-stone-700 hover:text-stone-950 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm"
+                        aria-label="Ver outro azeite"
+                        title="Ver outro azeite"
+                      >
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                      </button>
+                      <button 
+                        type="button" 
+                        class="oil-next-btn w-10 h-10 border border-stone-300 hover:border-[#C5A059] bg-white hover:bg-[#F3D08A] text-stone-700 hover:text-stone-950 flex items-center justify-center transition-all duration-300 cursor-pointer shadow-sm"
+                        aria-label="Ver outro azeite"
+                        title="Ver outro azeite"
+                      >
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            ))}
+          </div>
+
+          <!-- Dot Indicators -->
+          <div class="flex items-center justify-center gap-2.5 mt-8">
+            <button type="button" class="oil-dot w-3 h-3 rounded-full bg-[#C5A059] transition-all cursor-pointer" data-slide="0" aria-label="Azeite Tradicional"></button>
+            <button type="button" class="oil-dot w-3 h-3 rounded-full bg-stone-300 hover:bg-[#C5A059]/60 transition-all cursor-pointer" data-slide="1" aria-label="Azeite Biológico"></button>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CAPÍTULO III: AS AZEITONAS TRADICIONAIS -->
+    <!-- ========================================== -->
+    <section id="azeitonas" class="py-24 sm:py-32 px-6 max-w-7xl mx-auto border-b border-stone-200/70">
+      
+      <!-- Section Header -->
+      <div class="max-w-3xl space-y-6 mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#2B231D] leading-tight font-normal">
+          Azeitonas Mistas Temperadas: <br />
+          <span class="italic text-stone-700">O Gesto da Hospitalidade Alentejana</span>
+        </h2>
+
+        <p class="text-stone-600 leading-relaxed font-light text-base sm:text-lg">
+          Colhidas à mão nas oliveiras mais generosas da herdade, as nossas azeitonas são curadas pacientemente em salmoura natural segundo uma receita guardada há três gerações pela família Pereira. Temperadas com orégãos silvestres apanhados nos pastos de Fronteira e alho esmagado, carregam em cada fruto o aroma inconfundível do campo alentejano.
+        </p>
+
+        <div class="pt-6 border-t border-stone-200 grid grid-cols-3 gap-6 sm:gap-10 max-w-xl">
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Receita</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">3 Gerações</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Orégãos</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Silvestres Monte</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Salmoura</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Cura Natural</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Olives Single Showcase Card -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        
+        <!-- Product Visual with Light Aura & Straight Borders -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-[340px] aspect-[3/4] bg-gradient-to-b from-[#2B231D] to-[#14100D] border border-[#C5A059]/40 shadow-[0_0_28px_rgba(243,208,138,0.25)] hover:shadow-[0_0_38px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 flex items-center justify-center p-8 group">
+            <img 
+              src={azeitonasItem.imagem} 
+              alt={azeitonasItem.name} 
+              class="h-full w-auto object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)]"
+            />
+            <span class="absolute top-4 left-4 font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A] border border-[#C5A059]/40 px-2.5 py-1 bg-[#14100D]/80">
+              Receita Familiar
+            </span>
+          </div>
+        </div>
+
+        <!-- Storytelling & Details -->
+        <div class="lg:col-span-7 flex flex-col justify-center space-y-4">
+          <div>
+            <h3 class="font-serif text-2xl sm:text-3xl md:text-4xl text-[#2B231D] font-normal">
+              {azeitonasItem.name}
+            </h3>
+            <p class="font-cinzel text-xs uppercase tracking-[0.22em] text-[#C5A059] font-medium mt-1.5">
+              {azeitonasItem.tagline}
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-x-6 gap-y-2 py-2 border-y border-stone-200/80 text-xs font-cinzel uppercase tracking-wider text-stone-600">
+            <span><strong>Variedades:</strong> {azeitonasItem.variedades}</span>
+            <span><strong>Tempero:</strong> Orégãos Silvestres & Alho Esmagado</span>
+          </div>
+
+          <div class="bg-[#FAF4ED] border border-[#C5A059]/30 p-4">
+            <p class="font-cinzel text-xs uppercase tracking-wider text-[#14100D] font-bold mb-1">
+              Formatos Disponíveis:
+            </p>
+            <p class="text-xs text-stone-700 font-light leading-relaxed">
+              Frasco de Vidro Tradicional 800 g &bull; Balde Familiar para Festas 2 kg
+            </p>
+          </div>
+
+          <p class="text-stone-700 leading-relaxed font-light text-base sm:text-lg italic font-serif">
+            "{azeitonasItem.descricao}"
+          </p>
+
+          <div class="border-l-2 border-[#C5A059] pl-3 text-xs text-stone-600">
+            <p class="font-cinzel uppercase tracking-wider text-[#2B231D] font-bold">Harmonização Culinária</p>
+            <p class="font-light mt-0.5">{azeitonasItem.utilizacao}</p>
+          </div>
+
+          <div class="pt-4">
+            <a 
+              href={azeitonasItem.url} 
+              class="inline-block px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-[#F3D08A]/40 transition-all duration-300"
+            >
+              {azeitonasItem.btnText}
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CAPÍTULO IV: O VINAGRE DE VINHO ENVELHECIDO -->
+    <!-- ========================================== -->
+    <section id="vinagre" class="py-24 sm:py-32 px-6 max-w-7xl mx-auto">
+      
+      <!-- Section Header -->
+      <div class="max-w-3xl space-y-6 mb-16">
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#2B231D] leading-tight font-normal">
+          Vinagre de Vinho Tradicional: <br />
+          <span class="italic text-stone-700">A Nobreza dos Pipos de Carvalho Francês</span>
+        </h2>
+
+        <p class="text-stone-600 leading-relaxed font-light text-base sm:text-lg">
+          Nascido a partir de vinho criteriosamente selecionado das nossas próprias caves, este vinagre tradicional é fruto de uma fermentação acética lenta e de um repouso prolongado em pipos de carvalho francês. Da madeira herda notas ambarinas, aromas balsâmicos refinados e uma acidez macia e viva que dignifica os pratos mais exigentes da gastronomia tradicional.
+        </p>
+
+        <div class="pt-6 border-t border-stone-200 grid grid-cols-3 gap-6 sm:gap-10 max-w-xl">
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Carvalho</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Estágio Madeira</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">6%</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Acidez Natural</p>
+          </div>
+          <div>
+            <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">Herdade</p>
+            <p class="font-cinzel text-[11px] uppercase tracking-wider text-stone-500 mt-1">Vinho Próprio</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vinegar Single Showcase Card -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+        
+        <!-- Product Visual with Light Aura & Straight Borders -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-[340px] aspect-[3/4] bg-gradient-to-b from-[#2B231D] to-[#14100D] border border-[#C5A059]/40 shadow-[0_0_28px_rgba(243,208,138,0.25)] hover:shadow-[0_0_38px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 flex items-center justify-center p-8 group">
+            <img 
+              src={vinagreItem.imagem} 
+              alt={vinagreItem.name} 
+              class="h-full w-auto object-contain drop-shadow-[0_15px_25px_rgba(0,0,0,0.6)]"
+            />
+            <span class="absolute top-4 left-4 font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A] border border-[#C5A059]/40 px-2.5 py-1 bg-[#14100D]/80">
+              {vinagreItem.acidez}
+            </span>
+          </div>
+        </div>
+
+        <!-- Storytelling & Details -->
+        <div class="lg:col-span-7 flex flex-col justify-center space-y-4">
+          <div>
+            <h3 class="font-serif text-2xl sm:text-3xl md:text-4xl text-[#2B231D] font-normal">
+              {vinagreItem.name}
+            </h3>
+            <p class="font-cinzel text-xs uppercase tracking-[0.22em] text-[#C5A059] font-medium mt-1.5">
+              {vinagreItem.tagline}
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-x-6 gap-y-2 py-2 border-y border-stone-200/80 text-xs font-cinzel uppercase tracking-wider text-stone-600">
+            <span><strong>Origem:</strong> {vinagreItem.variedades}</span>
+            <span><strong>Processo:</strong> {vinagreItem.metodo}</span>
+          </div>
+
+          <div class="bg-[#FAF4ED] border border-[#C5A059]/30 p-4">
+            <p class="font-cinzel text-xs uppercase tracking-wider text-[#14100D] font-bold mb-1">
+              Formato:
+            </p>
+            <p class="text-xs text-stone-700 font-light leading-relaxed">
+              Garrafa de Vidro Escuro 500 ml com rolha vedante para preservação de aromas
+            </p>
+          </div>
+
+          <p class="text-stone-700 leading-relaxed font-light text-base sm:text-lg italic font-serif">
+            "{vinagreItem.descricao}"
+          </p>
+
+          <div class="border-l-2 border-[#C5A059] pl-3 text-xs text-stone-600">
+            <p class="font-cinzel uppercase tracking-wider text-[#2B231D] font-bold">Harmonização Culinária</p>
+            <p class="font-light mt-0.5">{vinagreItem.utilizacao}</p>
+          </div>
+
+          <div class="pt-4">
+            <a 
+              href={vinagreItem.url} 
+              class="inline-block px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-[#F3D08A]/40 transition-all duration-300"
+            >
+              {vinagreItem.btnText}
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- INVITATION CTA: DIRECT PURCHASE -->
+    <section class="py-20 bg-stone-950 text-white relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-white mb-6">
+          Adquira os Nossos Produtos na Loja Oficial
+        </h2>
+        
+        <p class="text-stone-300 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto mb-10">
+          Entregamos vinhos, azeites virgem extra, azeitonas e vinagre para todo o território nacional e internacional em embalagens reforçadas e térmicas. Portes gratuitos em encomendas superiores a 60 €.
+        </p>
+
+        <div class="flex items-center justify-center">
+          <a 
+            href="/loja" 
+            class="px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-xl hover:shadow-[#F3D08A]/40 transition-all duration-300"
+          >
+            Visitar a Loja Online
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SCRIPT: CAROUSEL INTERACTIVITY -->
+  <script>
+    function setupOilCarousel() {
+      let currentOilSlide = 0;
+      const track = document.getElementById('oil-slides-track');
+      const tabs = document.querySelectorAll('.oil-tab');
+      const dots = document.querySelectorAll('.oil-dot');
+      const prevBtns = document.querySelectorAll('.oil-prev-btn');
+      const nextBtns = document.querySelectorAll('.oil-next-btn');
+
+      function goToOilSlide(idx: number) {
+        currentOilSlide = idx;
+        if (track) {
+          track.style.transform = `translateX(-${idx * 100}%)`;
+        }
+        // Update tabs
+        tabs.forEach((tab, i) => {
+          if (i === idx) {
+            tab.classList.remove('bg-stone-100/90', 'text-stone-700', 'border-[#C5A059]/40');
+            tab.classList.add('bg-[#C5A059]', 'text-stone-950', 'border-[#C5A059]', 'shadow-md');
+          } else {
+            tab.classList.remove('bg-[#C5A059]', 'text-stone-950', 'border-[#C5A059]', 'shadow-md');
+            tab.classList.add('bg-stone-100/90', 'text-stone-700', 'border-[#C5A059]/40');
+          }
+        });
+        // Update dots
+        dots.forEach((dot, i) => {
+          if (i === idx) {
+            dot.classList.remove('bg-stone-300');
+            dot.classList.add('bg-[#C5A059]');
+          } else {
+            dot.classList.remove('bg-[#C5A059]');
+            dot.classList.add('bg-stone-300');
+          }
+        });
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const idx = parseInt(tab.getAttribute('data-slide') || '0', 10);
+          goToOilSlide(idx);
+        });
+      });
+
+      dots.forEach((dot) => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-slide') || '0', 10);
+          goToOilSlide(idx);
+        });
+      });
+
+      prevBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const newIdx = currentOilSlide === 0 ? 1 : 0;
+          goToOilSlide(newIdx);
+        });
+      });
+
+      nextBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const newIdx = currentOilSlide === 1 ? 0 : 1;
+          goToOilSlide(newIdx);
+        });
+      });
+
+      // Touch swipe
+      const carouselEl = document.getElementById('oil-carousel');
+      if (carouselEl) {
+        let touchStartX = 0;
+        carouselEl.addEventListener('touchstart', (e: TouchEvent) => {
+          touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+        carouselEl.addEventListener('touchend', (e: TouchEvent) => {
+          const touchEndX = e.changedTouches[0].screenX;
+          if (touchStartX - touchEndX > 45) {
+            goToOilSlide(1);
+          } else if (touchEndX - touchStartX > 45) {
+            goToOilSlide(0);
+          }
+        }, { passive: true });
+      }
+    }
+
+    function setupWineCarousel() {
+      let currentWineSlide = 0;
+      const totalSlides = 4;
+      const track = document.getElementById('wine-slides-track');
+      const tabs = document.querySelectorAll('.wine-tab');
+      const dots = document.querySelectorAll('.wine-dot');
+      const prevBtns = document.querySelectorAll('.wine-prev-btn');
+      const nextBtns = document.querySelectorAll('.wine-next-btn');
+
+      function goToWineSlide(idx: number) {
+        currentWineSlide = idx;
+        if (track) {
+          track.style.transform = `translateX(-${idx * 100}%)`;
+        }
+        // Update tabs
+        tabs.forEach((tab, i) => {
+          if (i === idx) {
+            tab.classList.remove('bg-stone-100/90', 'text-stone-700', 'border-[#C5A059]/40');
+            tab.classList.add('bg-[#C5A059]', 'text-stone-950', 'border-[#C5A059]', 'shadow-md');
+          } else {
+            tab.classList.remove('bg-[#C5A059]', 'text-stone-950', 'border-[#C5A059]', 'shadow-md');
+            tab.classList.add('bg-stone-100/90', 'text-stone-700', 'border-[#C5A059]/40');
+          }
+        });
+        // Update dots
+        dots.forEach((dot, i) => {
+          if (i === idx) {
+            dot.classList.remove('bg-stone-300');
+            dot.classList.add('bg-[#C5A059]');
+          } else {
+            dot.classList.remove('bg-[#C5A059]');
+            dot.classList.add('bg-stone-300');
+          }
+        });
+      }
+
+      tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const idx = parseInt(tab.getAttribute('data-slide') || '0', 10);
+          goToWineSlide(idx);
+        });
+      });
+
+      dots.forEach((dot) => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-slide') || '0', 10);
+          goToWineSlide(idx);
+        });
+      });
+
+      prevBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const newIdx = currentWineSlide === 0 ? totalSlides - 1 : currentWineSlide - 1;
+          goToWineSlide(newIdx);
+        });
+      });
+
+      nextBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const newIdx = currentWineSlide === totalSlides - 1 ? 0 : currentWineSlide + 1;
+          goToWineSlide(newIdx);
+        });
+      });
+
+      // Touch swipe
+      const carouselEl = document.getElementById('wine-carousel');
+      if (carouselEl) {
+        let touchStartX = 0;
+        carouselEl.addEventListener('touchstart', (e: TouchEvent) => {
+          touchStartX = e.changedTouches[0].screenX;
+        }, { passive: true });
+        carouselEl.addEventListener('touchend', (e: TouchEvent) => {
+          const touchEndX = e.changedTouches[0].screenX;
+          if (touchStartX - touchEndX > 45) {
+            goToWineSlide(currentWineSlide === totalSlides - 1 ? 0 : currentWineSlide + 1);
+          } else if (touchEndX - touchStartX > 45) {
+            goToWineSlide(currentWineSlide === 0 ? totalSlides - 1 : currentWineSlide - 1);
+          }
+        }, { passive: true });
+      }
+    }
+
+    function initCarousels() {
+      setupWineCarousel();
+      setupOilCarousel();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initCarousels);
+    } else {
+      initCarousels();
+    }
+  </script>
+
+  <!-- FOOTER -->
+  <Footer currentPage="produtos" />
+</Layout>

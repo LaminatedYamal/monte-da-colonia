@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 699,
+    "date": "2024-11-05T22:28:05",
+    "date_gmt": "2024-11-05T22:28:05",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?page_id=699"
+    },
+    "modified": "2025-01-18T18:34:55",
+    "modified_gmt": "2025-01-18T18:34:55",
+    "slug": "vinagres",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/vinagres/",
+    "title": {
+      "rendered": "Vinagres"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"699\" class=\"elementor elementor-699\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6c2e080 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2e080\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3e8aa3b e-con-full e-flex e-con e-child\" data-id=\"3e8aa3b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-995fbf9 elementor-widget elementor-widget-heading\" data-id=\"995fbf9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c73215 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-id=\"0c73215\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Vinagres</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e9d117a e-flex e-con-boxed e-con e-parent\" data-id=\"e9d117a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0063bf8 elementor-product-loop-item--align-center elementor-grid-tablet-3 elementor-grid-mobile-1 elementor-product-loop-item--align-center elementor-grid-3 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"0063bf8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-3 \"><ul class=\"products elementor-grid columns-3\">\n<li class=\"product type-product post-689 status-publish first instock product_cat-vinagres product_tag-vinagre has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinagre-de-vinho-tinto-250ml/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img fetchpriority=\"high\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000405_vinagre-de-vinho-tinto-250ml_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Vinagre de Vinho Tinto - 250ml\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000405_vinagre-de-vinho-tinto-250ml_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000405_vinagre-de-vinho-tinto-250ml_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000405_vinagre-de-vinho-tinto-250ml_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinagre de Vinho Tinto &#8211; 250ml</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_689\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-678 status-publish instock product_cat-vinagres product_tag-vinagre has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinagre-de-vinho-branco-250ml/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000406_vinagre-de-vinho-branco-250ml_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Vinagre de Vinho Branco\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000406_vinagre-de-vinho-branco-250ml_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000406_vinagre-de-vinho-branco-250ml_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000406_vinagre-de-vinho-branco-250ml_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinagre de Vinho Branco &#8211; 250ml</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_678\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Monte da Colónia Vinagres</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-699",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/699",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=699"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 7,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/699/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 869,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/699/revisions/869"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=699"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 588,
+    "date": "2024-11-05T18:41:59",
+    "date_gmt": "2024-11-05T18:41:59",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?page_id=588"
+    },
+    "modified": "2025-01-18T18:34:34",
+    "modified_gmt": "2025-01-18T18:34:34",
+    "slug": "azeitonas-monte-da-colonia",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/azeitonas-monte-da-colonia/",
+    "title": {
+      "rendered": "Azeitonas"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"588\" class=\"elementor elementor-588\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6c2e080 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2e080\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3e8aa3b e-con-full e-flex e-con e-child\" data-id=\"3e8aa3b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-995fbf9 elementor-widget elementor-widget-heading\" data-id=\"995fbf9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c73215 elementor-widget elementor-widget-heading\" data-id=\"0c73215\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Azeitonas</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e9d117a e-flex e-con-boxed e-con e-parent\" data-id=\"e9d117a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0063bf8 elementor-product-loop-item--align-center elementor-grid-tablet-3 elementor-grid-mobile-1 elementor-product-loop-item--align-center elementor-grid-3 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"0063bf8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-3 \"><ul class=\"products elementor-grid columns-3\">\n<li class=\"product type-product post-674 status-publish first instock product_cat-azeitonas product_tag-azeitonas has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitonas-mistas-5kg/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000417_azeitonas-mistas-5kg_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeitonas Mistas - 5Kg\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000417_azeitonas-mistas-5kg_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000417_azeitonas-mistas-5kg_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000417_azeitonas-mistas-5kg_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeitonas Mistas &#8211; 5Kg</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_674\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-964 status-publish instock product_cat-azeitonas product_tag-azeitonas has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitonas-mistas-3kg/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000416_azeitonas-mistas-3kg_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeitonas Mistas - 3Kg\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000416_azeitonas-mistas-3kg_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000416_azeitonas-mistas-3kg_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000416_azeitonas-mistas-3kg_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeitonas Mistas &#8211; 3Kg</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_964\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-676 status-publish last instock product_cat-azeitonas product_tag-azeitonas has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitonas-mistas-2kg/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000415_azeitonas-mistas-2kg_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeitonas Mistas - 2Kg\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000415_azeitonas-mistas-2kg_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000415_azeitonas-mistas-2kg_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000415_azeitonas-mistas-2kg_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeitonas Mistas &#8211; 2Kg</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_676\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-673 status-publish first instock product_cat-azeitonas product_tag-azeitonas has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitonas-mistas-08kg/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/0000414_azeitonas-mistas-08kg_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeitonas Mistas 800G\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/0000414_azeitonas-mistas-08kg_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/0000414_azeitonas-mistas-08kg_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/0000414_azeitonas-mistas-08kg_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeitonas Mistas &#8211; 0,8Kg</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_673\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-494 status-publish instock product_cat-azeitonas product_tag-azeitonas has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitona-mista-250g/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Azeitonamista.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeitona Mista - Frasco de 500g\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Azeitonamista.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/Azeitonamista-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/Azeitonamista-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeitona Mista &#8211; 250g</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_494\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Monte da Colónia Azeitonas</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-588",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/588",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=588"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 10,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/588/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 863,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/588/revisions/863"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=588"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 583,
+    "date": "2024-11-05T18:38:11",
+    "date_gmt": "2024-11-05T18:38:11",
+    "guid": {
+      "rendered": "https://montedacolonia.pt/?page_id=583"
+    },
+    "modified": "2025-04-04T21:15:38",
+    "modified_gmt": "2025-04-04T21:15:38",
+    "slug": "azeites-monte-da-colonia",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/azeites-monte-da-colonia/",
+    "title": {
+      "rendered": "Azeites"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"583\" class=\"elementor elementor-583\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6c2e080 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2e080\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3e8aa3b e-con-full e-flex e-con e-child\" data-id=\"3e8aa3b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-995fbf9 elementor-widget elementor-widget-heading\" data-id=\"995fbf9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c73215 elementor-widget elementor-widget-heading\" data-id=\"0c73215\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Azeites</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e9d117a e-flex e-con-boxed e-con e-parent\" data-id=\"e9d117a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0063bf8 elementor-product-loop-item--align-center elementor-grid-tablet-3 elementor-grid-mobile-1 elementor-product-loop-item--align-center elementor-grid-4 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"0063bf8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-4 \"><ul class=\"products elementor-grid columns-4\">\n<li class=\"product type-product post-634 status-publish first instock product_cat-bio product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-bio-250ml/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000421_azeite-virgem-extra-bio-miudos-250ml_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra Bio Miúdos - 250ml\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000421_azeite-virgem-extra-bio-miudos-250ml_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000421_azeite-virgem-extra-bio-miudos-250ml_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000421_azeite-virgem-extra-bio-miudos-250ml_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra Bio &#8211; 250ml</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_634\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-622 status-publish instock product_cat-bio product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-bio-500ml/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000427_azeite-virgem-extra-bio-500ml_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra Bio - 500ml\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000427_azeite-virgem-extra-bio-500ml_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000427_azeite-virgem-extra-bio-500ml_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000427_azeite-virgem-extra-bio-500ml_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra Bio &#8211; 500ml</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_622\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-962 status-publish instock product_cat-bio product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-bio-2l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000428_azeite-virgem-extra-bio-2l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra Bio - 2L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000428_azeite-virgem-extra-bio-2l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000428_azeite-virgem-extra-bio-2l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000428_azeite-virgem-extra-bio-2l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra Bio &#8211; 2L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_962\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-960 status-publish last instock product_cat-bio product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-bio-5l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000499_azeite-virgem-extra-bio-5l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra Bio - 5L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/0000499_azeite-virgem-extra-bio-5l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000499_azeite-virgem-extra-bio-5l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/0000499_azeite-virgem-extra-bio-5l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra Bio &#8211; 5L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_960\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-289 status-publish first instock product_cat-virgem-extra product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeitevirgemextra250ml/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/azeite-virgem-extra-250ml.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"azeite virgem extra 250ml\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/azeite-virgem-extra-250ml.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/azeite-virgem-extra-250ml-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/azeite-virgem-extra-250ml-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra &#8211; 250ml</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_289\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-663 status-publish instock product_cat-virgem-extra product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-2l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000430_azeite-virgem-extra-2l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra - 2L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000430_azeite-virgem-extra-2l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000430_azeite-virgem-extra-2l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000430_azeite-virgem-extra-2l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra &#8211; 2L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_663\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-665 status-publish instock product_cat-virgem-extra product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-3l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000431_azeite-virgem-extra-3l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra - 3L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000431_azeite-virgem-extra-3l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000431_azeite-virgem-extra-3l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000431_azeite-virgem-extra-3l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra &#8211; 3L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_665\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-667 status-publish last instock product_cat-virgem-extra product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-extra-5l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000432_azeite-virgem-extra-5l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem Extra - 5L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000432_azeite-virgem-extra-5l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000432_azeite-virgem-extra-5l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000432_azeite-virgem-extra-5l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem Extra &#8211; 5L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_667\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-652 status-publish first instock product_cat-virgem product_tag-azeite has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/azeite-virgem-5l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000438_azeite-virgem-5l_300.png\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Azeite Virgem - 5L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/0000438_azeite-virgem-5l_300.png 300w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000438_azeite-virgem-5l_300-100x100.png 100w, https://montedacolonia.pt/wp-content/uploads/2024/11/0000438_azeite-virgem-5l_300-150x150.png 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Azeite Virgem &#8211; 5L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_652\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Monte da Colónia Azeites</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-583",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/583",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=583"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 10,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/583/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1028,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/583/revisions/1028"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=583"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 262,
+    "date": "2024-08-31T10:05:30",
+    "date_gmt": "2024-08-31T10:05:30",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?page_id=262"
+    },
+    "modified": "2025-10-01T20:00:05",
+    "modified_gmt": "2025-10-01T20:00:05",
+    "slug": "vinhos-monte-da-colonia",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/vinhos-monte-da-colonia/",
+    "title": {
+      "rendered": "Vinhos"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"262\" class=\"elementor elementor-262\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6c2e080 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2e080\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3e8aa3b e-con-full e-flex e-con e-child\" data-id=\"3e8aa3b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-995fbf9 elementor-widget elementor-widget-heading\" data-id=\"995fbf9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c73215 elementor-widget elementor-widget-heading\" data-id=\"0c73215\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Tintos</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e9d117a e-flex e-con-boxed e-con e-parent\" data-id=\"e9d117a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0063bf8 elementor-product-loop-item--align-center elementor-grid-tablet-3 elementor-grid-mobile-1 elementor-product-loop-item--align-center elementor-grid-4 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"0063bf8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-4 \"><ul class=\"products elementor-grid columns-4\">\n<li class=\"product type-product post-1256 status-publish first instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/tinto-monocasta-syrah-2025/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Tinto Monocasta Syrah 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Tinto Monocasta Syrah 2025</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1256\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1242 status-publish instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-5l-2025/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1242\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1232 status-publish instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-20l-2025/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Regional Alentejano Tinto Monte da Colónia Bag in Box 20L 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Regional Alentejano Tinto Monte da Colónia Bag in Box 20L 2025</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1232\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1219 status-publish last instock product_cat-tintos product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/tubo-de-vinho-tinto-regional-alentejano-2022-2l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/06/IMG_3075-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Bag in Box\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/06/IMG_3075-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/06/IMG_3075-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/06/IMG_3075-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Tubo de Vinho Tinto Regional Alentejano 2022 2L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1219\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1180 status-publish first instock product_cat-tintos product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/monte-da-colonia-edicao-especial-3l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3080-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Edição Especial 3L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3080-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3080-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3080-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Monte da Colónia &#8211; Edição Especial 3L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1180\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1178 status-publish instock product_cat-tintos product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/monte-da-colonia-edicao-especial-15l/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3082-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Edição especial 1,5L\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3082-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3082-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3082-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Monte da Colónia &#8211; Edição Especial 1,5L</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1178\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1124 status-publish instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-regional-alentejano-monocasta-touriga-nacional-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/07/Toriga-2024-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Touriga Nacional 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/07/Toriga-2024-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/07/Toriga-2024-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/07/Toriga-2024-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Regional Alentejano Monocasta Touriga Nacional  2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1124\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1114 status-publish last instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-regional-alentejano-tinto-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/06/tinto-2024-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Tinto 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/06/tinto-2024-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/06/tinto-2024-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/06/tinto-2024-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Regional Alentejano tinto 2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1114\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1104 status-publish first instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-regional-alentejano-tinto-colheita-selecionada-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/06/Colheita-Selecionada-2024-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Colheita Selecionada 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/06/Colheita-Selecionada-2024-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/06/Colheita-Selecionada-2024-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/06/Colheita-Selecionada-2024-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Regional Alentejano Tinto Colheita Selecionada 2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1104\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-760 status-publish instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-tinto-escolha-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Escolha2023-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Escolha 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Escolha2023-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/Escolha2023-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/Escolha2023-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Tinto Escolha 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_760\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-747 status-publish instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-tinto-reserva-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Reserva2023-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Reserva 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Reserva2023-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/Reserva2023-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/Reserva2023-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Tinto Reserva 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_747\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-446 status-publish last instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-tinto-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Tinto2023-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Tinto 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Tinto2023-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/Tinto2023-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/Tinto2023-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Tinto 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_446\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-316 status-publish first instock product_cat-tintos product_tag-tinto product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/duas-castas-petit-syrah-e-petit-verdot-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8932-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"syrah e petit verdot 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8932-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8932-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8932-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Syrah e Petit Verdot 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_316\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-f70c830 e-flex e-con-boxed e-con e-parent\" data-id=\"f70c830\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-663c298 e-con-full e-flex e-con e-child\" data-id=\"663c298\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2a73e77 elementor-widget elementor-widget-heading\" data-id=\"2a73e77\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-89c7c38 elementor-widget elementor-widget-heading\" data-id=\"89c7c38\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Brancos</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-3b7a890 e-flex e-con-boxed e-con e-parent\" data-id=\"3b7a890\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-eb9a8fb elementor-product-loop-item--align-center elementor-grid-mobile-1 elementor-grid-4 elementor-grid-tablet-3 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"eb9a8fb\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-4 \"><ul class=\"products elementor-grid columns-4\">\n<li class=\"product type-product post-1273 status-publish first instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/regional-alentejano-monte-da-colonia-bag-in-box-5l-2025-2/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Regional Alentejano Monte da Colonia Bag in Box 5L 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Regional Alentejano Monte da Colonia Bag in Box 5L 2025</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1273\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1263 status-publish instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/escolha-2025/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Escolha 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Escolha 2025</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1263\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1060 status-publish instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/monocasta-monte-da-colonia-fernao-pires-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/04/Fernao-Pires-2024-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Fernão Pires 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/04/Fernao-Pires-2024-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/04/Fernao-Pires-2024-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/04/Fernao-Pires-2024-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Monocasta Monte da Colonia Fernão Pires 2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1060\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1052 status-publish last instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/reserva-monte-da-colonia-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Reserva Monte da Colónia 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Reserva Monte da Colónia 2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1052\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-451 status-publish first instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/escolha-2022/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Escolha-2022-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Escolha 2022\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/Escolha-2022-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/Escolha-2022-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/Escolha-2022-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Escolha 2022</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_451\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-448 status-publish instock product_cat-brancos product_tag-branco product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/colheita-selecionada-branco-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8921-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Colheita Selecionada 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8921-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8921-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8921-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Colheita Selecionada Branco 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_448\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-11ed10d e-flex e-con-boxed e-con e-parent\" data-id=\"11ed10d\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-7e82454 e-con-full e-flex e-con e-child\" data-id=\"7e82454\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-56e6d07 elementor-widget elementor-widget-heading\" data-id=\"56e6d07\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-842e735 elementor-widget elementor-widget-heading\" data-id=\"842e735\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Espumantes e Rosé</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-9faacf6 e-flex e-con-boxed e-con e-parent\" data-id=\"9faacf6\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0a77116 elementor-product-loop-item--align-center elementor-grid-mobile-1 elementor-grid-4 elementor-grid-tablet-3 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"0a77116\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-4 \"><ul class=\"products elementor-grid columns-4\">\n<li class=\"product type-product post-1151 status-publish first instock product_cat-rose product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-rose-monocasta-touriga-nacional-2024/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/07/Rouriga-Rose-2024-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Touriga Nacional Rose 2024\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/07/Rouriga-Rose-2024-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/07/Rouriga-Rose-2024-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/07/Rouriga-Rose-2024-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Rose Monocasta Touriga Nacional 2024</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1151\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-1030 status-publish instock product_cat-espumantes product_tag-espumante product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/espumante-branco-2020/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/04/Espumante-2020-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Espumante 2020\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/04/Espumante-2020-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/04/Espumante-2020-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/04/Espumante-2020-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Espumante Branco 2020</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1030\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-450 status-publish instock product_cat-espumantes product_tag-espumante product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/espumante-alentejano-branco-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/EspumanteAlentejano18-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Espumante 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/EspumanteAlentejano18-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/EspumanteAlentejano18-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/EspumanteAlentejano18-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Espumante Alentejano Branco 2018</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_450\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n<li class=\"product type-product post-449 status-publish last instock product_cat-rose product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/rose-escolha-2023/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8935-scaled-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Rose Escolha 2023\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8935-scaled-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8935-scaled-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2024/09/IMG_8935-150x150.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Rosé Escolha 2023</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_449\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-5b833f7 e-flex e-con-boxed e-con e-parent\" data-id=\"5b833f7\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-48eac35 e-con-full e-flex e-con e-child\" data-id=\"48eac35\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-9d1b1f1 elementor-widget elementor-widget-heading\" data-id=\"9d1b1f1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-7c34855 elementor-widget elementor-widget-heading\" data-id=\"7c34855\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Vinho Locoroso</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-73d024e e-flex e-con-boxed e-con e-parent\" data-id=\"73d024e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-a039aab elementor-product-loop-item--align-center elementor-grid-mobile-1 elementor-grid-4 elementor-grid-tablet-3 elementor-products-grid elementor-wc-products elementor-widget elementor-widget-woocommerce-products\" data-id=\"a039aab\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"woocommerce-products.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"woocommerce columns-4 \"><ul class=\"products elementor-grid columns-4\">\n<li class=\"product type-product post-1200 status-publish first instock product_cat-licoroso product_tag-rose product_tag-vinho has-post-thumbnail shipping-taxable product-type-simple\">\n\t<a href=\"https://montedacolonia.pt/produto/vinho-licoroso-alentejano-ig/\" class=\"woocommerce-LoopProduct-link woocommerce-loop-product__link\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3088-300x300.jpeg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Licoroso Alentejano - IG\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3088-300x300.jpeg 300w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3088-150x150.jpeg 150w, https://montedacolonia.pt/wp-content/uploads/2025/10/IMG_3088-100x100.jpeg 100w\" sizes=\"(max-width: 300px) 100vw, 300px\" /><h2 class=\"woocommerce-loop-product__title\">Vinho Licoroso Alentejano &#8211; IG</h2>\n</a>\t<span id=\"woocommerce_loop_add_to_cart_link_describedby_1200\" class=\"screen-reader-text\">\n\t\t\t</span>\n</li>\n</ul>\n</div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Monte da Colónia Tintos Monte da Colónia Brancos Monte da Colónia Espumantes e Rosé Monte da Colónia Vinho Locoroso</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-262",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/262",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=262"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 25,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/262/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1213,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/262/revisions/1213"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=262"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "date": "2024-08-28T14:57:31",
+    "date_gmt": "2024-08-28T14:57:31",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/carrinho/"
+    },
+    "modified": "2024-09-21T06:30:39",
+    "modified_gmt": "2024-09-21T06:30:39",
+    "slug": "carrinho",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/carrinho/",
+    "title": {
+      "rendered": "Carrinho"
+    },
+    "content": {
+      "rendered": "\n<div data-block-name=\"woocommerce/cart\" class=\"wp-block-woocommerce-cart alignwide is-loading\">\n<div data-block-name=\"woocommerce/filled-cart-block\" class=\"wp-block-woocommerce-filled-cart-block\">\n<div data-block-name=\"woocommerce/cart-items-block\" class=\"wp-block-woocommerce-cart-items-block\">\n<div data-block-name=\"woocommerce/cart-line-items-block\" class=\"wp-block-woocommerce-cart-line-items-block\"></div>\n\n\n\n<div data-block-name=\"woocommerce/cart-cross-sells-block\" class=\"wp-block-woocommerce-cart-cross-sells-block\">\n<h2 class=\"wp-block-heading has-large-font-size\">Pode estar interessado em…</h2>\n\n\n\n<div data-block-name=\"woocommerce/cart-cross-sells-products-block\" class=\"wp-block-woocommerce-cart-cross-sells-products-block\"></div>\n</div>\n</div>\n\n\n\n<div data-block-name=\"woocommerce/cart-totals-block\" class=\"wp-block-woocommerce-cart-totals-block\">\n<div data-block-name=\"woocommerce/cart-order-summary-block\" class=\"wp-block-woocommerce-cart-order-summary-block\">\n<div data-block-name=\"woocommerce/cart-order-summary-heading-block\" class=\"wp-block-woocommerce-cart-order-summary-heading-block\"></div><div data-block-name=\"woocommerce/cart-order-summary-coupon-form-block\" class=\"wp-block-woocommerce-cart-order-summary-coupon-form-block\"></div><div data-block-name=\"woocommerce/cart-order-summary-totals-block\" class=\"wp-block-woocommerce-cart-order-summary-totals-block\">\n<div data-block-name=\"woocommerce/cart-order-summary-subtotal-block\" class=\"wp-block-woocommerce-cart-order-summary-subtotal-block\"></div>\n<div data-block-name=\"woocommerce/cart-order-summary-discount-block\" class=\"wp-block-woocommerce-cart-order-summary-discount-block\"></div>\n<div data-block-name=\"woocommerce/cart-order-summary-fee-block\" class=\"wp-block-woocommerce-cart-order-summary-fee-block\"></div>\n<div data-block-name=\"woocommerce/cart-order-summary-shipping-block\" class=\"wp-block-woocommerce-cart-order-summary-shipping-block\"></div>\n<div data-block-name=\"woocommerce/cart-order-summary-taxes-block\" class=\"wp-block-woocommerce-cart-order-summary-taxes-block\"></div></div>\n</div>\n\n\n\n<div data-block-name=\"woocommerce/cart-express-payment-block\" class=\"wp-block-woocommerce-cart-express-payment-block\"></div>\n\n\n\n<div data-block-name=\"woocommerce/proceed-to-checkout-block\" class=\"wp-block-woocommerce-proceed-to-checkout-block\"></div>\n\n\n\n<div data-block-name=\"woocommerce/cart-accepted-payment-methods-block\" class=\"wp-block-woocommerce-cart-accepted-payment-methods-block\"></div>\n</div>\n</div>\n\n\n\n<div data-block-name=\"woocommerce/empty-cart-block\" class=\"wp-block-woocommerce-empty-cart-block\">\n<h2 class=\"wp-block-heading has-text-align-center with-empty-cart-icon wc-block-cart__empty-cart__title\">O seu carrinho está vazio!</h2>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-dots\"/>\n\n\n\n<h2 class=\"wp-block-heading has-text-align-center\">Novo na loja</h2>\n\n\n<div data-block-name=\"woocommerce/product-new\" data-columns=\"4\" data-rows=\"1\" class=\"wc-block-grid wp-block-product-new wp-block-woocommerce-product-new wc-block-product-new has-4-columns\"><ul class=\"wc-block-grid__products\"><li class=\"wc-block-grid__product\">\n\t\t\t\t<a href=\"https://montedacolonia.pt/produto/regional-alentejano-monte-da-colonia-bag-in-box-5l-2025-2/\" class=\"wc-block-grid__product-link\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"wc-block-grid__product-image\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Regional Alentejano Monte da Colonia Bag in Box 5L 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n\t\t\t\t\t<div class=\"wc-block-grid__product-title\">Regional Alentejano Monte da Colonia Bag in Box 5L 2025</div>\n\t\t\t\t</a>\n\t\t\t\t<div class=\"wc-block-grid__product-price price\"></div>\n\t\t\t\t\n\t\t\t\t<div class=\"wp-block-button wc-block-grid__product-add-to-cart\"><a href=\"https://montedacolonia.pt/produto/regional-alentejano-monte-da-colonia-bag-in-box-5l-2025-2/\" aria-label=\"Leia mais sobre &ldquo;Regional Alentejano Monte da Colonia Bag in Box 5L 2025&rdquo;\" data-quantity=\"1\" data-product_id=\"1273\" data-product_sku=\"\" data-price=\"0\" rel=\"nofollow\" class=\"wp-block-button__link  add_to_cart_button\">Ler mais</a></div>\n\t\t\t</li><li class=\"wc-block-grid__product\">\n\t\t\t\t<a href=\"https://montedacolonia.pt/produto/escolha-2025/\" class=\"wc-block-grid__product-link\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"wc-block-grid__product-image\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Escolha 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n\t\t\t\t\t<div class=\"wc-block-grid__product-title\">Escolha 2025</div>\n\t\t\t\t</a>\n\t\t\t\t<div class=\"wc-block-grid__product-price price\"></div>\n\t\t\t\t\n\t\t\t\t<div class=\"wp-block-button wc-block-grid__product-add-to-cart\"><a href=\"https://montedacolonia.pt/produto/escolha-2025/\" aria-label=\"Leia mais sobre &ldquo;Escolha 2025&rdquo;\" data-quantity=\"1\" data-product_id=\"1263\" data-product_sku=\"\" data-price=\"0\" rel=\"nofollow\" class=\"wp-block-button__link  add_to_cart_button\">Ler mais</a></div>\n\t\t\t</li><li class=\"wc-block-grid__product\">\n\t\t\t\t<a href=\"https://montedacolonia.pt/produto/tinto-monocasta-syrah-2025/\" class=\"wc-block-grid__product-link\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"wc-block-grid__product-image\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Tinto Monocasta Syrah 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n\t\t\t\t\t<div class=\"wc-block-grid__product-title\">Tinto Monocasta Syrah 2025</div>\n\t\t\t\t</a>\n\t\t\t\t<div class=\"wc-block-grid__product-price price\"></div>\n\t\t\t\t\n\t\t\t\t<div class=\"wp-block-button wc-block-grid__product-add-to-cart\"><a href=\"https://montedacolonia.pt/produto/tinto-monocasta-syrah-2025/\" aria-label=\"Leia mais sobre &ldquo;Tinto Monocasta Syrah 2025&rdquo;\" data-quantity=\"1\" data-product_id=\"1256\" data-product_sku=\"\" data-price=\"0\" rel=\"nofollow\" class=\"wp-block-button__link  add_to_cart_button\">Ler mais</a></div>\n\t\t\t</li><li class=\"wc-block-grid__product\">\n\t\t\t\t<a href=\"https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-5l-2025/\" class=\"wc-block-grid__product-link\">\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"wc-block-grid__product-image\"><img loading=\"lazy\" decoding=\"async\" width=\"300\" height=\"300\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg\" class=\"attachment-woocommerce_thumbnail size-woocommerce_thumbnail\" alt=\"Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w\" sizes=\"(max-width: 300px) 100vw, 300px\" /></div>\n\t\t\t\t\t<div class=\"wc-block-grid__product-title\">Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025</div>\n\t\t\t\t</a>\n\t\t\t\t<div class=\"wc-block-grid__product-price price\"></div>\n\t\t\t\t\n\t\t\t\t<div class=\"wp-block-button wc-block-grid__product-add-to-cart\"><a href=\"https://montedacolonia.pt/produto/regional-alentejano-tinto-monte-da-colonia-bag-in-box-5l-2025/\" aria-label=\"Leia mais sobre &ldquo;Regional Alentejano Tinto Monte da Colónia Bag in Box 5L 2025&rdquo;\" data-quantity=\"1\" data-product_id=\"1242\" data-product_sku=\"\" data-price=\"0\" rel=\"nofollow\" class=\"wp-block-button__link  add_to_cart_button\">Ler mais</a></div>\n\t\t\t</li></ul></div></div>\n</div>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-163",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/163",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=163"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/163/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 350,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/163/revisions/350"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=163"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 63,
+    "date": "2024-08-27T13:13:29",
+    "date_gmt": "2024-08-27T13:13:29",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/about/"
+    },
+    "modified": "2025-01-20T17:04:36",
+    "modified_gmt": "2025-01-20T17:04:36",
+    "slug": "quem-somos",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/quem-somos/",
+    "title": {
+      "rendered": "Quem Somos"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"63\" class=\"elementor elementor-63\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-6c2e080 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2e080\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-3e8aa3b e-con-full e-flex e-con e-child\" data-id=\"3e8aa3b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-995fbf9 elementor-widget elementor-widget-heading\" data-id=\"995fbf9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Vinhos Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0c73215 elementor-widget elementor-widget-heading\" data-id=\"0c73215\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">A nossa História</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-86c7213 elementor-widget elementor-widget-text-editor\" data-id=\"86c7213\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p> </p><p>A empresa foi fundada em 1980 nas ricas terras alentejanas da Herdade do Monte da Colónia, no Vale de Seda, concelho de Fronteira, pelo jovem casal Manuel e Idalina Pereira, que para a altura, eram extremamente empreendedores e visionários na forma como perspetivavam o futuro. </p><p>Foi envoltos nesta ambição, parceria e entrega diária, que ergueram a empresa familiar que hoje tanto os orgulha e que já segue a prosperar pelas mãos dos seus filhos, António e Manuela Pereira.</p><p> </p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7bdb351f e-flex e-con-boxed e-con e-parent\" data-id=\"7bdb351f\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b014f06 elementor-widget elementor-widget-heading\" data-id=\"b014f06\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">A nossa Missão...</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-52f8b59 elementor-widget elementor-widget-text-editor\" data-id=\"52f8b59\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>O legado era de tal forma apaixonante, que para os filhos dar-lhe continuidade foi somente um ato de enorme humildade e gratidão. </p><p>Alicerçados neste espírito de autenticidade e com a audácia que lhes é característica, foram buscando absorver no mercado todas os processos inovadores capazes de manter e sustentar as áreas de negócio que foram criando nos cerca de 1000 hectares durante o crescimento da empresa; que passam fundamentalmente pela produção e transformação de produtos cultivados no local – azeite, azeitonas de conserva, vinhos e a criação de gado bovino e ovino</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-180c355b e-flex e-con-boxed e-con e-parent\" data-id=\"180c355b\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-d17de0a e-con-full e-flex e-con e-child\" data-id=\"d17de0a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2596d980 elementor-widget elementor-widget-heading\" data-id=\"2596d980\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">O nosso Azeite...</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-185e9644 elementor-widget elementor-widget-text-editor\" data-id=\"185e9644\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>O velhinho lagar tradicional de prensas, veio ser substituído pelo lagar de extração a frio altamente modernizado, onde atualmente é laborada não só a azeitona oriunda dos 100 hectares de olival do Monte da Colónia, como também dos olivicultores da região. Produzem-se em média 200 a 300 mil litros de azeite por campanha, divididos em três qualidades – Azeite Virgem Extra Bio, Azeite Virgem Extra e Azeite Virgem – comercializado em garrafas de 250ml, 500ml, 750ml, 2l, 3l e 5l. A azeitona é processada no dia em que é colhida para que os padrões de qualidade sejam mantidos inalterados.</p><p>Do olival do Monte da Colónia, dividido em diversas qualidades de azeitona nomeadamente 50% de Cobrançosa, 40% de Galega e 10% de outras variedades, são originárias também as azeitonas de conserva, preparadas através do modo tradicional e comercializadas em embalagens de 250g, 500g, 800g, 2Kg, 3Kg e 5Kg</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-371c9939 e-con-full e-flex e-con e-child\" data-id=\"371c9939\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-4fc86968 e-flex e-con-boxed e-con e-parent\" data-id=\"4fc86968\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-17bdbeb7 e-con-full e-flex e-con e-child\" data-id=\"17bdbeb7\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e281501 e-con-full e-flex e-con e-child\" data-id=\"e281501\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-46689420 elementor-widget elementor-widget-heading\" data-id=\"46689420\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">O Nosso vinho...</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1cb57435 elementor-widget elementor-widget-text-editor\" data-id=\"1cb57435\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>O sucesso na atividade de vitivinicultura, foi sem dúvida uma das melhores recompensas que a família recebeu por ter arriscado, investido e acreditado em todo o processo de crescimento e inovação empresarial nestes últimos 20 anos. Atualmente, já com todos os equipamentos necessários, conseguem acompanhar todo o processo de criação e crescimento de cada um dos seus vinhos, primando sempre pela qualidade que imperativamente resulta em néctares com um caracter e personalidade muito fortes, aliás, características semelhantes às desta empresa familiar.</p><p>Dos 20 hectares ocupados pela vinha das castas – Aragonez, Cabernet Sauvignon, Arinto, Alicante Bouschet, Castelão, Syrah, Trincadeira, Verdelho e Touriga Nacional; produzem-se em média 100 mil litros de Vinho Tinto divididos em várias referências – Entrada de gama, Colheira Selecionada, Monocasta Syrah, Touriga Nacional, Escolha e Reserva; 10 mil litros de Vinho Branco com as castas – Arinto, Roupeiro, entre outras; 6 mil litros de Vinho Rosé com a casta – Touriga Nacional; e ainda Espumante Bruto que, conjugados com o solo, o clima, a união e dedicação da família, dos seus colaboradores e do saber do enólogo Rui Vieira, garantem a plenitude dos vinhos Monte da Colónia.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-1ea35c2 e-flex e-con-boxed e-con e-parent\" data-id=\"1ea35c2\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-06ea148 elementor-widget elementor-widget-heading\" data-id=\"06ea148\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">A nossa Visão...</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-238b627 elementor-widget elementor-widget-text-editor\" data-id=\"238b627\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Hoje, visitar o Monte da Colónia e acompanhar o ciclo produtivo e de transformação de cada um dos produtos faz com que a experiência dos visitantes seja 100% imersiva e real, tornando-se atualmente num chamariz turístico procurado por todo o tipo idades e nacionalidades.&nbsp;</p>\n<p>É de tal forma relevante o impacto económico desta iniciativa, que no final da experiência a compra de produtos na loja existente no Monte da Colónia, disparou consideravelmente obrigando a empresa a reinventar-se e a tirar da gaveta alguns projetos que estavam em&nbsp;<i>standby</i>&nbsp;com objetivo de rentabilizar o negócio no seu todo.</p>\n<p>Foi nessa ótica de crescimento sustentável, que no início de 2020 a empresa investiu na construção de uma Destilaria, onde irá criar uma nova linha de produtos – Aguardente, Vinho licoroso, Gin; os quais se preveem que surjam em 2025.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7827dc8c e-flex e-con-boxed e-con e-parent\" data-id=\"7827dc8c\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-4473ffb5 elementor-widget elementor-widget-heading\" data-id=\"4473ffb5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Fundadores</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-310c049f e-con-full e-flex e-con e-child\" data-id=\"310c049f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-7415eefc elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box\" data-id=\"7415eefc\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"632\" height=\"725\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/manuelpereirajpg-e1726899862768.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-345\" alt=\"Manuel Pereira\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/manuelpereirajpg-e1726899862768.jpg 632w, https://montedacolonia.pt/wp-content/uploads/2024/09/manuelpereirajpg-e1726899862768-400x459.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2024/09/manuelpereirajpg-e1726899862768-262x300.jpg 262w\" sizes=\"(max-width: 632px) 100vw, 632px\" /></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\">Manuel Pereira, Fundador</h4><p class=\"elementor-image-box-description\">Um visionário, um verdadeiro empreendedor e um líder nato…\nSem preconceitos, idealizou, acreditou ser possível e sem baixar os braços, arriscou…\nEm 1980 fundou a empresa, dedicou-se a ela de corpo e alma, formou equipas de trabalho, trabalhando arduamente e sem limites…\nAproveitou cada oportunidade de negócio para criar, aprender e desenvolver…\n\nAcrescentou valor, cresceu, e dinamizou o negócio e a região!</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5a1d08f elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-position-right elementor-vertical-align-top elementor-widget elementor-widget-image-box\" data-id=\"5a1d08f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"632\" height=\"725\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IdalinaPereira-e1726900043420.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-346\" alt=\"Idalina Pereira\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/09/IdalinaPereira-e1726900043420.jpg 632w, https://montedacolonia.pt/wp-content/uploads/2024/09/IdalinaPereira-e1726900043420-400x459.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2024/09/IdalinaPereira-e1726900043420-262x300.jpg 262w\" sizes=\"(max-width: 632px) 100vw, 632px\" /></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\">Idalina Pereira, Fundadora</h4><p class=\"elementor-image-box-description\">Uma fonte de inspiração para qualquer outra mulher, uma força da natureza…\nSem medos, sem preguiças, com uma enorme garra, persistência, um inacreditável poder e uma grande determinação.\nUma verdadeira companheira de vida e trabalho…\nApoiou, trabalhou a seu lado de uma forma incomparável e indescritível…\nAmbos trabalharam lado a lado de forma incansável, superando desafios e prevalecendo sempre a força, a motivação e dedicação de uma vida…\nConseguiram crescimento, notoriedade e sucesso…</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-821d4c2 e-flex e-con-boxed e-con e-parent\" data-id=\"821d4c2\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-cb52669 elementor-widget elementor-widget-heading\" data-id=\"cb52669\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Sucessores</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6a4e784 e-con-full e-flex e-con e-child\" data-id=\"6a4e784\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1657576 elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box\" data-id=\"1657576\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"615\" height=\"633\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/aj.png\" class=\"elementor-animation-grow attachment-full size-full wp-image-844\" alt=\"Antonio Justo\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/aj.png 615w, https://montedacolonia.pt/wp-content/uploads/2025/01/aj-400x412.png 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/aj-291x300.png 291w\" sizes=\"(max-width: 615px) 100vw, 615px\" /></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\">Antonio Justo, Sucessor</h4><p class=\"elementor-image-box-description\">Licenciado em Engenharia Agropecuária pela Universidade de Coimbra, António Justo completou a sua formação com uma base sólida nas ciências agrárias. Após concluir o curso, decidiu seguir o caminho do negócio familiar, assumindo a responsabilidade de dar continuidade ao legado fundado pelos seus pais. Atualmente, ocupa a função de Diretor do Monte da Colónia, onde trabalha para consolidar e expandir a marca, mantendo o compromisso com a qualidade e tradição que caracterizam o negócio familiar.</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0ff41ce elementor-widget__width-initial elementor-widget-mobile__width-inherit elementor-position-right elementor-vertical-align-top elementor-widget elementor-widget-image-box\" data-id=\"0ff41ce\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><img loading=\"lazy\" decoding=\"async\" width=\"615\" height=\"633\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Manuela-e1737223239637.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-843\" alt=\"Manuela\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Manuela-e1737223239637.jpg 615w, https://montedacolonia.pt/wp-content/uploads/2025/01/Manuela-e1737223239637-400x412.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/Manuela-e1737223239637-291x300.jpg 291w\" sizes=\"(max-width: 615px) 100vw, 615px\" /></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\">Manuela Pereira, Sucessora</h4><p class=\"elementor-image-box-description\">Licenciada em Ensino, Manuela Pereira iniciou sua trajetória profissional como professora do primeiro ciclo, dedicando-se ao ensino por dois anos. No entanto, em busca de novos horizontes e com o desejo de se envolver no negócio familiar, decidiu seguir ao lado da sua família no setor de vinhos. Atualmente, assume a Direção de Vendas, Marketing e Promoção de Produtos da empresa Monte da Colónia, onde se dedica plenamente ao desenvolvimento de estratégias para promover a marca em diversos mercados e certames. </p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Vinhos Monte da Colónia A nossa História   A empresa foi fundada em 1980 nas ricas terras alentejanas da Herdade do Monte da Colónia, no Vale de Seda, concelho de Fronteira, pelo jovem casal Manuel e Idalina Pereira, que para a altura, eram extremamente empreendedores e visionários na forma como perspetivavam o futuro.  Foi envoltos [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-63",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/63",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=63"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 65,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/63/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 957,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/63/revisions/957"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=63"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "date": "2024-08-27T13:13:27",
+    "date_gmt": "2024-08-27T13:13:27",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/home/"
+    },
+    "modified": "2025-04-04T20:03:14",
+    "modified_gmt": "2025-04-04T20:03:14",
+    "slug": "home",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/",
+    "title": {
+      "rendered": "Home"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"48\" class=\"elementor elementor-48\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-5e275170 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent\" data-id=\"5e275170\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-1bf5486 e-con-full e-flex e-con e-child\" data-id=\"1bf5486\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-164cd5c elementor-widget elementor-widget-heading\" data-id=\"164cd5c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Vinhos Monte da Colónia</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6ee21c5 elementor-widget elementor-widget-heading\" data-id=\"6ee21c5\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">O Requinte <span data-elementor-setting-key=\"title\" data-pen-placeholder=\"Digite aqui...\" style=\"letter-spacing: normal\">numa  Garrafa</span> </h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d393000 elementor-widget-mobile__width-inherit elementor-invisible elementor-widget elementor-widget-button\" data-id=\"d393000\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;_animation&quot;:&quot;fadeInDown&quot;}\" data-widget_type=\"button.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-button-wrapper\">\n\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://montedacolonia.pt/quem-somos/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">Saber mais</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-bb1a596 e-flex e-con-boxed e-con e-parent\" data-id=\"bb1a596\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-935d380 elementor-widget elementor-widget-heading\" data-id=\"935d380\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h6 class=\"elementor-heading-title elementor-size-default\">Seja bem vindo ao nosso Site</h6>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d27843f elementor-widget elementor-widget-heading\" data-id=\"d27843f\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Tradição e excelência </h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-9269f9a elementor-widget elementor-widget-heading\" data-id=\"9269f9a\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h5 class=\"elementor-heading-title elementor-size-default\">Monte da Colónia é uma marca dedicada à produção de azeite, azeitonas de conserva e vinhos de qualidade, originária de uma tradição familiar que valoriza o teor e a excelência em cada degustação. Com uma seleção de vinhos de diversas castas e estilos, o Monte da Colónia oferece aos seus clientes uma experiência única, repleta de sabores autênticos e sofisticados. A nossa paixão pelo vinho reflete-se em cada etapa do processo de produção, desde a vinificação até à promoção dos nossos produtos em certames e mercados.\n\nAlém dos nossos vinhos, orgulhamo-nos de produzir um azeite de qualidade superior, extraído a partir de azeitonas selecionadas das nossas próprias oliveiras. O nosso azeite é o resultado de um processo cuidadoso que preserva o frescor e as características únicas da azeitona, conferindo-lhe um sabor frutado e intenso. A tradição da produção de azeite, transmitida de geração em geração, alia-se à inovação para oferecer aos nossos clientes um produto premium que acompanha perfeitamente os nossos vinhos e azeitonas de conserva.\n\nDescubra os nossos vinhos e azeites, e deixe-se encantar pela qualidade e história que os acompanha.</h5>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-0387ee8 elementor-align-center elementor-widget elementor-widget-button\" data-id=\"0387ee8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-button-wrapper\">\n\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://montedacolonia.pt/contact/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">Entrar em contacto</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6c2f5e78 e-flex e-con-boxed e-con e-parent\" data-id=\"6c2f5e78\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-15f847c3 e-con-full e-flex e-con e-child\" data-id=\"15f847c3\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-35e72f06 elementor-widget elementor-widget-heading\" data-id=\"35e72f06\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Os Nossos Produtos</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-7c9ed2ec e-con-full e-flex e-con e-child\" data-id=\"7c9ed2ec\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-53197dde elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"53197dde\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><a href=\"https://montedacolonia.pt/vinhos-monte-da-colonia/\" tabindex=\"-1\"><img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1351\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-722\" alt=\"Nossos Vinhos\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219.jpg 1080w, https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219-400x500.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219-240x300.jpg 240w, https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219-819x1024.jpg 819w, https://montedacolonia.pt/wp-content/uploads/2024/11/391722768_820157106776031_2428599173105046224_n-e1730849179219-768x961.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /></a></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\"><a href=\"https://montedacolonia.pt/vinhos-monte-da-colonia/\">Os Nossos Vinhos</a></h4><p class=\"elementor-image-box-description\">A expressão da tradição, qualidade e paixão pela viticultura</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-435943a8 elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"435943a8\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><a href=\"https://montedacolonia.pt/azeites-monte-da-colonia/\" tabindex=\"-1\"><img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1351\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-718\" alt=\"O Nosso Azeite\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823.jpg 1080w, https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823-400x500.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823-240x300.jpg 240w, https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823-819x1024.jpg 819w, https://montedacolonia.pt/wp-content/uploads/2024/11/448322298_994565682668505_3780658028652246566_n-e1730848929823-768x961.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /></a></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\"><a href=\"https://montedacolonia.pt/azeites-monte-da-colonia/\">O Nosso Azeite</a></h4><p class=\"elementor-image-box-description\">Pura essência de qualidade, extraídos com cuidado e respeito pela tradição.</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-22eb3da elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"22eb3da\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><a href=\"https://montedacolonia.pt/vinagres/\" tabindex=\"-1\"><img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1350\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-782\" alt=\"Vinagre Monte da Colónia\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722.jpg 1080w, https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722-400x500.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722-240x300.jpg 240w, https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722-819x1024.jpg 819w, https://montedacolonia.pt/wp-content/uploads/2025/01/vinagre-e1737217577722-768x960.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /></a></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\"><a href=\"https://montedacolonia.pt/vinagres/\">O Nosso Vinagre</a></h4><p class=\"elementor-image-box-description\">A combinação perfeita para realçar os melhores pratos.</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-68a46aed elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box\" data-id=\"68a46aed\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image-box.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"elementor-image-box-wrapper\"><figure class=\"elementor-image-box-img\"><a href=\"https://montedacolonia.pt/azeitonas-monte-da-colonia/\" tabindex=\"-1\"><img loading=\"lazy\" decoding=\"async\" width=\"1080\" height=\"1351\" src=\"https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679.jpg\" class=\"elementor-animation-grow attachment-full size-full wp-image-726\" alt=\"A Nossa Azeita\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679.jpg 1080w, https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679-400x500.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679-240x300.jpg 240w, https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679-819x1024.jpg 819w, https://montedacolonia.pt/wp-content/uploads/2024/11/391753243_820157086776033_8973689155654123392_n-e1730849278679-768x961.jpg 768w\" sizes=\"(max-width: 1080px) 100vw, 1080px\" /></a></figure><div class=\"elementor-image-box-content\"><h4 class=\"elementor-image-box-title\"><a href=\"https://montedacolonia.pt/azeitonas-monte-da-colonia/\">A Nossa Azeitona</a></h4><p class=\"elementor-image-box-description\">Perfeitas para acompanhar os melhores momentos.</p></div></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-1830a6ae e-flex e-con-boxed e-con e-parent\" data-id=\"1830a6ae\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-2e777eb6 e-con-full e-flex e-con e-child\" data-id=\"2e777eb6\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-7c7c9a32 elementor-pagination-position-outside elementor-widget elementor-widget-image-carousel\" data-id=\"7c7c9a32\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;slides_to_show&quot;:&quot;1&quot;,&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplay_speed&quot;:4000,&quot;autoplay&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;speed&quot;:500}\" data-widget_type=\"image-carousel.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-image-carousel-wrapper swiper\" role=\"region\" aria-roledescription=\"carousel\" aria-label=\"Carrossel de imagens\" dir=\"ltr\">\n\t\t\t<div class=\"elementor-image-carousel swiper-wrapper\" aria-live=\"off\">\n\t\t\t\t\t\t\t\t<div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"1 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Degostacao.jpg\" alt=\"Degostação\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"2 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/imagem.jpg\" alt=\"imagem\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"3 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/imagem3.jpg\" alt=\"imagem3\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"4 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/provadevinhos.jpg\" alt=\"provadevinhos\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"5 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Visita.jpg\" alt=\"Visita\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"6 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Casinha.jpg\" alt=\"Casinha\" /></figure></div><div class=\"swiper-slide\" role=\"group\" aria-roledescription=\"slide\" aria-label=\"7 of 7\"><figure class=\"swiper-slide-inner\"><img decoding=\"async\" class=\"swiper-slide-image\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/Vinha.jpg\" alt=\"Vinha\" /></figure></div>\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"swiper-pagination\"></div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-2afd4461 e-con-full e-flex e-con e-child\" data-id=\"2afd4461\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-579e3ab1 elementor-widget elementor-widget-heading\" data-id=\"579e3ab1\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Os nossos serviços </h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-d9d93e9 elementor-widget elementor-widget-text-editor\" data-id=\"d9d93e9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>No Monte da Colónia, oferecemos uma gama de produtos de excelência, incluindo vinhos, azeites, vinagre e azeitonas de mesa. Além disso, proporcionamos visitas à nossa adega, eventos de degustação e experiências personalizadas para que possa conhecer de perto a nossa produção e tradição familiar. Comprometidos com a qualidade e o atendimento ao cliente, garantimos uma experiência única a todos que nos visitam.</p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-562c637 elementor-align-center elementor-widget elementor-widget-button\" data-id=\"562c637\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"button.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-button-wrapper\">\n\t\t\t\t\t<a class=\"elementor-button elementor-button-link elementor-size-sm\" href=\"https://montedacolonia.pt/contact/\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">Entrar em contacto</span>\n\t\t\t\t\t</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c3d952b e-flex e-con-boxed e-con e-parent\" data-id=\"c3d952b\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1540a375 elementor-widget elementor-widget-heading\" data-id=\"1540a375\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Testemunho de Clientes</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6db2ef7e e-con-full e-flex e-con e-child\" data-id=\"6db2ef7e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c54767d elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-testimonial\" data-id=\"c54767d\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">“Uma experiência incrível! Os vinhos do Monte da Colónia são de uma qualidade excepcional e o atendimento é sempre acolhedor e atencioso. Adoramos a visita à adega e aprendemos muito sobre o processo de produção. Sem dúvida, voltaremos a cada nova colheita”</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"857\" height=\"857\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg\" class=\"attachment-full size-full wp-image-750\" alt=\"\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w\" sizes=\"(max-width: 857px) 100vw, 857px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">João m.</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-2eb88251 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-testimonial\" data-id=\"2eb88251\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">“Visitar o Monte da Colónia foi uma experiência maravilhosa! Os vinhos e azeites são de uma qualidade ímpar, e o acolhimento da equipa fez-nos sentir em casa. Sem dúvida, uma marca que transmite paixão e dedicação em cada produto. Recomendamos a todos!”</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"857\" height=\"857\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg\" class=\"attachment-full size-full wp-image-750\" alt=\"\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w\" sizes=\"(max-width: 857px) 100vw, 857px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Marta e Luís S.</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-7dc34582 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-testimonial\" data-id=\"7dc34582\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"testimonial.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-wrapper\">\n\t\t\t\t\t\t\t<div class=\"elementor-testimonial-content\">“Os vinhos e azeites do Monte da Colónia são simplesmente incríveis! Cada garrafa reflete a dedicação e paixão da família. Fomos muito bem recebidos durante a visita e aprendemos muito sobre o processo de produção. Definitivamente uma experiência que queremos repetir!”</div>\n\t\t\t\n\t\t\t\t\t\t<div class=\"elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside\">\n\t\t\t\t<div class=\"elementor-testimonial-meta-inner\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-image\">\n\t\t\t\t\t\t\t<img loading=\"lazy\" decoding=\"async\" width=\"857\" height=\"857\" src=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg\" class=\"attachment-full size-full wp-image-750\" alt=\"\" srcset=\"https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia.jpg 857w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-300x300.jpg 300w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-100x100.jpg 100w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-400x400.jpg 400w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-150x150.jpg 150w, https://montedacolonia.pt/wp-content/uploads/2025/01/montedacolonia-768x768.jpg 768w\" sizes=\"(max-width: 857px) 100vw, 857px\" />\t\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-details\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"elementor-testimonial-name\">Clara e António P.</div>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Vinhos Monte da Colónia O Requinte numa Garrafa Saber mais Seja bem vindo ao nosso Site Tradição e excelência Monte da Colónia é uma marca dedicada à produção de azeite, azeitonas de conserva e vinhos de qualidade, originária de uma tradição familiar que valoriza o teor e a excelência em cada degustação. Com uma seleção [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-48",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/48",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=48"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 145,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/48/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1021,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/48/revisions/1021"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=48"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "date": "2024-08-27T13:13:24",
+    "date_gmt": "2024-08-27T13:13:24",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/services/"
+    },
+    "modified": "2024-08-27T13:13:37",
+    "modified_gmt": "2024-08-27T13:13:37",
+    "slug": "services",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/services/",
+    "title": {
+      "rendered": "Services"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"37\" class=\"elementor elementor-37\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3a6c6d39 e-con-full e-flex e-con e-parent\" data-id=\"3a6c6d39\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-25810874 e-con-full e-flex e-con e-parent\" data-id=\"25810874\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-73cb59ad e-con-full e-flex e-con e-parent\" data-id=\"73cb59ad\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1b28316a elementor-widget elementor-widget-heading\" data-id=\"1b28316a\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Our Services</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6cce3241 elementor-widget elementor-widget-text-editor\" data-id=\"6cce3241\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\tAn overview of the services you offer and how they will benefit the visitor.\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-1d1f31e e-flex e-con-boxed e-con e-parent\" data-id=\"1d1f31e\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-306dfbbe elementor-cta--layout-image-right elementor-cta--valign-middle elementor-cta--mobile-layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action\" data-id=\"306dfbbe\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"service_1\" data-widget_type=\"call-to-action.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-cta\">\n\t\t\t\t\t<div class=\"elementor-cta__bg-wrapper\">\n\t\t\t\t<div class=\"elementor-cta__bg elementor-bg\" style=\"background-image: url(https://montedacolonia.pt/wp-content/uploads/2024/08/Image_Placeholder-13122021.jpg);\" role=\"img\" aria-label=\"Image_Placeholder-13122021.jpg\"></div>\n\t\t\t\t<div class=\"elementor-cta__bg-overlay\"></div>\n\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-cta__content\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<h4 class=\"elementor-cta__title elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tService 1\t\t\t\t\t</h4>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-cta__description elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tThis is a \"Call to Action\" widget. It includes various layouts for a combo of images, content and option for a ribbon.\t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-4dfea02f elementor-cta--layout-image-left elementor-cta--valign-middle elementor-cta--mobile-layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action\" data-id=\"4dfea02f\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"service_2\" data-widget_type=\"call-to-action.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-cta\">\n\t\t\t\t\t<div class=\"elementor-cta__bg-wrapper\">\n\t\t\t\t<div class=\"elementor-cta__bg elementor-bg\" style=\"background-image: url(https://montedacolonia.pt/wp-content/uploads/2024/08/Image_Placeholder-13122021.jpg);\" role=\"img\" aria-label=\"Image_Placeholder-13122021.jpg\"></div>\n\t\t\t\t<div class=\"elementor-cta__bg-overlay\"></div>\n\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-cta__content\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<h4 class=\"elementor-cta__title elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tService 2\t\t\t\t\t</h4>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-cta__description elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tSo, have you edited global styles already ;-)? If you want to preview this site's global styles, load the \"Global Styles\" page.\t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-54e33139 elementor-cta--layout-image-right elementor-cta--valign-middle elementor-cta--mobile-layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action\" data-id=\"54e33139\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"service_3\" data-widget_type=\"call-to-action.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-cta\">\n\t\t\t\t\t<div class=\"elementor-cta__bg-wrapper\">\n\t\t\t\t<div class=\"elementor-cta__bg elementor-bg\" style=\"background-image: url(https://montedacolonia.pt/wp-content/uploads/2024/08/Image_Placeholder-13122021.jpg);\" role=\"img\" aria-label=\"Image_Placeholder-13122021.jpg\"></div>\n\t\t\t\t<div class=\"elementor-cta__bg-overlay\"></div>\n\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-cta__content\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<h4 class=\"elementor-cta__title elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tService 3\t\t\t\t\t</h4>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-cta__description elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tA short paragraph describing exactly what this service offers and how it helps clients. This is your chance to convince the visitor that your business is the right choice for them. \t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-65b9f063 elementor-cta--layout-image-left elementor-cta--valign-middle elementor-cta--mobile-layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action\" data-id=\"65b9f063\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"service_4\" data-widget_type=\"call-to-action.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-cta\">\n\t\t\t\t\t<div class=\"elementor-cta__bg-wrapper\">\n\t\t\t\t<div class=\"elementor-cta__bg elementor-bg\" style=\"background-image: url(https://montedacolonia.pt/wp-content/uploads/2024/08/Image_Placeholder-13122021.jpg);\" role=\"img\" aria-label=\"Image_Placeholder-13122021.jpg\"></div>\n\t\t\t\t<div class=\"elementor-cta__bg-overlay\"></div>\n\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-cta__content\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<h4 class=\"elementor-cta__title elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tService 4\t\t\t\t\t</h4>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-cta__description elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tA short paragraph describing exactly what this service offers and how it helps clients. This is your chance to convince the visitor that your business is the right choice for them. \t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-2118b43b elementor-cta--layout-image-right elementor-cta--valign-middle elementor-cta--mobile-layout-image-above elementor-cta--skin-classic elementor-animated-content elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action\" data-id=\"2118b43b\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"service_5\" data-widget_type=\"call-to-action.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-cta\">\n\t\t\t\t\t<div class=\"elementor-cta__bg-wrapper\">\n\t\t\t\t<div class=\"elementor-cta__bg elementor-bg\" style=\"background-image: url(https://montedacolonia.pt/wp-content/uploads/2024/08/Image_Placeholder-13122021.jpg);\" role=\"img\" aria-label=\"Image_Placeholder-13122021.jpg\"></div>\n\t\t\t\t<div class=\"elementor-cta__bg-overlay\"></div>\n\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-cta__content\">\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<h4 class=\"elementor-cta__title elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tService 5\t\t\t\t\t</h4>\n\t\t\t\t\n\t\t\t\t\t\t\t\t\t<div class=\"elementor-cta__description elementor-cta__content-item elementor-content-item\">\n\t\t\t\t\t\tA short paragraph describing exactly what this service offers and how it helps clients. This is your chance to convince the visitor that your business is the right choice for them. \t\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-25bd10f4 e-flex e-con-boxed e-con e-parent\" data-id=\"25bd10f4\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-65f91cc6 elementor-widget elementor-widget-heading\" data-id=\"65f91cc6\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">FAQ</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-3f08a0f4 e-con-full e-flex e-con e-parent\" data-id=\"3f08a0f4\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3b378b1c elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-toggle\" data-id=\"3b378b1c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"toggle.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-toggle\">\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-9931\" class=\"elementor-tab-title\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-9931\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-9931\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" role=\"region\" aria-labelledby=\"elementor-tab-title-9931\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-9932\" class=\"elementor-tab-title\" data-tab=\"2\" role=\"button\" aria-controls=\"elementor-tab-content-9932\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-9932\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" role=\"region\" aria-labelledby=\"elementor-tab-title-9932\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-9933\" class=\"elementor-tab-title\" data-tab=\"3\" role=\"button\" aria-controls=\"elementor-tab-content-9933\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-9933\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" role=\"region\" aria-labelledby=\"elementor-tab-title-9933\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-9934\" class=\"elementor-tab-title\" data-tab=\"4\" role=\"button\" aria-controls=\"elementor-tab-content-9934\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-9934\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" role=\"region\" aria-labelledby=\"elementor-tab-title-9934\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5a9c5142 elementor-widget__width-initial elementor-widget-tablet__width-inherit elementor-widget elementor-widget-toggle\" data-id=\"5a9c5142\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"toggle.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-toggle\">\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-1521\" class=\"elementor-tab-title\" data-tab=\"1\" role=\"button\" aria-controls=\"elementor-tab-content-1521\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-1521\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" role=\"region\" aria-labelledby=\"elementor-tab-title-1521\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-1522\" class=\"elementor-tab-title\" data-tab=\"2\" role=\"button\" aria-controls=\"elementor-tab-content-1522\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-1522\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" role=\"region\" aria-labelledby=\"elementor-tab-title-1522\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-1523\" class=\"elementor-tab-title\" data-tab=\"3\" role=\"button\" aria-controls=\"elementor-tab-content-1523\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-1523\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" role=\"region\" aria-labelledby=\"elementor-tab-title-1523\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"elementor-toggle-item\">\n\t\t\t\t\t<h4 id=\"elementor-tab-title-1524\" class=\"elementor-tab-title\" data-tab=\"4\" role=\"button\" aria-controls=\"elementor-tab-content-1524\" aria-expanded=\"false\">\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon elementor-toggle-icon-right\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-closed\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b159ff04-3740-4ac3-96cc-b414ded50b3a\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><polygon points=\"8.39 7.64 8.39 0 7.61 0 7.61 7.64 0 7.64 0 8.4 7.61 8.4 7.61 16 8.39 16 8.39 8.4 16 8.4 16 7.64 8.39 7.64\"></polygon></svg></span>\n\t\t\t\t\t\t\t\t<span class=\"elementor-toggle-icon-opened\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"adf49d60-5815-4ece-8d49-00a021de5c06\" data-name=\"Layer 1\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\"><rect width=\"16\" height=\"16\" style=\"opacity:0\"></rect><rect y=\"7.64\" width=\"16\" height=\"0.76\"></rect></svg></span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<a class=\"elementor-toggle-title\" tabindex=\"0\">A frequently asked question surrounding your service</a>\n\t\t\t\t\t</h4>\n\n\t\t\t\t\t<div id=\"elementor-tab-content-1524\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" role=\"region\" aria-labelledby=\"elementor-tab-title-1524\">A detailed answer to provide information about your business, build trust with potential clients, and help convince the visitor that you are a good fit for them.</div>\n\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Our Services An overview of the services you offer and how they will benefit the visitor. Service 1 This is a &#8220;Call to Action&#8221; widget. It includes various layouts for a combo of images, content and option for a ribbon. Service 2 So, have you edited global styles already ;-)? If you want to preview [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-37",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/37",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=37"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/37/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 109,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/37/revisions/109"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=37"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "date": "2024-08-27T13:13:24",
+    "date_gmt": "2024-08-27T13:13:24",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/contact/"
+    },
+    "modified": "2025-01-23T23:08:06",
+    "modified_gmt": "2025-01-23T23:08:06",
+    "slug": "contact",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/contact/",
+    "title": {
+      "rendered": "Contactos"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"34\" class=\"elementor elementor-34\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-8f4151a e-flex e-con-boxed e-con e-parent\" data-id=\"8f4151a\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-96eb4c2 e-con-full e-flex e-con e-child\" data-id=\"96eb4c2\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-eb2d27e elementor-widget elementor-widget-heading\" data-id=\"eb2d27e\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Entre em contacto</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-81719df elementor-widget elementor-widget-heading\" data-id=\"81719df\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Falar connosco</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-4a4aaa28 e-flex e-con-boxed e-con e-parent\" data-id=\"4a4aaa28\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-756853ef elementor-widget elementor-widget-text-editor\" data-id=\"756853ef\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\tPreencha o formulário abaixo e entraremos em contato o mais breve possível\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-67f15a02 elementor-button-align-center elementor-widget elementor-widget-form\" data-id=\"67f15a02\" data-element_type=\"widget\" data-e-type=\"widget\" data-settings=\"{&quot;step_next_label&quot;:&quot;Seguinte&quot;,&quot;step_previous_label&quot;:&quot;Anterior&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}\" data-widget_type=\"form.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<form class=\"elementor-form\" method=\"post\" name=\"Formulario de Contacto\" aria-label=\"Formulario de Contacto\">\n\t\t\t<input type=\"hidden\" name=\"post_id\" value=\"34\"/>\n\t\t\t<input type=\"hidden\" name=\"form_id\" value=\"67f15a02\"/>\n\t\t\t<input type=\"hidden\" name=\"referer_title\" value=\"Contactos\" />\n\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"queried_id\" value=\"34\"/>\n\t\t\t\n\t\t\t<div class=\"elementor-form-fields-wrapper elementor-labels-\">\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"form-field-name\" class=\"elementor-field-label elementor-screen-only\">\n\t\t\t\t\t\t\t\tNome\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input size=\"1\" type=\"text\" name=\"form_fields[name]\" id=\"form-field-name\" class=\"elementor-field elementor-size-sm  elementor-field-textual\" placeholder=\"Nome\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"form-field-email\" class=\"elementor-field-label elementor-screen-only\">\n\t\t\t\t\t\t\t\tE-Mail\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input size=\"1\" type=\"email\" name=\"form_fields[email]\" id=\"form-field-email\" class=\"elementor-field elementor-size-sm  elementor-field-textual\" placeholder=\"E-Mail\" required=\"required\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_6c180a9 elementor-col-50 elementor-field-required\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"form-field-field_6c180a9\" class=\"elementor-field-label elementor-screen-only\">\n\t\t\t\t\t\t\t\tContacto Telefónico\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t<input size=\"1\" type=\"tel\" name=\"form_fields[field_6c180a9]\" id=\"form-field-field_6c180a9\" class=\"elementor-field elementor-size-sm  elementor-field-textual\" placeholder=\"Contacto Telefónico\" required=\"required\" pattern=\"[0-9()#&amp;+*-=.]+\" title=\"Only numbers and phone characters (#, -, *, etc) are accepted.\">\n\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_b743cd7 elementor-col-50 elementor-field-required\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"form-field-field_b743cd7\" class=\"elementor-field-label elementor-screen-only\">\n\t\t\t\t\t\t\t\tAssunto\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<input size=\"1\" type=\"text\" name=\"form_fields[field_b743cd7]\" id=\"form-field-field_b743cd7\" class=\"elementor-field elementor-size-sm  elementor-field-textual\" placeholder=\"Assunto\" required=\"required\">\n\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"form-field-message\" class=\"elementor-field-label elementor-screen-only\">\n\t\t\t\t\t\t\t\tMenssagem\t\t\t\t\t\t\t</label>\n\t\t\t\t\t\t<textarea class=\"elementor-field-textual elementor-field  elementor-size-sm\" name=\"form_fields[message]\" id=\"form-field-message\" rows=\"4\" placeholder=\"Menssagem\"></textarea>\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_7eeab0e elementor-col-100 recaptcha_v3-bottomright\">\n\t\t\t\t\t<div class=\"elementor-field\" id=\"form-field-field_7eeab0e\"><div class=\"elementor-g-recaptcha\" data-sitekey=\"6LcJi8EqAAAAAB4uCVUVmR4s_T3slrlsc02mAHAq\" data-type=\"v3\" data-action=\"Form\" data-badge=\"bottomright\" data-size=\"invisible\"></div></div>\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons\">\n\t\t\t\t\t<button class=\"elementor-button elementor-size-sm\" type=\"submit\">\n\t\t\t\t\t\t<span class=\"elementor-button-content-wrapper\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-button-text\">Enviar</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</form>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-c1ba506 e-flex e-con-boxed e-con e-parent\" data-id=\"c1ba506\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-da59f60 e-con-full e-flex e-con e-child\" data-id=\"da59f60\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-4cf0377 e-grid e-con-full e-con e-child\" data-id=\"4cf0377\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t<div class=\"elementor-element elementor-element-27a5717 e-con-full e-flex e-con e-child\" data-id=\"27a5717\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-bf6fdba elementor-widget elementor-widget-heading\" data-id=\"bf6fdba\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Morada</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-dc1d228 elementor-widget elementor-widget-text-editor\" data-id=\"dc1d228\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p>Apartado 236 Vale de Seda</p><p>7460-160 &#8211; Fronteira     </p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e5deeb0 e-con-full e-flex e-con e-child\" data-id=\"e5deeb0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-74f1b89 elementor-widget elementor-widget-heading\" data-id=\"74f1b89\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Contactos</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-1597a50 elementor-align-start elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"1597a50\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"tel:+351%20245%20604%20190%20\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" id=\"bca8668a-c1a7-45ca-a09b-aba638241546\" data-name=\"Layer 1\" width=\"14.9685\" height=\"15\" viewBox=\"0 0 14.9685 15\"><path d=\"M14.576,11.0085,12.4827,8.9152a1.3923,1.3923,0,0,0-2.3176.5233,1.4244,1.4244,0,0,1-1.6447.8971A6.455,6.455,0,0,1,4.6328,6.4481,1.3551,1.3551,0,0,1,5.53,4.8033a1.3922,1.3922,0,0,0,.5233-2.3175L3.96.3925a1.4929,1.4929,0,0,0-2.0185,0l-1.42,1.42C-.8994,3.3082.6705,7.27,4.1843,10.7842s7.476,5.1585,8.9712,3.6633L14.576,13.027A1.4931,1.4931,0,0,0,14.576,11.0085Z\" transform=\"translate(0 0)\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">(+351) 245 604 190 [Rede fixa nacional]</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"tel:+351%20919%20095%20923\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-mobile-alt\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">(+351) 919 095 923 [Rede móvel nacional]</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"tel:+351%20919%20377%20050\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-mobile-alt\" viewBox=\"0 0 320 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">(+351) 919 377 050 [Rede movel nacional]</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"mailto:loja@montedacolonia.pt?subject=Contacto\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-mail-bulk\" viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">E-Mail: loja@montedacolonia.pt</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-e6e0c30 e-con-full e-flex e-con e-child\" data-id=\"e6e0c30\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-9783b6c elementor-widget elementor-widget-heading\" data-id=\"9783b6c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Direção</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-5311684 elementor-align-center elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"5311684\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"mailto:antonio.justo@montedacolonia.com?subject=Contacto\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-mail-bulk\" viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">António Justo (antonio.justo@montedacolonia.pt)</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-0d37111 e-con-full e-flex e-con e-child\" data-id=\"0d37111\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-bdc95fe elementor-widget elementor-widget-heading\" data-id=\"bdc95fe\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Comercial</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-3cff551 elementor-align-center elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list\" data-id=\"3cff551\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"icon-list.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<ul class=\"elementor-icon-list-items\">\n\t\t\t\t\t\t\t<li class=\"elementor-icon-list-item\">\n\t\t\t\t\t\t\t\t\t\t\t<a href=\"mailto:manuela.pereira@montedacolonia.com?subject=Contacto\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-icon\">\n\t\t\t\t\t\t\t<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-mail-bulk\" viewBox=\"0 0 576 512\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M160 448c-25.6 0-51.2-22.4-64-32-64-44.8-83.2-60.8-96-70.4V480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32V345.6c-12.8 9.6-32 25.6-96 70.4-12.8 9.6-38.4 32-64 32zm128-192H32c-17.67 0-32 14.33-32 32v16c25.6 19.2 22.4 19.2 115.2 86.4 9.6 6.4 28.8 25.6 44.8 25.6s35.2-19.2 44.8-22.4c92.8-67.2 89.6-67.2 115.2-86.4V288c0-17.67-14.33-32-32-32zm256-96H224c-17.67 0-32 14.33-32 32v32h96c33.21 0 60.59 25.42 63.71 57.82l.29-.22V416h192c17.67 0 32-14.33 32-32V192c0-17.67-14.33-32-32-32zm-32 128h-64v-64h64v64zm-352-96c0-35.29 28.71-64 64-64h224V32c0-17.67-14.33-32-32-32H96C78.33 0 64 14.33 64 32v192h96v-32z\"></path></svg>\t\t\t\t\t\t</span>\n\t\t\t\t\t\t\t\t\t\t<span class=\"elementor-icon-list-text\">Manuela Pereira (manuela.pereira@montedacolonia.pt)</span>\n\t\t\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-a5b4f9f e-con-full e-flex e-con e-parent\" data-id=\"a5b4f9f\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1513e7e elementor-widget elementor-widget-google_maps\" data-id=\"1513e7e\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"google_maps.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t<div class=\"elementor-custom-embed\">\n\t\t\t<iframe loading=\"lazy\"\n\t\t\t\t\tsrc=\"https://maps.google.com/maps?q=Monte%20da%20Col%C3%B3nia%20&#038;t=m&#038;z=12&#038;output=embed&#038;iwloc=near\"\n\t\t\t\t\ttitle=\"Monte da Colónia \"\n\t\t\t\t\taria-label=\"Monte da Colónia \"\n\t\t\t></iframe>\n\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Entre em contacto Falar connosco Preencha o formulário abaixo e entraremos em contato o mais breve possível Morada Apartado 236 Vale de Seda 7460-160 &#8211; Fronteira      Contactos (+351) 245 604 190 [Rede fixa nacional] (+351) 919 095 923 [Rede móvel nacional] (+351) 919 377 050 [Rede movel nacional] E-Mail: loja@montedacolonia.pt Direção António Justo (antonio.justo@montedacolonia.pt) Comercial [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-34",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/34",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=34"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 42,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/34/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1017,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/34/revisions/1017"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=34"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "date": "2024-08-27T11:28:27",
+    "date_gmt": "2024-08-27T11:28:27",
+    "guid": {
+      "rendered": "https://webserv.web-rp.com/~monteda/?page_id=3"
+    },
+    "modified": "2025-01-18T18:40:08",
+    "modified_gmt": "2025-01-18T18:40:08",
+    "slug": "politica-privacidade",
+    "status": "publish",
+    "type": "page",
+    "link": "https://montedacolonia.pt/politica-privacidade/",
+    "title": {
+      "rendered": "Política de privacidade"
+    },
+    "content": {
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"3\" class=\"elementor elementor-3\" data-elementor-post-type=\"page\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2dd8f1be e-flex e-con-boxed e-con e-parent\" data-id=\"2dd8f1be\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-2ffac037 elementor-widget elementor-widget-text-editor\" data-id=\"2ffac037\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<p></p>\n<h2 class=\"wp-block-heading\">Quem somos</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">O endereço do nosso site é: https://montedacolonia.pt.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Comentários</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Quando os visitantes deixam comentários no site, são guardados os dados presentes no formulário dos comentários, bem como o endereço de IP e o agente do utilizador do navegador, para ajudar com a detecção de spam.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Uma string anónima criada a partir do seu endereço de email (também designada por hash) pode ser enviada para o serviço Gravatar para verificar se o está a utilizar. A política de privacidade do serviço Gravatar está disponível aqui: https://automattic.com/privacy/. Depois do seu comentário ser aprovado, a fotografia do ser perfil fica visível para o público no contexto do seu comentário.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Multimédia</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Ao carregar imagens para o site, deve evitar carregar imagens com dados incorporados de geolocalização (EXIF GPS). Os visitantes podem descarregar e extrair os dados de geolocalização das imagens do site.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Cookies</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Se deixar um comentário no nosso site pode optar por guardar o seu nome, endereço de email e site nos cookies. Isto é para sua conveniência para não ter de preencher novamente os seus dados quando deixar outro comentário. Estes cookies durarão um ano.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Se visitar a página de início de sessão, será configurado um cookie temporário para determinar se o seu navegador aceita cookies. Este cookie não contém dados pessoais e será eliminado ao fechar o seu navegador.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Ao iniciar a sessão, serão configurados alguns cookies para guardar a sua informação de sessão e as suas escolhas de visualização de ecrã. Os cookies de início de sessão duram um ano. Se seleccionar &#8220;Lembrar-me&#8221;, a sua sessão irá persistir durante duas semanas. Ao terminar a sessão, os cookies de inicio de sessão serão removidos.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Se editar ou publicar um artigo, será guardado no seu navegador um cookie adicional. Este cookie não inclui dados pessoais apenas indica o ID de conteúdo do artigo que acabou de editar. Expira ao fim de 1 dia.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Conteúdo incorporado de outros sites</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Os artigos neste site podem incluir conteúdo incorporado (por exemplo: vídeos, imagens, artigos, etc.). O conteúdo incorporado de outros sites comporta-se tal como se o utilizador visitasse esses sites.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Este site pode recolher dados sobre si, usar cookies, incorporar rastreio feito por terceiros, monitorizar as suas interacções com o mesmo, incluindo registar as interacções com conteúdo incorporado se tiver uma conta e estiver com sessão iniciada nesse site.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Com quem são partilhados os seus dados</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Se solicitar uma redefinição de senha, o seu endereço de IP será incluído no email de redefinição.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Por quanto tempo são retidos os seus dados</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Se deixar um comentário, o comentário e os seus metadados são guardados indefinidamente. Isto acontece de modo a ser possível reconhecer e aprovar automaticamente quaisquer comentários seguintes, em vez de os colocar numa fila de moderação.</p>\n<p></p>\n<p class=\"wp-block-paragraph\">Para utilizadores que se registem no nosso site (se algum), guardamos a informação pessoal fornecida no seu perfil de utilizador. Todos os utilizadores podem ver, editar, ou eliminar a sua informação pessoal a qualquer momento (com a excepção de não poderem alterar o nome de utilizador). Os administradores do site podem também ver e editar essa informação.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Que direitos tem sobre os seus dados</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Se tiver uma conta neste site, ou deixou comentários, pode pedir para receber um ficheiro de exportação com os dados pessoais guardados sobre si, incluindo qualquer dado pessoal que indicou. Também pode solicitar que os dados guardados sejam eliminados. Isto não inclui qualquer dado pessoal que seja obrigatório manter para fins administrativos, legais ou de segurança.</p>\n<p></p>\n<h2 class=\"wp-block-heading\">Para onde os seus dados são enviados</h2>\n<p></p>\n<p class=\"wp-block-paragraph\">Os comentários dos visitantes podem ser verificados através de um serviço automático de detecção de spam.</p>\n<p></p>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Quem somos O endereço do nosso site é: https://montedacolonia.pt. Comentários Quando os visitantes deixam comentários no site, são guardados os dados presentes no formulário dos comentários, bem como o endereço de IP e o agente do utilizador do navegador, para ajudar com a detecção de spam. Uma string anónima criada a partir do seu endereço [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-3",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/3",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/comments?post=3"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/3/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 881,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/pages/3/revisions/881"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/media?parent=3"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,934 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import imgVinha from '../assets/real_candidates/real-01-vinha-panorama.jpg';
+
+// Products Catalog
+const products = [
+  // VINHOS
+  {
+    id: "vinho-reserva-tinto",
+    category: "vinhos",
+    name: "Monte da Colónia Reserva Tinto 2023",
+    subtitle: "Alicante Bouschet, Touriga Nacional & Syrah",
+    specs: "750 ml · 14.5% Vol · 12 Meses Barrica",
+    price: 19.50,
+    badge: "Ouro Anuga",
+    image: "/assets/products/Reserva2023.jpeg",
+    description: "Cor granada profunda, notas de amoras silvestres, esteva e carvalho francês de Allier. Final longo e aveludado."
+  },
+  {
+    id: "vinho-colheita-branco",
+    category: "vinhos",
+    name: "Colheita Selecionada Branco 2024",
+    subtitle: "Antão Vaz, Arinto & Fernão Pires",
+    specs: "750 ml · 13.0% Vol · Fermentação a Frio",
+    price: 11.50,
+    badge: "Nova Colheita",
+    image: "/assets/products/Colheita-Selecionada-2024.jpeg",
+    description: "Luminoso e mineral, aroma cítrico a lima madura e flor de laranjeira. Acidez tensa e refrescante."
+  },
+  {
+    id: "vinho-rose-touriga",
+    category: "vinhos",
+    name: "Touriga Nacional Rosé 2024",
+    subtitle: "100% Touriga Nacional de Vale de Seda",
+    specs: "750 ml · 12.5% Vol · Prensagem Suave",
+    price: 12.00,
+    badge: "Elegância",
+    image: "/assets/products/Rouriga-Rose-2024.jpeg",
+    description: "Rosa pálido com notas de romã fresca e framboesa silvestre. Frescura crocante e final mineral."
+  },
+  {
+    id: "vinho-espumante-bruto",
+    category: "vinhos",
+    name: "Espumante Bruto Reserva Método Clássico",
+    subtitle: "Arinto & Baga · 24 Meses em Cave",
+    specs: "750 ml · 12.0% Vol · Bolha Fina",
+    price: 22.00,
+    badge: "Reserva Especial",
+    image: "/assets/products/Espumante-2020.jpeg",
+    description: "Bolha finíssima, aroma de brioche tostado, maçã assada e noz. Cremoso, envolvente e requintado."
+  },
+  {
+    id: "vinho-escolha-tinto",
+    category: "vinhos",
+    name: "Monte da Colónia Escolha Tinto 2023",
+    subtitle: "Trincadeira, Aragonez & Alicante Bouschet",
+    specs: "750 ml · 14.0% Vol · Tradição Alentejana",
+    price: 14.50,
+    badge: "Clássico",
+    image: "/assets/products/Escolha2023.jpeg",
+    description: "Perfil clássico alentejano com fruta madura e especiaria doce. Taninos redondos e boa estrutura gastronómica."
+  },
+  {
+    id: "vinho-syrah-petit-verdot",
+    category: "vinhos",
+    name: "Syrah & Petit Verdot 2023",
+    subtitle: "Edição Especial de Castas Estrangeiras",
+    specs: "750 ml · 14.5% Vol · Estágio em Carvalho",
+    price: 16.00,
+    badge: "Edição Limitada",
+    image: "/assets/products/syrah-e-petit-verdot-2023-scaled.jpg",
+    description: "Vinho encorpado e sedutor, com notas de pimenta preta, amoras e cacau. Potencial de guarda extraordinário."
+  },
+  {
+    id: "vinho-cabernet-sauvignon",
+    category: "vinhos",
+    name: "Cabernet Sauvignon 2023",
+    subtitle: "Monocasta de Solos de Xisto",
+    specs: "750 ml · 14.0% Vol · 10 Meses Barrica",
+    price: 17.50,
+    badge: "Monocasta",
+    image: "/assets/products/Cabernet-Sauvignon-2023-scaled.jpg",
+    description: "Intensidade aromática de cassis, pimento verde maduro e cedro. Estrutura tânica aristocrática."
+  },
+  {
+    id: "vinho-fernao-pires",
+    category: "vinhos",
+    name: "Fernão Pires Monovarietal 2024",
+    subtitle: "Colheita Fresca da Vinha Nova",
+    specs: "750 ml · 12.5% Vol · Cuba de Inox",
+    price: 10.50,
+    badge: "Aromático",
+    image: "/assets/products/Fernao-Pires-2024.jpeg",
+    description: "Exuberância floral de jasmim e tília, paladar macio e envolvente com final frutado e ligeiramente especiado."
+  },
+
+  // AZEITES & GOURMET
+  {
+    id: "azeite-bio-500ml",
+    category: "azeites",
+    name: "Azeite Virgem Extra Biológico 500ml",
+    subtitle: "Galega e Cobrançosa · Acidez < 0.18%",
+    specs: "500 ml · Vidro Escuro UV · Extração a Frio",
+    price: 8.90,
+    badge: "Biológico",
+    image: "/assets/products/0000427_azeite-virgem-extra-bio-500ml_300.png",
+    description: "Frutado verde médio, aroma a folha de oliveira e maçã verde. Amargo e picante nobres e equilibrados."
+  },
+  {
+    id: "azeite-gourmet-250ml",
+    category: "azeites",
+    name: "Azeite Virgem Extra Gourmet 250ml",
+    subtitle: "Galega Centenária de Colheita Precoce",
+    specs: "250 ml · Galheteiro Luxo · Acidez < 0.15%",
+    price: 6.50,
+    badge: "Gourmet",
+    image: "/assets/products/azeite-virgem-extra-250ml.png",
+    description: "Edição de colheita na aurora. Denso e complexo, com notas de rama de tomateiro e amêndoa verde."
+  },
+  {
+    id: "azeite-familiar-2l",
+    category: "azeites",
+    name: "Azeite Virgem Extra Familiar 2 Litros",
+    subtitle: "Extraído a Frio no Lagar da Herdade",
+    specs: "2 L · Galão Prático com Vertedor",
+    price: 22.00,
+    badge: "Familiar",
+    image: "/assets/products/0000430_azeite-virgem-extra-2l_300.png",
+    description: "Ideal para uso doméstico frequente. Equilibrado, frutado maduro suave e de elevadíssimo valor nutricional."
+  },
+  {
+    id: "azeite-familiar-5l",
+    category: "azeites",
+    name: "Azeite Virgem Extra Tradicional 5 Litros",
+    subtitle: "Garrafão Familiar Direto do Lagar",
+    specs: "5 L · Embalagem Económica Herdade",
+    price: 48.00,
+    badge: "Melhor Valor",
+    image: "/assets/products/0000432_azeite-virgem-extra-5l_300.png",
+    description: "O verdadeiro azeite das famílias alentejanas. Sabor autêntico, redondo e generoso para todas as confeções."
+  },
+  {
+    id: "azeitonas-mistas-800g",
+    category: "azeites",
+    name: "Azeitonas Mistas Temperadas 800g",
+    subtitle: "Com Orégãos Silvestres e Alho",
+    specs: "800 g líquido · Salmoura Tradicional",
+    price: 5.80,
+    badge: "Receita Familiar",
+    image: "/assets/products/0000414_azeitonas-mistas-08kg_300.png",
+    description: "Curadas de forma ancestral e temperadas com as ervas aromáticas dos pastos do Monte da Colónia."
+  },
+  {
+    id: "vinagre-vinho-500ml",
+    category: "azeites",
+    name: "Vinagre de Vinho Tradicional 500ml",
+    subtitle: "Envelhecido em Pipos de Carvalho",
+    specs: "500 ml · 6% Acidez Acética Natural",
+    price: 4.20,
+    badge: "Artesanal",
+    image: "/assets/products/vinagre-e1737217577722.jpg",
+    description: "Elaborado a partir de vinho selecionado da adega, estagiado pacientemente em madeira de carvalho."
+  },
+
+  // PACKS ESPECIAIS
+  {
+    id: "pack-terroir-fronteira",
+    category: "packs",
+    name: "Pack Terroir de Fronteira (Caixa Madeira)",
+    subtitle: "2 Tintos Reserva + 1 Branco Selecionado + 1 Azeite Bio 500ml",
+    specs: "4 Itens · Caixa de Pinho Gravada a Fogo",
+    price: 55.00,
+    badge: "Mais Vendido",
+    image: "/assets/products/Nossos-Vinhos-scaled-e1729116627820.jpg",
+    description: "A essência completa do Monte da Colónia numa sofisticada caixa de madeira com selo de garantia da herdade."
+  },
+  {
+    id: "pack-grande-reserva",
+    category: "packs",
+    name: "Pack Celebração & Reserva",
+    subtitle: "2 Monte da Colónia Reserva Tinto + 1 Espumante Bruto",
+    specs: "3 Garrafas · Embalagem Presente Premium",
+    price: 58.00,
+    badge: "Exclusivo",
+    image: "/assets/products/Dark-blue-Merlot-w-cup.png",
+    description: "O presente perfeito para amantes de grandes vinhos e momentos de brinde inesquecíveis."
+  },
+  {
+    id: "pack-mesa-alentejana",
+    category: "packs",
+    name: "Cabaz Mesa Alentejana Tradicional",
+    subtitle: "1 Azeite Bio 500ml + 1 Azeitonas Mistas 800g + 1 Tinto Escolha + 1 Branco Colheita",
+    specs: "4 Produtos Típicos da Herdade",
+    price: 38.00,
+    badge: "Gourmet",
+    image: "/assets/products/montedacolonia.jpg",
+    description: "Transporte para a sua mesa os sabores mais puros e generosos de uma tarde em Vale de Seda."
+  }
+];
+---
+
+<Layout 
+  title="Loja Online Oficial | Monte da Colónia" 
+  description="Compre diretamente os vinhos e azeites do Monte da Colónia. Produção própria em Vale de Seda, Fronteira. Entregas seguras para todo o país com portes grátis acima de 60€."
+>
+  <Header currentPage="loja" isStore={true} />
+
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+    
+    <!-- 1. HERO HEADER: LOJA OFICIAL -->
+    <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
+      <!-- Atmospheric Backdrop Image -->
+      <div class="absolute inset-0 z-0">
+        <Image 
+          src={imgVinha} 
+          alt="Vinhas do Monte da Colónia" 
+          class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.05]"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-stone-950/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-stone-950/60"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.15em] uppercase text-white mb-4 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+          Direto do <span class="font-serif italic font-light text-[#F3D08A]">Produtor</span>
+        </h1>
+
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto my-5"></div>
+
+        <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
+          Encomende os vinhos medalhados e os azeites virgem extra produzidos pela família Pereira em Vale de Seda. Entregas em 24h a 48h com garantia de frescura.
+        </p>
+
+        <!-- Trust badges -->
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-8 text-xs font-cinzel uppercase tracking-wider text-stone-300">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>Portes Grátis acima de 60 €</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>Embalagens Anti-Quebra</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>Suporte Direto da Família</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. CATALOG SECTION WITH INTERACTIVE FILTERS -->
+    <section class="py-16 sm:py-24 px-6 max-w-7xl mx-auto">
+      
+      <!-- Category Tabs & Controls -->
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-stone-200">
+        
+        <!-- Filter Tabs -->
+        <div class="flex flex-wrap items-center justify-center gap-2" id="filter-tabs">
+          <button 
+            data-filter="todos" 
+            class="filter-btn active-filter px-5 py-2.5 border border-[#C5A059] bg-[#14100D] text-[#F3D08A] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+          >
+            Todos os Produtos
+          </button>
+          <button 
+            data-filter="vinhos" 
+            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+          >
+            Vinhos
+          </button>
+          <button 
+            data-filter="azeites" 
+            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+          >
+            Azeites & Gourmet
+          </button>
+          <button 
+            data-filter="packs" 
+            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+          >
+            Packs Especiais
+          </button>
+        </div>
+
+        <!-- Counter indicator -->
+        <div class="text-xs font-cinzel uppercase tracking-wider text-stone-500">
+          <span id="product-count">{products.length}</span> Produtos Disponíveis
+        </div>
+
+      </div>
+
+      <!-- Product Cards Grid with Straight Borders & Golden Aura -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 pt-12" id="products-grid">
+        {products.map((p) => (
+          <div 
+            class="product-card flex flex-col justify-between border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_25px_rgba(243,208,138,0.22)] hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 p-6 group"
+            data-category={p.category}
+            data-id={p.id}
+          >
+            <!-- Product Image Frame (Straight Borders, No Zoom) -->
+            <div>
+              <div class="relative w-full aspect-[4/5] bg-gradient-to-b from-[#221A14] to-[#14100D] border border-[#C5A059]/30 flex items-center justify-center p-6 mb-6">
+                <img 
+                  src={p.image} 
+                  alt={p.name} 
+                  class="h-full w-auto object-contain drop-shadow-[0_15px_20px_rgba(0,0,0,0.65)]"
+                  loading="lazy"
+                />
+                
+                <!-- Badge -->
+                <span class="absolute top-3 left-3 font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A] bg-[#14100D]/90 border border-[#C5A059]/40 px-2.5 py-1 font-semibold">
+                  {p.badge}
+                </span>
+
+                <!-- Category tag -->
+                <span class="absolute bottom-3 left-3 text-[10px] uppercase font-cinzel tracking-wider text-stone-400">
+                  {p.category.toUpperCase()}
+                </span>
+              </div>
+
+              <!-- Product Info -->
+              <div class="space-y-2">
+                <p class="font-cinzel text-[11px] uppercase tracking-wider text-[#C5A059] font-bold">
+                  {p.subtitle}
+                </p>
+                <h3 class="font-serif text-xl sm:text-2xl text-[#2B231D] font-normal leading-snug">
+                  {p.name}
+                </h3>
+                <p class="text-xs text-stone-500 font-cinzel tracking-wide">
+                  {p.specs}
+                </p>
+                <p class="text-xs text-stone-600 font-light leading-relaxed pt-1 line-clamp-2 italic">
+                  "{p.description}"
+                </p>
+              </div>
+            </div>
+
+            <!-- Price & Quantity & Add to Cart -->
+            <div class="pt-6 mt-6 border-t border-stone-200">
+              <div class="flex items-center justify-between mb-4">
+                <span class="font-cinzel text-xs uppercase tracking-wider text-stone-500">Preço Garrafa</span>
+                <span class="font-serif text-2xl font-normal text-[#2B231D]">
+                  {p.price.toFixed(2).replace('.', ',')} €
+                </span>
+              </div>
+
+              <div class="flex items-center gap-3">
+                <!-- Quantity stepper -->
+                <div class="flex items-center border border-stone-300 bg-white">
+                  <button 
+                    class="qty-btn-minus w-8 h-10 flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition-colors cursor-pointer"
+                    aria-label="Diminuir quantidade"
+                  >
+                    -
+                  </button>
+                  <input 
+                    type="number" 
+                    value="1" 
+                    min="1" 
+                    max="99" 
+                    class="qty-input w-10 h-10 text-center font-cinzel text-xs text-[#2B231D] bg-transparent focus:outline-none"
+                    aria-label="Quantidade"
+                  />
+                  <button 
+                    class="qty-btn-plus w-8 h-10 flex items-center justify-center text-stone-700 hover:bg-stone-100 font-bold transition-colors cursor-pointer"
+                    aria-label="Aumentar quantidade"
+                  >
+                    +
+                  </button>
+                </div>
+
+                <!-- Add to cart button -->
+                <button 
+                  class="add-to-cart-btn flex-grow py-2.5 px-4 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] hover:brightness-110 text-stone-950 font-cinzel text-[11px] uppercase tracking-[0.2em] font-bold shadow-md hover:shadow-[#F3D08A]/40 transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
+                  data-id={p.id}
+                  data-name={p.name}
+                  data-price={p.price}
+                  data-image={p.image}
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+                  </svg>
+                  <span>Adicionar</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        ))}
+      </div>
+
+    </section>
+
+    <!-- 3. SLIDE-OUT SHOPPING CART DRAWER (RIGHT PANEL) -->
+    <div id="cart-drawer-backdrop" class="fixed inset-0 bg-stone-950/70 z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
+
+    <aside id="cart-drawer" class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-[#FAF8F5] text-[#2B231D] z-50 shadow-2xl translate-x-full transition-transform duration-300 flex flex-col border-l border-[#C5A059]/40">
+      
+      <!-- Cart Header -->
+      <div class="p-6 bg-[#14100D] text-white border-b border-[#C5A059]/30 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <svg class="w-5 h-5 text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+          </svg>
+          <span class="font-cinzel text-sm uppercase tracking-[0.25em] text-[#F3D08A] font-bold">O Seu Carrinho</span>
+        </div>
+        <div class="flex items-center gap-3">
+          <button 
+            id="clear-cart-btn" 
+            class="text-[10px] sm:text-[11px] font-cinzel uppercase tracking-wider text-stone-400 hover:text-[#F3D08A] px-2.5 py-1 border border-stone-800 hover:border-[#C5A059]/60 transition-colors cursor-pointer disabled:opacity-30 disabled:pointer-events-none"
+            title="Esvaziar todos os produtos do carrinho"
+          >
+            Limpar
+          </button>
+          <button id="close-cart-btn" class="text-stone-400 hover:text-white p-1.5 cursor-pointer" title="Fechar carrinho">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Free shipping progress meter -->
+      <div class="p-4 bg-[#F4EFEA] border-b border-stone-200">
+        <div class="flex items-center justify-between text-xs font-cinzel mb-2">
+          <span id="shipping-progress-text" class="text-stone-700">Portes Grátis acima de 60,00 €</span>
+          <span id="shipping-progress-amount" class="text-[#C5A059] font-bold">60,00 €</span>
+        </div>
+        <div class="w-full h-1.5 bg-stone-200 overflow-hidden">
+          <div id="shipping-progress-bar" class="h-full bg-gradient-to-r from-[#B58838] to-[#F5D992] w-0 transition-all duration-500"></div>
+        </div>
+      </div>
+
+      <!-- Cart Items List -->
+      <div id="cart-items-container" class="flex-grow overflow-y-auto p-6 space-y-4">
+        <!-- Rendered dynamically by script -->
+        <div id="empty-cart-msg" class="py-16 text-center text-stone-500">
+          <svg class="w-12 h-12 mx-auto mb-3 text-stone-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+          </svg>
+          <p class="font-cinzel text-sm uppercase tracking-wider">O carrinho está vazio</p>
+          <p class="text-xs text-stone-400 mt-1">Selecione garrafas do catálogo para encomendar.</p>
+        </div>
+      </div>
+
+      <!-- Cart Footer / Summary & Direct Order Actions -->
+      <div class="p-6 bg-white border-t border-stone-200 space-y-4">
+        <div class="space-y-2 text-xs font-cinzel">
+          <div class="flex justify-between text-stone-600">
+            <span>Subtotal</span>
+            <span id="cart-subtotal" class="font-bold">0,00 €</span>
+          </div>
+          <div class="flex justify-between text-stone-600">
+            <span>Portes de Envio</span>
+            <span id="cart-shipping" class="font-bold">Grátis</span>
+          </div>
+          <div class="flex justify-between text-base font-serif text-[#2B231D] pt-2 border-t border-stone-200">
+            <span class="font-cinzel text-xs uppercase tracking-wider">Total</span>
+            <span id="cart-total" class="font-bold text-xl text-[#2B231D]">0,00 €</span>
+          </div>
+        </div>
+
+        <div class="pt-2 space-y-2.5">
+          <!-- WhatsApp direct order -->
+          <button 
+            id="checkout-whatsapp-btn" 
+            class="w-full py-3.5 border border-[#25D366] bg-[#25D366] hover:bg-[#1EBE5D] text-white font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>Finalizar Encomenda via WhatsApp</span>
+          </button>
+
+          <!-- Email order modal trigger -->
+          <button 
+            id="checkout-email-btn" 
+            class="w-full py-3.5 border border-[#14100D] bg-[#14100D] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Encomendar por Formulário / Email
+          </button>
+
+          <!-- Clear entire cart action -->
+          <button 
+            id="clear-cart-link-btn" 
+            class="w-full text-center pt-2 pb-1 text-[11px] font-cinzel uppercase tracking-[0.2em] text-stone-400 hover:text-red-700 transition-colors cursor-pointer"
+          >
+            Esvaziar Carrinho
+          </button>
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- 4. EMAIL CHECKOUT MODAL -->
+    <div id="email-modal-backdrop" class="fixed inset-0 bg-stone-950/80 z-50 flex items-center justify-center p-4 opacity-0 pointer-events-none transition-opacity duration-300">
+      <div class="bg-[#FAF8F5] border border-[#C5A059]/40 shadow-2xl max-w-lg w-full p-6 sm:p-8 text-[#2B231D] relative">
+        <button id="close-modal-btn" class="absolute top-4 right-4 text-stone-500 hover:text-stone-900 cursor-pointer">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+
+        <h3 class="font-serif text-2xl text-[#2B231D] mb-4">Dados de Envio e Faturação</h3>
+
+        <form id="order-form" class="space-y-3.5 text-xs">
+          <div>
+            <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Nome Completo *</label>
+            <input type="text" id="cust-name" required class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Email *</label>
+              <input type="email" id="cust-email" required class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Telefone / Telemóvel *</label>
+              <input type="tel" id="cust-phone" required class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Morada de Entrega *</label>
+            <input type="text" id="cust-address" required placeholder="Rua, Número, Andar" class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+          </div>
+
+          <div class="grid grid-cols-2 gap-3">
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Código Postal *</label>
+              <input type="text" id="cust-postal" required placeholder="0000-000" class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+            <div>
+              <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Localidade *</label>
+              <input type="text" id="cust-city" required class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+            </div>
+          </div>
+
+          <div>
+            <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">NIF (Opcional p/ Fatura)</label>
+            <input type="text" id="cust-nif" class="w-full px-3 py-2 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+          </div>
+
+          <div class="pt-3">
+            <button 
+              type="submit" 
+              class="w-full py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer"
+            >
+              Enviar Pedido de Encomenda
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- 5. TOAST NOTIFICATION -->
+    <div id="cart-toast" class="fixed bottom-6 left-6 z-50 bg-[#14100D] text-[#F3D08A] border border-[#C5A059]/70 px-5 py-3 shadow-2xl font-cinzel text-xs tracking-wider translate-y-16 opacity-0 transition-all duration-300 flex items-center gap-3">
+      <svg class="w-4 h-4 text-[#F3D08A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+      </svg>
+      <span id="toast-message">Produto adicionado ao carrinho</span>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <Footer currentPage="loja" />
+</Layout>
+
+<!-- CLIENT SCRIPT: DIRECT PURCHASE CART & FILTER ENGINE -->
+<script is:inline>
+  // Shopping Cart state
+  let cart = JSON.parse(localStorage.getItem('monte_colonia_cart') || '[]');
+
+  // Save cart to local storage
+  function saveCart() {
+    localStorage.setItem('monte_colonia_cart', JSON.stringify(cart));
+    updateCartUI();
+  }
+
+  // Toast notification
+  function showToast(message) {
+    const toast = document.getElementById('cart-toast');
+    const toastMsg = document.getElementById('toast-message');
+    if (toast && toastMsg) {
+      toastMsg.textContent = message;
+      toast.classList.remove('translate-y-16', 'opacity-0');
+      setTimeout(() => {
+        toast.classList.add('translate-y-16', 'opacity-0');
+      }, 3000);
+    }
+  }
+
+  // Update Cart UI
+  function updateCartUI() {
+    const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
+    const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+    
+    // Header & trigger badge
+    const headerBadge = document.getElementById('header-cart-badge');
+    if (headerBadge) {
+      headerBadge.textContent = totalItems.toString();
+    }
+
+    // Shipping calculation (free over 60€)
+    const freeShippingThreshold = 60.0;
+    const isFreeShipping = subtotal >= freeShippingThreshold || subtotal === 0;
+    const shipping = isFreeShipping ? 0 : 5.90;
+    const total = subtotal + shipping;
+
+    // Progress bar
+    const progressBar = document.getElementById('shipping-progress-bar');
+    const progressText = document.getElementById('shipping-progress-text');
+    const progressAmount = document.getElementById('shipping-progress-amount');
+    
+    if (progressBar && progressText && progressAmount) {
+      if (subtotal >= freeShippingThreshold) {
+        progressBar.style.width = '100%';
+        progressText.textContent = 'Parabéns! Tem Portes Grátis';
+        progressAmount.textContent = '0,00 €';
+      } else {
+        const remaining = freeShippingThreshold - subtotal;
+        const percent = Math.min(100, (subtotal / freeShippingThreshold) * 100);
+        progressBar.style.width = percent + '%';
+        progressText.textContent = 'Faltam ' + remaining.toFixed(2).replace('.', ',') + ' € para Portes Grátis';
+        progressAmount.textContent = remaining.toFixed(2).replace('.', ',') + ' €';
+      }
+    }
+
+    // Subtotal & totals
+    const subtotalEl = document.getElementById('cart-subtotal');
+    const shippingEl = document.getElementById('cart-shipping');
+    const totalEl = document.getElementById('cart-total');
+
+    if (subtotalEl) subtotalEl.textContent = subtotal.toFixed(2).replace('.', ',') + ' €';
+    if (shippingEl) shippingEl.textContent = isFreeShipping ? 'Grátis' : '5,90 €';
+    if (totalEl) totalEl.textContent = total.toFixed(2).replace('.', ',') + ' €';
+
+    // Disable checkout buttons if cart is empty
+    const btnWa = document.getElementById('checkout-whatsapp-btn');
+    const btnMail = document.getElementById('checkout-email-btn');
+    if (btnWa) btnWa.disabled = cart.length === 0;
+    if (btnMail) btnMail.disabled = cart.length === 0;
+
+    // Update clear cart buttons state
+    const clearBtnHeader = document.getElementById('clear-cart-btn');
+    const clearBtnLink = document.getElementById('clear-cart-link-btn');
+    if (clearBtnHeader) {
+      clearBtnHeader.disabled = cart.length === 0;
+      clearBtnHeader.style.opacity = cart.length === 0 ? '0.3' : '1';
+    }
+    if (clearBtnLink) {
+      clearBtnLink.style.display = cart.length === 0 ? 'none' : 'block';
+    }
+
+    // Render items list
+    const container = document.getElementById('cart-items-container');
+    const emptyMsg = document.getElementById('empty-cart-msg');
+
+    if (container) {
+      if (cart.length === 0) {
+        if (emptyMsg) emptyMsg.style.display = 'block';
+        container.innerHTML = '';
+        if (emptyMsg) container.appendChild(emptyMsg);
+      } else {
+        let html = '';
+        cart.forEach((item, index) => {
+          html += `
+            <div class="flex items-center gap-3 p-3 bg-white border border-stone-200">
+              <img src="${item.image}" alt="${item.name}" class="w-12 h-16 object-contain bg-stone-900 p-1" />
+              <div class="flex-grow min-w-0">
+                <p class="font-cinzel text-xs text-[#2B231D] font-bold truncate">${item.name}</p>
+                <p class="text-xs text-stone-500">${item.price.toFixed(2).replace('.', ',')} € / un.</p>
+                <div class="flex items-center gap-2 mt-1">
+                  <button onclick="changeCartQty(${index}, -1)" class="w-5 h-5 flex items-center justify-center bg-stone-100 text-stone-700 text-xs border border-stone-300 cursor-pointer">-</button>
+                  <span class="text-xs font-cinzel font-semibold px-1">${item.quantity}</span>
+                  <button onclick="changeCartQty(${index}, 1)" class="w-5 h-5 flex items-center justify-center bg-stone-100 text-stone-700 text-xs border border-stone-300 cursor-pointer">+</button>
+                </div>
+              </div>
+              <div class="text-right">
+                <p class="font-serif text-sm font-semibold text-[#2B231D]">${(item.price * item.quantity).toFixed(2).replace('.', ',')} €</p>
+                <button onclick="removeCartItem(${index})" class="text-[10px] text-stone-400 hover:text-red-700 uppercase font-cinzel mt-1 cursor-pointer">Remover</button>
+              </div>
+            </div>
+          `;
+        });
+        container.innerHTML = html;
+      }
+    }
+  }
+
+  // Clear entire cart
+  window.clearCart = function() {
+    if (cart.length === 0) return;
+    cart = [];
+    saveCart();
+    showToast('O carrinho foi esvaziado');
+  };
+
+  // Quantity modification in cart
+  window.changeCartQty = function(index, delta) {
+    if (cart[index]) {
+      cart[index].quantity += delta;
+      if (cart[index].quantity <= 0) {
+        cart.splice(index, 1);
+      }
+      saveCart();
+    }
+  };
+
+  // Remove item
+  window.removeCartItem = function(index) {
+    if (cart[index]) {
+      cart.splice(index, 1);
+      saveCart();
+    }
+  };
+
+  // Drawer toggles
+  function openCart() {
+    const drawer = document.getElementById('cart-drawer');
+    const backdrop = document.getElementById('cart-drawer-backdrop');
+    if (drawer && backdrop) {
+      drawer.classList.remove('translate-x-full');
+      backdrop.classList.remove('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  function closeCart() {
+    const drawer = document.getElementById('cart-drawer');
+    const backdrop = document.getElementById('cart-drawer-backdrop');
+    if (drawer && backdrop) {
+      drawer.classList.add('translate-x-full');
+      backdrop.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  // Setup DOM listeners
+  document.addEventListener('DOMContentLoaded', () => {
+    updateCartUI();
+
+    // Open & Close cart buttons
+    const openBtn = document.getElementById('open-cart-btn');
+    const closeBtn = document.getElementById('close-cart-btn');
+    const backdrop = document.getElementById('cart-drawer-backdrop');
+    const clearBtnHeader = document.getElementById('clear-cart-btn');
+    const clearBtnLink = document.getElementById('clear-cart-link-btn');
+
+    if (openBtn) openBtn.addEventListener('click', openCart);
+    if (closeBtn) closeBtn.addEventListener('click', closeCart);
+    if (backdrop) backdrop.addEventListener('click', closeCart);
+    if (clearBtnHeader) clearBtnHeader.addEventListener('click', window.clearCart);
+    if (clearBtnLink) clearBtnLink.addEventListener('click', window.clearCart);
+
+    // Quantity Steppers in product cards
+    document.querySelectorAll('.product-card').forEach(card => {
+      const minusBtn = card.querySelector('.qty-btn-minus');
+      const plusBtn = card.querySelector('.qty-btn-plus');
+      const input = card.querySelector('.qty-input');
+      const addBtn = card.querySelector('.add-to-cart-btn');
+
+      if (minusBtn && input) {
+        minusBtn.addEventListener('click', () => {
+          let val = parseInt(input.value) || 1;
+          if (val > 1) input.value = val - 1;
+        });
+      }
+
+      if (plusBtn && input) {
+        plusBtn.addEventListener('click', () => {
+          let val = parseInt(input.value) || 1;
+          input.value = val + 1;
+        });
+      }
+
+      if (addBtn && input) {
+        addBtn.addEventListener('click', () => {
+          const id = addBtn.getAttribute('data-id');
+          const name = addBtn.getAttribute('data-name');
+          const price = parseFloat(addBtn.getAttribute('data-price'));
+          const image = addBtn.getAttribute('data-image');
+          const qty = parseInt(input.value) || 1;
+
+          const existingIndex = cart.findIndex(item => item.id === id);
+          if (existingIndex > -1) {
+            cart[existingIndex].quantity += qty;
+          } else {
+            cart.push({ id, name, price, image, quantity: qty });
+          }
+
+          saveCart();
+          showToast(`Adicionado: ${qty}x ${name}`);
+          openCart();
+        });
+      }
+    });
+
+    // Category Filter tabs
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.product-card');
+
+    function applyFilter(category) {
+      filterBtns.forEach(b => {
+        if (b.getAttribute('data-filter') === category) {
+          b.classList.add('bg-[#14100D]', 'text-[#F3D08A]', 'border-[#C5A059]');
+          b.classList.remove('bg-white', 'text-stone-700', 'border-stone-300');
+        } else {
+          b.classList.remove('bg-[#14100D]', 'text-[#F3D08A]', 'border-[#C5A059]');
+          b.classList.add('bg-white', 'text-stone-700', 'border-stone-300');
+        }
+      });
+
+      let visibleCount = 0;
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-category');
+        if (category === 'todos' || cardCat === category) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      const countEl = document.getElementById('product-count');
+      if (countEl) countEl.textContent = visibleCount.toString();
+    }
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        applyFilter(btn.getAttribute('data-filter'));
+      });
+    });
+
+    // Read URL query params (e.g. ?cat=vinhos or ?cat=azeites)
+    const urlParams = new URLSearchParams(window.location.search);
+    const catParam = urlParams.get('cat');
+    if (catParam) {
+      applyFilter(catParam);
+    }
+
+    const prodParam = urlParams.get('produto');
+    if (prodParam) {
+      const targetCard = document.querySelector(`[data-id="${prodParam}"]`);
+      if (targetCard) {
+        targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        targetCard.classList.add('ring-2', 'ring-[#F3D08A]');
+        setTimeout(() => targetCard.classList.remove('ring-2', 'ring-[#F3D08A]'), 3000);
+      }
+    }
+
+    // Direct WhatsApp Checkout
+    const btnWa = document.getElementById('checkout-whatsapp-btn');
+    if (btnWa) {
+      btnWa.addEventListener('click', () => {
+        if (cart.length === 0) return;
+        const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+        const shipping = subtotal >= 60 ? 0 : 5.90;
+        const total = subtotal + shipping;
+
+        let message = `*ENCOMENDA MONTE DA COLÓNIA*\n\n`;
+        message += `Olá! Gostaria de encomendar os seguintes produtos:\n\n`;
+        cart.forEach(item => {
+          message += `• ${item.quantity}x ${item.name} (${(item.price * item.quantity).toFixed(2)} €)\n`;
+        });
+        message += `\n*Subtotal:* ${subtotal.toFixed(2)} €`;
+        message += `\n*Portes:* ${shipping === 0 ? 'Grátis' : '5,90 €'}`;
+        message += `\n*TOTAL:* ${total.toFixed(2)} €\n\n`;
+        message += `Por favor indiquem-me os dados para pagamento e confirmação de envio. Obrigado!`;
+
+        const phone = "351912345678"; // Representative contact number
+        const encoded = encodeURIComponent(message);
+        window.open(`https://wa.me/${phone}?text=${encoded}`, '_blank');
+      });
+    }
+
+    // Email Checkout Modal
+    const btnMail = document.getElementById('checkout-email-btn');
+    const modal = document.getElementById('email-modal-backdrop');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+    const orderForm = document.getElementById('order-form');
+
+    if (btnMail && modal) {
+      btnMail.addEventListener('click', () => {
+        if (cart.length === 0) return;
+        modal.classList.remove('opacity-0', 'pointer-events-none');
+      });
+    }
+
+    if (closeModalBtn && modal) {
+      closeModalBtn.addEventListener('click', () => {
+        modal.classList.add('opacity-0', 'pointer-events-none');
+      });
+    }
+
+    if (orderForm) {
+      orderForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const name = document.getElementById('cust-name').value;
+        const email = document.getElementById('cust-email').value;
+        const phone = document.getElementById('cust-phone').value;
+        const address = document.getElementById('cust-address').value;
+        const postal = document.getElementById('cust-postal').value;
+        const city = document.getElementById('cust-city').value;
+        const nif = document.getElementById('cust-nif').value;
+
+        const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+        const shipping = subtotal >= 60 ? 0 : 5.90;
+        const total = subtotal + shipping;
+
+        let body = `Nome: ${name}\nEmail: ${email}\nTelefone: ${phone}\nMorada: ${address}, ${postal} ${city}\nNIF: ${nif || 'Consumidor Final'}\n\n`;
+        body += `PRODUTOS ENCOMENDADOS:\n`;
+        cart.forEach(item => {
+          body += `- ${item.quantity}x ${item.name}: ${(item.price * item.quantity).toFixed(2)} €\n`;
+        });
+        body += `\nSubtotal: ${subtotal.toFixed(2)} €\nPortes: ${shipping === 0 ? 'Grátis' : '5,90 €'}\nTOTAL: ${total.toFixed(2)} €`;
+
+        const mailto = `mailto:loja@montedacolonia.pt?subject=Nova%20Encomenda%20Online%20-%20${encodeURIComponent(name)}&body=${encodeURIComponent(body)}`;
+        window.location.href = mailto;
+
+        // Reset cart
+        cart = [];
+        saveCart();
+        modal.classList.add('opacity-0', 'pointer-events-none');
+        closeCart();
+        showToast("Pedido enviado com sucesso! Irá receber confirmação em breve.");
+      });
+    }
+  });
+</script>

@@ -1,0 +1,92 @@
+---
+interface Props {
+  currentPage?: string;
+}
+
+const { currentPage = '' } = Astro.props;
+const currentYear = new Date().getFullYear();
+---
+
+<footer id="site-footer" class="relative bg-stone-950 border-t border-[#C5A059]/20 text-stone-400 py-12 px-6">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+    
+    <!-- Brand & Provenance (Compact, doesn't expand awkwardly) -->
+    <div class="flex flex-col items-center md:items-start max-w-sm">
+      <span class="font-cinzel text-sm text-[#F3D08A] tracking-[0.2em] font-bold uppercase">
+        Monte da Colónia
+      </span>
+      <span class="text-[11px] text-stone-400 font-cinzel tracking-wider mt-1 block">
+        Vale de Seda · Fronteira, Portugal
+      </span>
+    </div>
+
+    <!-- Navigation Links: Exactly matches the Header pages -->
+    <div class="flex flex-wrap items-center justify-center gap-5 sm:gap-6 text-xs font-cinzel uppercase tracking-wider text-stone-400">
+      <a href="/monte" class={`transition-colors ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>O Monte</a>
+      <span class="text-stone-700">·</span>
+      <a href="/produtos" class={`transition-colors ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Produtos</a>
+      <span class="text-stone-700">·</span>
+      <a href="/visitas" class={`transition-colors ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Visitas</a>
+      <span class="text-stone-700">·</span>
+      <a href="/contactos" class={`transition-colors ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Contactos</a>
+      <span class="text-stone-700">·</span>
+      <a href="/loja" class={`transition-colors ${currentPage === 'loja' ? 'text-[#F3D08A] font-semibold' : 'hover:text-[#F3D08A]'}`}>Loja Online</a>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-[11px] text-stone-500 font-light">
+      © {currentYear} Monte da Colónia. Todos os direitos reservados.
+    </div>
+
+  </div>
+</footer>
+
+<!-- FLOATING HOME BUTTON THAT STOPS RIGHT AT THE FOOTER (NEVER ENTERS IT) -->
+<aside id="floating-home-btn-container" class="fixed bottom-6 right-4 sm:right-6 md:right-8 lg:right-10 xl:right-12 z-40 pointer-events-none transition-[bottom] duration-100 ease-out">
+  <a 
+    href="/" 
+    class="pointer-events-auto group w-11 h-11 sm:w-12 sm:h-12 bg-[#1A1410]/95 hover:bg-[#F3D08A] border border-[#C5A059]/60 hover:border-[#F3D08A] text-[#F3D08A] hover:text-[#1A1410] shadow-[0_4px_25px_rgba(0,0,0,0.8)] backdrop-blur-md flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
+    title="Voltar ao Portal Monte da Colónia"
+    aria-label="Voltar ao Portal Monte da Colónia"
+  >
+    <svg class="w-5 h-5 text-[#F3D08A] group-hover:text-[#1A1410] transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+    </svg>
+  </a>
+</aside>
+
+<script>
+  function setupFloatingHomeButton() {
+    const footer = document.getElementById('site-footer');
+    const btnContainer = document.getElementById('floating-home-btn-container');
+
+    if (!footer || !btnContainer) return;
+
+    const baseOffset = 24; // 24px default bottom spacing (bottom-6)
+
+    function updatePosition() {
+      const footerRect = footer.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+      const footerVisibleHeight = windowHeight - footerRect.top;
+
+      if (footerVisibleHeight > 0) {
+        // Footer is in view: pin the button exactly baseOffset px above the footer's top edge
+        btnContainer.style.bottom = `${footerVisibleHeight + baseOffset}px`;
+      } else {
+        // Footer is below viewport: keep standard bottom position
+        btnContainer.style.bottom = `${baseOffset}px`;
+      }
+    }
+
+    window.addEventListener('scroll', updatePosition, { passive: true });
+    window.addEventListener('resize', updatePosition);
+    updatePosition();
+  }
+
+  // Run on page load and view transitions
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupFloatingHomeButton);
+  } else {
+    setupFloatingHomeButton();
+  }
+</script>

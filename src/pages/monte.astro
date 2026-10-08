@@ -1,0 +1,441 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Image assets
+import heroMonte from '../assets/real_candidates/chatgpt-upscaled-monte.png';
+import imgCasinha from '../assets/real_candidates/real-02-casinha-monte.jpg';
+import imgFamilia from '../assets/real_candidates/real-04-familia-vinha.jpg';
+import imgVinhaPanorama from '../assets/real_candidates/real-01-vinha-panorama.jpg';
+import imgOlival from '../assets/real_candidates/real-06-olival-centenario.jpg';
+import imgAdega from '../assets/real_candidates/real-11-caves-repouso.jpg';
+import imgDegustacao from '../assets/real_candidates/real-09-degustacao-copos.jpg';
+import imgTerraco from '../assets/real_candidates/real-03-flores-terraco.jpg';
+import imgBanco from '../assets/real_candidates/real-12-banco-tradicional.jpg';
+
+// Family portraits & Signature
+import imgManuel from '../assets/real_candidates/manuel-pereira.jpg';
+import imgIdalina from '../assets/real_candidates/idalina-pereira.jpg';
+import imgManuela from '../assets/real_candidates/manuela-pereira.jpg';
+import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
+---
+
+<Layout 
+  title="O Monte & A Família | Monte da Colónia" 
+  description="Conheça a história do Monte da Colónia em Vale de Seda, Fronteira. Mais de 40 anos de dedicação da família Pereira e António Justo, unindo tradição alentejana e inovação na terra."
+>
+  <Header currentPage="monte" />
+
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+    
+    <!-- 1. HERO HEADER: O MONTE & A FAMÍLIA -->
+    <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
+      <!-- Atmospheric Backdrop Image -->
+      <div class="absolute inset-0 z-0">
+        <Image 
+          src={heroMonte} 
+          alt="Paisagem do Monte da Colónia" 
+          class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.05]"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-stone-950/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-stone-950/60"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.15em] uppercase text-white mb-4 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+          O Monte & <span class="font-serif italic font-light text-[#F3D08A]">A Família</span>
+        </h1>
+
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto my-5"></div>
+
+        <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
+          "Mais de quatro décadas de paixão inscrita na terra de Vale de Seda, onde o saber ancestral acolhe o futuro."
+        </p>
+
+        <!-- Estate Highlights row -->
+        <div class="mt-8 flex flex-wrap items-center justify-center gap-8 text-xs font-cinzel uppercase tracking-wider text-stone-300">
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>Desde 1980</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>Vale de Seda · Fronteira</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-2 h-2 bg-[#C5A059]"></span>
+            <span>1000 Hectares de Terroir</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. TERROIR & A PROPRIEDADE: OS 1000 HECTARES -->
+    <section class="py-20 sm:py-28 px-6 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D] leading-tight font-normal">
+            O Berço de Vale de Seda: <br />
+            <span class="italic text-stone-700">1000 Hectares de Natureza Alentejana</span>
+          </h2>
+
+          <p class="text-stone-600 leading-relaxed font-light text-base sm:text-lg">
+            Situado no concelho de Fronteira, o <strong>Monte da Colónia</strong> estende-se por solos de xisto e granito banhados pela tranquilidade da planície alentejana. O monte tradicional de barra azul e cal branca é o coração vivo onde convergem vinhas rigorosas, olivais centenários e adega própria orientada pela sustentabilidade.
+          </p>
+
+          <!-- Key Metrics -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-stone-200">
+            <div>
+              <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">1980</p>
+              <p class="font-cinzel text-[10px] sm:text-xs uppercase tracking-wider text-stone-500 mt-1">Fundação</p>
+            </div>
+            <div>
+              <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">100 ha</p>
+              <p class="font-cinzel text-[10px] sm:text-xs uppercase tracking-wider text-stone-500 mt-1">Olival Próprio</p>
+            </div>
+            <div>
+              <p class="font-cinzel text-2xl sm:text-3xl font-bold text-[#C5A059]">20 ha</p>
+              <p class="font-cinzel text-[10px] sm:text-xs uppercase tracking-wider text-stone-500 mt-1">Vinha Selecionada</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Clean Visual Composition (Straight Architectural Borders & Light Aura) -->
+        <div class="lg:col-span-6 grid grid-cols-12 gap-4 items-end">
+          <div class="col-span-8 overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group relative">
+            <Image 
+              src={imgCasinha} 
+              alt="Casa Tradicional do Monte da Colónia" 
+              class="w-full h-full object-cover" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent"></div>
+            <div class="absolute bottom-4 left-4 right-4 text-white">
+              <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Arquitetura Alentejana</span>
+              <p class="font-serif text-sm text-stone-200 mt-0.5">A casa mãe de Vale de Seda</p>
+            </div>
+          </div>
+
+          <div class="col-span-4 overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[3/4] group relative">
+            <Image 
+              src={imgTerraco} 
+              alt="Terraço com Flores no Monte" 
+              class="w-full h-full object-cover" 
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-stone-950/60 via-transparent to-transparent"></div>
+            <div class="absolute bottom-3 left-3 right-3 text-white">
+              <p class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Pormenores</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 3. QUOTE BANNER (BRAND PHILOSOPHY) -->
+    <section class="py-16 bg-[#1A1410] text-[#F3D08A] relative overflow-hidden border-y border-[#C5A059]/30">
+      <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+        <svg class="w-10 h-10 mx-auto mb-4 text-[#C5A059]/50" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-8.983z"/>
+        </svg>
+        <blockquote class="font-serif text-xl sm:text-2xl md:text-3xl font-light italic leading-relaxed text-[#FFF4D4]">
+          "A nossa missão sempre foi simples e inegociável: respeitar os ciclos da terra, honrar a memória dos que nos antecederam e engarrafar a alma do Alto Alentejo."
+        </blockquote>
+        <p class="font-cinzel text-xs sm:text-sm uppercase tracking-[0.3em] text-[#C5A059] mt-6 font-semibold">
+          — Compromisso Familiar Monte da Colónia
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. A HISTÓRIA DA FAMÍLIA (AS DUAS GERAÇÕES) -->
+    <section class="py-20 sm:py-28 px-6 max-w-7xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl text-[#2B231D] font-normal">
+          A Família Que Moldou a Terra
+        </h2>
+        <p class="text-stone-600 mt-4 text-base sm:text-lg font-light leading-relaxed">
+          O Monte da Colónia não é apenas um projeto agropecuário e vinícola — é a história vivida de uma família que acreditou no potencial intemporal do Alto Alentejo.
+        </p>
+      </div>
+
+      <!-- Generation 1: The Founders -->
+      <div class="mb-24 pb-20 border-b border-stone-200/60">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          
+          <div class="lg:col-span-5 order-2 lg:order-1 flex flex-col justify-center">
+            <h3 class="font-serif text-3xl sm:text-4xl text-[#2B231D] font-normal">
+              Manuel & Idalina Pereira
+            </h3>
+            <p class="font-cinzel text-xs uppercase tracking-[0.25em] text-[#C5A059] font-semibold mt-1 mb-5">
+              1ª Geração · As Raízes de 1980
+            </p>
+            
+            <p class="text-stone-600 leading-relaxed font-light text-base mb-4">
+              Na década de 1980, movidos pela coragem e ligação afetiva às pastagens de Fronteira, o casal Manuel e Idalina Pereira adquiriu e começou a estruturar a propriedade. O foco inicial foi a produção agrícola genuína, a criação pecuária de excelência (ovinos Merino e bovinos Limousine) e a plantação dos primeiros olivais tradicionais.
+            </p>
+            
+            <p class="text-stone-600 leading-relaxed font-light text-base">
+              Foi com o rigor de Manuel e a dedicação incansável de Idalina que se forjaram os alicerces da marca: honestidade no trabalho, amor pela paisagem e uma exigência que nunca aceitou atalhos.
+            </p>
+          </div>
+
+          <div class="lg:col-span-7 order-1 lg:order-2 grid grid-cols-2 gap-4 sm:gap-6">
+            <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[3/4] group">
+              <Image 
+                src={imgManuel} 
+                alt="Manuel Pereira - Fundador" 
+                class="w-full h-full object-cover object-top" 
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 text-white">
+                <p class="font-cinzel text-sm font-semibold text-[#F3D08A]">Manuel Pereira</p>
+                <p class="text-[11px] text-stone-300 font-cinzel uppercase tracking-wider">Fundador</p>
+              </div>
+            </div>
+
+            <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[3/4] group">
+              <Image 
+                src={imgIdalina} 
+                alt="Idalina Pereira - Fundadora" 
+                class="w-full h-full object-cover object-top" 
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 text-white">
+                <p class="font-cinzel text-sm font-semibold text-[#F3D08A]">Idalina Pereira</p>
+                <p class="text-[11px] text-stone-300 font-cinzel uppercase tracking-wider">Fundadora</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Generation 2: Continuity & Innovation (António Justo & Manuela Pereira) -->
+      <div>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          
+          <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+            <!-- António Justo Solo Portrait -->
+            <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[3/4] group">
+              <Image 
+                src={imgAntonio} 
+                alt="António Justo" 
+                class="w-full h-full object-cover object-top" 
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 text-white">
+                <p class="font-cinzel text-sm font-semibold text-[#F3D08A]">António Justo</p>
+                <p class="text-[11px] text-stone-300 font-cinzel uppercase tracking-wider">Direção & Visão</p>
+              </div>
+            </div>
+
+            <!-- Manuela Pereira Solo Portrait -->
+            <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.25)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[3/4] group">
+              <Image 
+                src={imgManuela} 
+                alt="Manuela Pereira" 
+                class="w-full h-full object-cover object-top" 
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent"></div>
+              <div class="absolute bottom-4 left-4 text-white">
+                <p class="font-cinzel text-sm font-semibold text-[#F3D08A]">Manuela Pereira</p>
+                <p class="text-[11px] text-stone-300 font-cinzel uppercase tracking-wider">Gestão & Continuidade</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 flex flex-col justify-center">
+            <h3 class="font-serif text-2xl sm:text-3xl md:text-4xl text-[#2B231D]">
+              António Justo & Manuela Pereira
+            </h3>
+            <p class="font-cinzel text-xs uppercase tracking-[0.25em] text-[#C5A059] font-semibold mt-1 mb-5">
+              2ª Geração · Inovação & Modernização
+            </p>
+            
+            <p class="text-stone-600 leading-relaxed font-light text-base mb-4">
+              Na viragem para o novo milénio, a segunda geração assumiu a liderança com uma visão renovada: plantar as vinhas que hoje produzem os aclamados vinhos <strong>Monte da Colónia</strong>, instalar tecnologia de extração a frio no lagar próprio e levar a identidade de Vale de Seda aos palcos internacionais.
+            </p>
+
+            <p class="text-stone-600 leading-relaxed font-light text-base">
+              Sob a liderança de <strong>António Justo</strong> e <strong>Manuela Pereira</strong>, a herdade conquistou prestigiadas medalhas de ouro internacionais (como na feira Anuga) e abriu as portas ao enoturismo, permitindo que visitantes de todo o mundo partilhem da atmosfera que a família construiu com as próprias mãos.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 5. O QUE NOS DISTINGUE (4 PILARES DA HERDADE) -->
+    <section class="py-20 bg-[#F4EFEA] border-y border-stone-200">
+      <div class="max-w-7xl mx-auto px-6">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D]">
+            A Identidade do Monte da Colónia
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+          
+          <!-- Pilar 1 -->
+          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+            <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15a5 5 0 005-5V4H7v6a5 5 0 005 5zm0 0v5m-3 0h6"></path>
+              </svg>
+            </div>
+            <h3 class="font-cinzel text-base font-bold text-[#2B231D] mb-3 uppercase tracking-wider group-hover:text-[#8C6D2D] transition-colors">Adega & Vinha</h3>
+            <p class="text-sm text-stone-600 leading-relaxed font-light">
+              20 hectares com castas nobres selecionadas por Rui Vieira, estágio em barricas de carvalho e respeito absoluto pelo terroir.
+            </p>
+          </div>
+
+          <!-- Pilar 2 -->
+          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+            <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 21a6 6 0 006-6c0-4-6-11-6-11S6 11 6 15a6 6 0 006 6z"></path>
+              </svg>
+            </div>
+            <h3 class="font-cinzel text-base font-bold text-[#2B231D] mb-3 uppercase tracking-wider group-hover:text-[#8C6D2D] transition-colors">Lagar & Olival</h3>
+            <p class="text-sm text-stone-600 leading-relaxed font-light">
+              100 hectares de oliveiras centenárias Galega e Cobrançosa, com extração a frio no próprio dia da colheita e acidez inferior a 0.2%.
+            </p>
+          </div>
+
+          <!-- Pilar 3 -->
+          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+            <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V9l7-5 7 5v12M10 21v-5a2 2 0 014 0v5"></path>
+              </svg>
+            </div>
+            <h3 class="font-cinzel text-base font-bold text-[#2B231D] mb-3 uppercase tracking-wider group-hover:text-[#8C6D2D] transition-colors">Tradição Viva</h3>
+            <p class="text-sm text-stone-600 leading-relaxed font-light">
+              Arquitetura típica alentejana preservada, caiada de branco com apontamentos rústicos, honrando o modo de viver do Alentejo.
+            </p>
+          </div>
+
+          <!-- Pilar 4 -->
+          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+            <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="9" stroke-width="1.8"></circle>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 7v5l3 3"></path>
+              </svg>
+            </div>
+            <h3 class="font-cinzel text-base font-bold text-[#2B231D] mb-3 uppercase tracking-wider group-hover:text-[#8C6D2D] transition-colors">Hospitalidade</h3>
+            <p class="text-sm text-stone-600 leading-relaxed font-light">
+              Portas abertas para visitas à adega, passeios pelos olivais e degustações gastronómicas de produtos regionais com a família.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 6. GALERIA VISUAL DA HERDADE -->
+    <section class="py-20 px-6 max-w-7xl mx-auto">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12">
+        <div>
+          <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D]">
+            Imagens que Contam a Nossa História
+          </h2>
+        </div>
+        <p class="text-stone-500 font-serif italic text-sm mt-3 md:mt-0">
+          Vislumbres do dia-a-dia em Vale de Seda
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={imgVinhaPanorama} alt="Vinha do Monte da Colónia" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">As Vinhas</span>
+            <p class="font-serif text-sm text-stone-200">As linhas verdes sob o sol de Vale de Seda</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={imgOlival} alt="Olival Centenário" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">O Olival</span>
+            <p class="font-serif text-sm text-stone-200">Oliveiras centenárias Galega e Cobrançosa</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={imgAdega} alt="Adega e Barricas" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">A Adega</span>
+            <p class="font-serif text-sm text-stone-200">O silêncio e o estágio em carvalho francês</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={imgDegustacao} alt="Degustação de Vinhos" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Enoturismo</span>
+            <p class="font-serif text-sm text-stone-200">Momentos de partilha à volta da mesa</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={imgBanco} alt="Banco Tradicional Alentejano" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Pormenores</span>
+            <p class="font-serif text-sm text-stone-200">A serenidade do descanso no pátio</p>
+          </div>
+        </div>
+
+        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+          <Image src={heroMonte} alt="Paisagem Global" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">A Herdade</span>
+            <p class="font-serif text-sm text-stone-200">1000 hectares em comunhão com o Alentejo</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 7. INVITATION CTA: VENHA CONHECER-NOS -->
+    <section class="py-20 bg-stone-950 text-white relative overflow-hidden">
+      <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-white mb-6">
+          As Portas do Monte Estão Abertas
+        </h2>
+        
+        <p class="text-stone-300 text-base sm:text-lg font-light leading-relaxed max-w-2xl mx-auto mb-10">
+          Convidamo-lo a visitar o Monte da Colónia em Vale de Seda, Fronteira. Conheça as nossas vinhas, passeie pelo olival e prove connosco o que de mais genuíno a nossa terra oferece.
+        </p>
+
+        <div class="flex items-center justify-center">
+          <a 
+            href="mailto:loja@montedacolonia.pt?subject=Reserva%20de%20Visita%20ao%20Monte%20da%20Colonia" 
+            class="px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-xl hover:shadow-[#F3D08A]/40 transition-all"
+          >
+            Marcar Visita Guiada
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <Footer currentPage="monte" />
+</Layout>

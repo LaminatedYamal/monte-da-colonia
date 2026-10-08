@@ -1,0 +1,287 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+
+// Estate photo
+import imgTerraco from '../assets/real_candidates/real-03-flores-terraco.jpg';
+---
+
+<Layout 
+  title="Contactos & Localização | Monte da Colónia" 
+  description="Contacte a herdade Monte da Colónia em Vale de Seda, Fronteira. Informações de localização, marcações de visitas e encomendas diretas de vinhos e azeites."
+>
+  <Header currentPage="contactos" />
+
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+    
+    <!-- 1. HERO HEADER -->
+    <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
+      <!-- Atmospheric Backdrop Image -->
+      <div class="absolute inset-0 z-0">
+        <Image 
+          src={imgTerraco} 
+          alt="Terraço e Pátio do Monte da Colónia" 
+          class="w-full h-full object-cover object-center filter brightness-[0.55] contrast-[1.05]"
+          loading="eager"
+        />
+        <div class="absolute inset-0 bg-stone-950/40"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-stone-950/60"></div>
+      </div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6 text-center">
+        <h1 class="font-cinzel text-3xl sm:text-5xl md:text-6xl font-normal tracking-[0.15em] uppercase text-white mb-4 drop-shadow-[0_2px_12px_rgba(0,0,0,0.8)]">
+          Contactos & <span class="font-serif italic font-light text-[#F3D08A]">Localização</span>
+        </h1>
+
+        <div class="w-24 h-px bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto my-5"></div>
+
+        <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
+          Estamos situados em Vale de Seda, no coração do concelho de Fronteira. Contacte-nos para esclarecimento de dúvidas, pedidos especiais de garrafeiras ou agendamento de visitas.
+        </p>
+      </div>
+    </section>
+
+    <!-- 2. CONTACT DETAILS & MAP -->
+    <section class="py-20 sm:py-28 px-6 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+        
+        <!-- Contact Information Cards -->
+        <div class="lg:col-span-5 space-y-8">
+          
+          <div>
+            <h2 class="font-serif text-3xl text-[#2B231D] mb-4">
+              Sociedade Agrícola de Vale de Seda, Lda.
+            </h2>
+            <p class="text-stone-600 font-light text-sm leading-relaxed">
+              O Monte da Colónia acolhe visitantes, clientes e parceiros com a genuína hospitalidade alentejana.
+            </p>
+          </div>
+
+          <div class="space-y-6 pt-2">
+            <!-- Morada -->
+            <div class="border-l-2 border-[#C5A059] pl-4">
+              <p class="font-cinzel text-xs uppercase tracking-wider text-stone-500 font-bold">Morada & Terroir</p>
+              <p class="font-serif text-base text-[#2B231D] mt-1">
+                Herdade Monte da Colónia<br />
+                Vale de Seda, 7460-302 Fronteira<br />
+                Alto Alentejo · Portugal
+              </p>
+              <p class="text-xs text-stone-400 font-cinzel mt-1">GPS: 39°03'21.8"N 7°38'42.1"W</p>
+            </div>
+
+            <!-- Email & Telefone -->
+            <div class="border-l-2 border-[#C5A059] pl-4">
+              <p class="font-cinzel text-xs uppercase tracking-wider text-stone-500 font-bold">Contactos Diretos</p>
+              <p class="text-sm text-stone-800 mt-1">
+                <strong>Email Geral & Loja:</strong> <a href="mailto:loja@montedacolonia.pt" class="text-[#C5A059] hover:underline">loja@montedacolonia.pt</a>
+              </p>
+              <p class="text-sm text-stone-800 mt-1">
+                <strong>Enoturismo & Visitas:</strong> <a href="mailto:loja@montedacolonia.pt?subject=Marcacao%20Visita" class="text-[#C5A059] hover:underline">loja@montedacolonia.pt</a>
+              </p>
+              <p class="text-sm text-stone-800 mt-1">
+                <strong>Telemóvel / WhatsApp:</strong> +351 912 345 678
+              </p>
+            </div>
+
+            <!-- Horários -->
+            <div class="border-l-2 border-[#C5A059] pl-4">
+              <p class="font-cinzel text-xs uppercase tracking-wider text-stone-500 font-bold">Horário de Funcionamento</p>
+              <p class="text-sm text-stone-700 mt-1">
+                Segunda a Sexta: 09h00 – 18h00<br />
+                Sábados e Feriados: 10h00 – 17h00 (Sob Marcação Prévia)<br />
+                Domingos: Fechado para descanso familiar
+              </p>
+            </div>
+          </div>
+
+          <!-- Direct WhatsApp Button -->
+          <div class="pt-4">
+            <a 
+              href="https://wa.me/351912345678?text=Ola!%20Gostaria%20de%20obter%20informacoes%20sobre%20o%20Monte%20da%20Colonia." 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="w-full py-3.5 border border-[#25D366] bg-[#25D366] hover:bg-[#1EBE5D] text-white font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2"
+            >
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>Conversar pelo WhatsApp</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="lg:col-span-7">
+          <div class="border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_30px_rgba(243,208,138,0.25)] p-8 sm:p-12">
+            <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D] mb-6">
+              Envie-nos a Sua Mensagem
+            </h2>
+
+            <form 
+              action="mailto:loja@montedacolonia.pt" 
+              method="GET" 
+              class="space-y-4 text-xs"
+            >
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">O Seu Nome *</label>
+                  <input type="text" name="nome" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+                </div>
+                <div>
+                  <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Telefone / Telemóvel</label>
+                  <input type="tel" name="telefone" class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+                </div>
+              </div>
+
+              <div>
+                <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Endereço de Email *</label>
+                <input type="email" name="email" required class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900" />
+              </div>
+
+              <div>
+                <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Assunto</label>
+                <select name="subject" class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900">
+                  <option value="Informações Gerais">Informações Gerais sobre a Herdade</option>
+                  <option value="Dúvida sobre Encomendas">Dúvidas sobre Encomendas da Loja Online</option>
+                  <option value="Marcação de Visitas">Marcação de Visitas e Provas</option>
+                  <option value="Distribuição e Restauração">Distribuição, Garrafeiras e Restauração</option>
+                  <option value="Outro Assunto">Outro Assunto</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block font-cinzel uppercase tracking-wider text-stone-700 mb-1">Mensagem *</label>
+                <textarea name="body" rows="5" required placeholder="Como podemos ajudá-lo? Escreva aqui a sua mensagem..." class="w-full px-3.5 py-2.5 border border-stone-300 focus:border-[#C5A059] bg-white text-stone-900"></textarea>
+              </div>
+
+              <div class="pt-4">
+                <button 
+                  type="submit" 
+                  class="w-full py-4 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md hover:shadow-lg transition-all duration-300 cursor-pointer"
+                >
+                  Enviar Mensagem
+                </button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SECÇÃO: COMO CHEGAR & VISUALIZAÇÃO DO PERCURSO -->
+    <!-- ========================================== -->
+    <section id="mapa" class="py-20 sm:py-28 bg-[#14100D] text-white border-t border-[#C5A059]/30 relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+        
+        <div class="max-w-3xl mb-12">
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-normal text-white">
+            Como Chegar & <span class="italic font-light text-[#F3D08A]">O Percurso ao Monte</span>
+          </h2>
+          <div class="w-24 h-px bg-[#C5A059] my-5"></div>
+          <p class="text-stone-300 text-base sm:text-lg font-light leading-relaxed">
+            Situado no coração da planície de Vale de Seda, o Monte da Colónia encontra-se resguardado pela serenidade dos olivais centenários e das vinhas. Por ser um refúgio rural preservado, preparámos o mapa interativo e as indicações passo a passo para facilitar a sua chegada.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+          
+          <!-- Interactive Map Container (Straight borders & Golden Aura) -->
+          <div class="lg:col-span-8 border border-[#C5A059]/40 bg-stone-900 shadow-[0_0_35px_rgba(243,208,138,0.2)] flex flex-col overflow-hidden">
+            <div class="relative w-full h-[400px] sm:h-[480px]">
+              <iframe
+                title="Localização do Monte da Colónia no Google Maps"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-7.73%2C39.08%2C-7.65%2C39.13&layer=mapnik&marker=39.108765%2C-7.692824"
+                class="w-full h-full border-0 filter saturate-90 brightness-95"
+                loading="lazy"
+                allowfullscreen
+              ></iframe>
+            </div>
+            
+            <!-- Quick GPS Launch Bar below map -->
+            <div class="bg-[#1A1410] border-t border-[#C5A059]/30 p-4 sm:p-5 flex flex-wrap items-center justify-between gap-4">
+              <div class="flex items-center gap-3 text-xs text-stone-300">
+                <svg class="w-5 h-5 text-[#F3D08A] shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span class="font-cinzel text-xs tracking-wider">
+                  Coordenadas GPS: <strong class="text-[#F3D08A]">39°06'31.6"N 7°41'34.2"W</strong>
+                </span>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-3">
+                <a 
+                  href="https://www.google.com/maps/dir/?api=1&destination=39.108765,-7.692824" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="px-5 py-2.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:brightness-110 transition-all flex items-center gap-2"
+                >
+                  <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                  Iniciar Navegação no Google Maps
+                </a>
+
+                <a 
+                  href="https://waze.com/ul?ll=39.108765,-7.692824&navigate=yes" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="px-4 py-2.5 border border-stone-600 hover:border-[#F3D08A] bg-[#221A14] text-[#F3D08A] font-cinzel text-xs uppercase tracking-[0.2em] transition-all flex items-center gap-2"
+                >
+                  Abrir no Waze
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Trail & Access Instructions Card -->
+          <div class="lg:col-span-4 border border-[#C5A059]/30 bg-[#1A1410] p-6 sm:p-8 flex flex-col justify-between space-y-6">
+            <div>
+              <h3 class="font-cinzel text-sm uppercase tracking-[0.25em] text-[#F3D08A] font-bold mb-4">
+                Guia do Percurso Rural
+              </h3>
+              
+              <ul class="space-y-4 text-xs text-stone-300 font-light leading-relaxed">
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-none bg-[#C5A059]/20 border border-[#C5A059] text-[#F3D08A] flex items-center justify-center font-cinzel text-[10px] shrink-0 font-bold">1</span>
+                  <span><strong>Acesso Principal:</strong> A partir de Fronteira ou de Cabeço de Vide, siga pela EM527 em direção a Vale de Seda até à placa indicativa de entrada do Monte da Colónia.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-none bg-[#C5A059]/20 border border-[#C5A059] text-[#F3D08A] flex items-center justify-center font-cinzel text-[10px] shrink-0 font-bold">2</span>
+                  <span><strong>O Trilho até à Adega:</strong> Ao virar no portão da propriedade, entrará num caminho rural de terra batida compactada, seguro e perfeitamente transitável para qualquer viatura de turismo.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-none bg-[#C5A059]/20 border border-[#C5A059] text-[#F3D08A] flex items-center justify-center font-cinzel text-[10px] shrink-0 font-bold">3</span>
+                  <span><strong>Entre o Olival e a Vinha:</strong> Conduza devagar acompanhando o alinhamento das oliveiras centenárias durante cerca de 1,2 km até avistar o casario branco tradicional e as caves.</span>
+                </li>
+                <li class="flex items-start gap-3">
+                  <span class="w-5 h-5 rounded-none bg-[#C5A059]/20 border border-[#C5A059] text-[#F3D08A] flex items-center justify-center font-cinzel text-[10px] shrink-0 font-bold">4</span>
+                  <span><strong>Chegada & Estacionamento:</strong> Parque de estacionamento privativo e sombreado disponível mesmo em frente à receção e à sala de degustação.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="border-t border-stone-800 pt-5 text-xs text-stone-400 font-light">
+              <p class="italic text-stone-300">"Caso sinta qualquer dúvida durante o percurso na estrada municipal, ligue-nos de imediato e guiamos a sua chegada em tempo real."</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="font-cinzel text-[11px] text-[#F3D08A] font-semibold">+351 912 345 678</span>
+                <a href="tel:+351912345678" class="text-xs text-[#F3D08A] hover:underline font-cinzel uppercase tracking-wider">Ligar Agora</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <Footer currentPage="contactos" />
+</Layout>

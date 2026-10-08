@@ -1,0 +1,694 @@
+[
+  {
+    "id": 28,
+    "count": 9,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/azeites/",
+    "name": "Azeites",
+    "slug": "azeites",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/28",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=28"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 47,
+    "count": 5,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/azeitonas/",
+    "name": "Azeitonas",
+    "slug": "azeitonas",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/47",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=47"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "count": 4,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/azeites/bio/",
+    "name": "Bio",
+    "slug": "bio",
+    "taxonomy": "product_cat",
+    "parent": 28,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/37",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/28"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=37"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "count": 6,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/brancos/",
+    "name": "Brancos",
+    "slug": "brancos",
+    "taxonomy": "product_cat",
+    "parent": 27,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/33",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=33"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 35,
+    "count": 2,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/espumantes/",
+    "name": "Espumantes",
+    "slug": "espumantes",
+    "taxonomy": "product_cat",
+    "parent": 27,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/35",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=35"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 52,
+    "count": 1,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/licoroso/",
+    "name": "Licoroso",
+    "slug": "licoroso",
+    "taxonomy": "product_cat",
+    "parent": 27,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/52",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=52"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "count": 0,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/mel/",
+    "name": "Mel",
+    "slug": "mel",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/30",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 36,
+    "count": 2,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/rose/",
+    "name": "Rosé",
+    "slug": "rose",
+    "taxonomy": "product_cat",
+    "parent": 27,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/36",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=36"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 23,
+    "count": 0,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/sem-categoria/",
+    "name": "Sem categoria",
+    "slug": "sem-categoria",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/23",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=23"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "count": 13,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/tintos/",
+    "name": "Tintos",
+    "slug": "tintos",
+    "taxonomy": "product_cat",
+    "parent": 27,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/34",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=34"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "count": 2,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinagres/",
+    "name": "Vinagres",
+    "slug": "vinagres",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/29",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=29"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "count": 24,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/vinhos/",
+    "name": "Vinhos",
+    "slug": "vinhos",
+    "taxonomy": "product_cat",
+    "parent": 0,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/27",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=27"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "count": 1,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/azeites/virgem/",
+    "name": "Virgem",
+    "slug": "virgem",
+    "taxonomy": "product_cat",
+    "parent": 28,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/38",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/28"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=38"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "count": 4,
+    "description": "",
+    "link": "https://montedacolonia.pt/categoria-produto/azeites/virgem-extra/",
+    "name": "Virgem Extra",
+    "slug": "virgem-extra",
+    "taxonomy": "product_cat",
+    "parent": 28,
+    "meta": [],
+    "menu_order": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/39",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/taxonomies/product_cat"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product_cat/28"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://montedacolonia.pt/wp-json/wp/v2/product?product_cat=39"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
