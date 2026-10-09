@@ -236,13 +236,6 @@ const products = [
         <p class="font-serif text-stone-100 text-base sm:text-lg font-light max-w-2xl mx-auto italic drop-shadow-[0_1px_8px_rgba(0,0,0,0.9)]">
           Encomende os vinhos medalhados e os azeites virgem extra produzidos pela família Pereira em Vale de Seda. Entregas em 24h a 48h com garantia de frescura.
         </p>
-
-        <!-- Trust badges -->
-        <div class="mt-8 flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-xs font-cinzel uppercase tracking-[0.22em] text-[#F3D08A]">
-          <span>Portes Grátis acima de 60 €</span>
-          <span>Embalagens Anti-Quebra</span>
-          <span>Suporte Direto da Família</span>
-        </div>
       </div>
     </section>
 
@@ -253,28 +246,28 @@ const products = [
       <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-stone-200">
         
         <!-- Filter Tabs -->
-        <div class="flex flex-wrap items-center justify-center gap-2" id="filter-tabs">
+        <div class="flex flex-wrap items-center justify-center gap-2.5 sm:gap-3" id="filter-tabs">
           <button 
             data-filter="todos" 
-            class="filter-btn active-filter px-5 py-2.5 border border-[#C5A059] bg-[#14100D] text-[#F3D08A] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+            class="filter-btn active-filter px-5 sm:px-6 py-2.5 border font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer"
           >
             Todos os Produtos
           </button>
           <button 
             data-filter="vinhos" 
-            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+            class="filter-btn px-5 sm:px-6 py-2.5 border font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer"
           >
             Vinhos
           </button>
           <button 
             data-filter="azeites" 
-            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+            class="filter-btn px-5 sm:px-6 py-2.5 border font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer"
           >
             Azeites & Gourmet
           </button>
           <button 
             data-filter="packs" 
-            class="filter-btn px-5 py-2.5 border border-stone-300 bg-white text-stone-700 hover:border-[#C5A059] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer transition-all duration-300"
+            class="filter-btn px-5 sm:px-6 py-2.5 border font-cinzel text-xs uppercase tracking-[0.2em] font-semibold cursor-pointer"
           >
             Packs Especiais
           </button>
@@ -392,7 +385,7 @@ const products = [
     <!-- 3. SLIDE-OUT SHOPPING CART DRAWER (RIGHT PANEL) -->
     <div id="cart-drawer-backdrop" class="fixed inset-0 bg-stone-950/70 z-50 opacity-0 pointer-events-none transition-opacity duration-300"></div>
 
-    <aside id="cart-drawer" class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-[#FAF8F5] text-[#2B231D] z-50 shadow-2xl translate-x-full transition-transform duration-300 flex flex-col border-l border-[#C5A059]/40">
+    <aside id="cart-drawer" class="fixed top-0 right-0 bottom-0 w-full max-w-md bg-[#FAF8F5] text-[#2B231D] z-50 shadow-2xl translate-x-full transition-transform duration-300 flex flex-col border-l border-[#C5A059]/40 invisible pointer-events-none">
       
       <!-- Cart Header -->
       <div class="p-6 bg-[#14100D] text-white border-b border-[#C5A059]/30 flex items-center justify-between">
@@ -442,7 +435,7 @@ const products = [
       </div>
 
       <!-- Cart Footer / Summary & Direct Order Actions -->
-      <div class="p-6 bg-white border-t border-stone-200 space-y-4">
+      <div class="p-4 sm:p-6 bg-white border-t border-stone-200 space-y-3 sm:space-y-4 shrink-0">
         <div class="space-y-2 text-xs font-cinzel">
           <div class="flex justify-between text-stone-600">
             <span>Subtotal</span>
@@ -462,18 +455,18 @@ const products = [
           <!-- WhatsApp direct order -->
           <button 
             id="checkout-whatsapp-btn" 
-            class="w-full py-3.5 border border-[#25D366] bg-[#25D366] hover:bg-[#1EBE5D] text-white font-cinzel text-xs uppercase tracking-[0.2em] font-bold shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            class="w-full px-3 sm:px-4 py-3 sm:py-3.5 border border-[#25D366] bg-[#25D366] hover:bg-[#1EBE5D] active:scale-[0.99] text-white font-cinzel text-[11px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.16em] font-bold shadow-md hover:shadow-lg transition-all duration-300 flex items-center justify-center gap-2 text-center leading-tight cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+            <svg class="w-4 h-4 shrink-0 text-white" fill="currentColor" viewBox="0 0 24 24">
               <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
             </svg>
-            <span>Finalizar Encomenda via WhatsApp</span>
+            <span class="truncate sm:whitespace-normal">Finalizar Encomenda via WhatsApp</span>
           </button>
 
           <!-- Email order modal trigger -->
           <button 
             id="checkout-email-btn" 
-            class="w-full py-3.5 border border-[#14100D] bg-[#14100D] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-xs uppercase tracking-[0.2em] font-semibold transition-all duration-300 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            class="w-full px-3 sm:px-4 py-2.5 sm:py-3 border border-[#14100D] bg-[#14100D] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[11px] sm:text-xs uppercase tracking-[0.08em] sm:tracking-[0.16em] font-semibold transition-all duration-300 text-center leading-tight cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
           >
             Encomendar por Formulário / Email
           </button>
@@ -481,7 +474,7 @@ const products = [
           <!-- Clear entire cart action -->
           <button 
             id="clear-cart-link-btn" 
-            class="w-full text-center pt-2 pb-1 text-[11px] font-cinzel uppercase tracking-[0.2em] text-stone-400 hover:text-red-700 transition-colors cursor-pointer"
+            class="w-full text-center pt-2 pb-1 text-[11px] font-cinzel uppercase tracking-[0.15em] text-stone-400 hover:text-red-700 transition-colors cursor-pointer"
           >
             Esvaziar Carrinho
           </button>
@@ -719,6 +712,7 @@ const products = [
     const drawer = document.getElementById('cart-drawer');
     const backdrop = document.getElementById('cart-drawer-backdrop');
     if (drawer && backdrop) {
+      drawer.classList.remove('invisible', 'pointer-events-none');
       drawer.classList.remove('translate-x-full');
       backdrop.classList.remove('opacity-0', 'pointer-events-none');
     }
@@ -730,6 +724,11 @@ const products = [
     if (drawer && backdrop) {
       drawer.classList.add('translate-x-full');
       backdrop.classList.add('opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        if (drawer.classList.contains('translate-x-full')) {
+          drawer.classList.add('invisible', 'pointer-events-none');
+        }
+      }, 300);
     }
   }
 
@@ -800,11 +799,9 @@ const products = [
     function applyFilter(category) {
       filterBtns.forEach(b => {
         if (b.getAttribute('data-filter') === category) {
-          b.classList.add('bg-[#14100D]', 'text-[#F3D08A]', 'border-[#C5A059]');
-          b.classList.remove('bg-white', 'text-stone-700', 'border-stone-300');
+          b.classList.add('active-filter');
         } else {
-          b.classList.remove('bg-[#14100D]', 'text-[#F3D08A]', 'border-[#C5A059]');
-          b.classList.add('bg-white', 'text-stone-700', 'border-stone-300');
+          b.classList.remove('active-filter');
         }
       });
 
@@ -925,3 +922,45 @@ const products = [
     }
   });
 </script>
+
+<style>
+  /* Store Filter Buttons: Guaranteed High-Contrast Active & Hover State */
+  .filter-btn {
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none !important;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Active State (Luminous Gold Text on Dark Luxury Background) */
+  .filter-btn.active-filter {
+    background-color: #14100D !important;
+    color: #F3D08A !important;
+    border-color: #C5A059 !important;
+    box-shadow: 0 4px 18px rgba(197, 160, 89, 0.25) !important;
+    font-weight: 700 !important;
+  }
+
+  /* When Active, NEVER turn black on hover, active, or touch tap! */
+  .filter-btn.active-filter:hover,
+  .filter-btn.active-filter:focus,
+  .filter-btn.active-filter:active {
+    background-color: #1F1712 !important;
+    color: #FFF4D4 !important;
+    border-color: #F3D08A !important;
+  }
+
+  /* Inactive State */
+  .filter-btn:not(.active-filter) {
+    background-color: #FFFFFF !important;
+    color: #57534E !important;
+    border-color: #E7E5E4 !important;
+  }
+
+  .filter-btn:not(.active-filter):hover,
+  .filter-btn:not(.active-filter):focus {
+    background-color: #FAF8F5 !important;
+    color: #14100D !important;
+    border-color: #C5A059 !important;
+  }
+</style>

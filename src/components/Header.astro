@@ -101,7 +101,7 @@ const { currentPage = '', isStore = false } = Astro.props;
 
   <aside 
     id="offcanvas-drawer" 
-    class="fixed top-0 right-0 bottom-0 w-full max-w-[320px] sm:max-w-md bg-[#14100D] border-l border-[#C5A059]/30 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col justify-between p-6 sm:p-8 lg:hidden"
+    class="fixed top-0 right-0 bottom-0 w-full max-w-[320px] sm:max-w-md bg-[#14100D] border-l border-[#C5A059]/30 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col justify-between p-6 sm:p-8 lg:hidden invisible pointer-events-none"
     aria-label="Menu Principal"
   >
     <div>
@@ -128,35 +128,35 @@ const { currentPage = '', isStore = false } = Astro.props;
         </button>
       </div>
 
-      <!-- Navigation Links (Touch-Friendly, min-h-[48px]) -->
-      <nav class="flex flex-col gap-2 pt-6 font-cinzel uppercase tracking-[0.24em] text-sm">
+      <!-- Navigation Links (Right-aligned, Touch-Friendly) -->
+      <nav class="flex flex-col gap-2 pt-6 font-cinzel uppercase tracking-[0.26em] text-sm text-right">
         <a 
           href={url('monte')} 
-          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+          class={`flex items-center justify-end gap-3 min-h-[50px] px-4 py-2.5 transition-colors border-b border-stone-900/80 w-full ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold bg-[#221A14] border-r-2 border-r-[#F3D08A]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
         >
           <span>O Monte</span>
-          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          <svg class="w-4 h-4 text-[#C5A059]/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </a>
         <a 
           href={url('produtos')} 
-          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+          class={`flex items-center justify-end gap-3 min-h-[50px] px-4 py-2.5 transition-colors border-b border-stone-900/80 w-full ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold bg-[#221A14] border-r-2 border-r-[#F3D08A]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
         >
           <span>Produtos</span>
-          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          <svg class="w-4 h-4 text-[#C5A059]/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </a>
         <a 
           href={url('visitas')} 
-          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+          class={`flex items-center justify-end gap-3 min-h-[50px] px-4 py-2.5 transition-colors border-b border-stone-900/80 w-full ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold bg-[#221A14] border-r-2 border-r-[#F3D08A]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
         >
           <span>Visitas</span>
-          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          <svg class="w-4 h-4 text-[#C5A059]/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </a>
         <a 
           href={url('contactos')} 
-          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+          class={`flex items-center justify-end gap-3 min-h-[50px] px-4 py-2.5 transition-colors border-b border-stone-900/80 w-full ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold bg-[#221A14] border-r-2 border-r-[#F3D08A]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
         >
           <span>Contactos</span>
-          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+          <svg class="w-4 h-4 text-[#C5A059]/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
         </a>
       </nav>
     </div>
@@ -184,6 +184,7 @@ const { currentPage = '', isStore = false } = Astro.props;
 
   function openDrawer(): void {
     if (drawerBackdrop && offcanvasDrawer) {
+      offcanvasDrawer.classList.remove('invisible', 'pointer-events-none');
       drawerBackdrop.classList.remove('opacity-0', 'pointer-events-none');
       drawerBackdrop.classList.add('opacity-100', 'pointer-events-auto');
       offcanvasDrawer.classList.remove('translate-x-full');
@@ -199,6 +200,11 @@ const { currentPage = '', isStore = false } = Astro.props;
       offcanvasDrawer.classList.remove('translate-x-0');
       offcanvasDrawer.classList.add('translate-x-full');
       document.body.style.overflow = '';
+      setTimeout(() => {
+        if (offcanvasDrawer && offcanvasDrawer.classList.contains('translate-x-full')) {
+          offcanvasDrawer.classList.add('invisible', 'pointer-events-none');
+        }
+      }, 300);
     }
   }
 
