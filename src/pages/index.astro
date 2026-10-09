@@ -423,12 +423,12 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
   // =========================================================================
   const portalWrapper = document.getElementById('portal-wrapper');
   const portalBtn = document.getElementById('portal-btn');
-  const satelliteLinks = document.querySelectorAll<HTMLAnchorElement>('.satellite-medallion');
-  const bgLayers = document.querySelectorAll<HTMLElement>('.hero-bg-layer');
+  const satelliteLinks = document.querySelectorAll('.satellite-medallion');
+  const bgLayers = document.querySelectorAll('.hero-bg-layer');
   const defaultBg = document.getElementById('bg-default');
 
   // Helper to switch active background
-  function setActiveBackground(bgId: string | null) {
+  function setActiveBackground(bgId) {
     bgLayers.forEach(layer => {
       if (bgId && layer.id === bgId) {
         layer.classList.add('is-active');
