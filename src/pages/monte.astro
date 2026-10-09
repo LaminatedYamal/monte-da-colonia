@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { url } from '../utils/paths';
 import { Image } from 'astro:assets';
 
 // Image assets
@@ -484,8 +485,8 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
 
         <div class="flex items-center justify-center">
           <a 
-            href="mailto:loja@montedacolonia.pt?subject=Reserva%20de%20Visita%20ao%20Monte%20da%20Colonia" 
-            class="px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-xl hover:shadow-[#F3D08A]/40 transition-all"
+            href={url('visitas#reserva')} 
+            class="px-8 py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-xl hover:shadow-[#F3D08A]/40 transition-all cursor-pointer"
           >
             Marcar Visita Guiada
           </a>

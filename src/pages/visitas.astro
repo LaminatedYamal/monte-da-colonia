@@ -124,8 +124,8 @@ const experiencias = [
     </section>
 
     <!-- 3. RESERVATION FORM -->
-    <section id="reserva" class="py-16 sm:py-24 px-4 sm:px-6 max-w-4xl mx-auto">
-      <div class="border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_30px_rgba(243,208,138,0.25)] p-5 sm:p-8 md:p-12">
+    <section id="reserva" class="py-12 sm:py-16 md:py-20 px-4 sm:px-6 max-w-4xl mx-auto scroll-mt-20 lg:scroll-mt-24">
+      <div id="formulario-reserva" class="border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_30px_rgba(243,208,138,0.25)] p-5 sm:p-8 md:p-12 scroll-mt-24 lg:scroll-mt-28">
         
         <div class="text-center mb-8 sm:mb-10">
           <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl text-[#2B231D]">
@@ -271,3 +271,37 @@ const experiencias = [
   <!-- FOOTER -->
   <Footer currentPage="visitas" />
 </Layout>
+
+<!-- CLIENT SCRIPT: ENSURE DIRECT ACCURATE SCROLL TO RESERVATION FORM ON DESKTOP & MOBILE -->
+<script>
+  function scrollToBookingForm() {
+    const hash = window.location.hash;
+    if (hash === '#reserva' || hash === '#formulario-reserva') {
+      const target = document.getElementById('formulario-reserva') || document.getElementById('reserva');
+      if (target) {
+        // Small delay to allow images, web fonts, and layout to compute fully
+        setTimeout(() => {
+          const header = document.querySelector('header');
+          const headerOffset = header ? header.getBoundingClientRect().height + 24 : 96;
+          const targetRect = target.getBoundingClientRect();
+          const targetY = window.pageYOffset + targetRect.top - headerOffset;
+
+          window.scrollTo({
+            top: Math.max(0, targetY),
+            behavior: 'smooth'
+          });
+        }, 120);
+      }
+    }
+  }
+
+  // Handle immediate execution, window load (after images), and hashchange events
+  if (document.readyState === 'complete') {
+    scrollToBookingForm();
+  } else {
+    window.addEventListener('load', scrollToBookingForm);
+    // Also try on DOMContentLoaded for faster responsiveness
+    document.addEventListener('DOMContentLoaded', scrollToBookingForm);
+  }
+  window.addEventListener('hashchange', scrollToBookingForm);
+</script>
