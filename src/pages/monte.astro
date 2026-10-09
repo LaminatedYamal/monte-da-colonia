@@ -258,16 +258,20 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
     <section class="py-20 bg-[#F4EFEA] border-y border-stone-200">
       <div class="max-w-7xl mx-auto px-6">
         
-        <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="text-center max-w-2xl mx-auto mb-12 md:mb-16">
           <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D]">
             A Identidade do Monte da Colónia
           </h2>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10">
+        <!-- Mobile Carousel Track / Desktop Grid -->
+        <div 
+          id="identidade-track" 
+          class="flex md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 lg:gap-10 overflow-x-auto md:overflow-visible snap-x snap-mandatory scroll-smooth pb-4 md:pb-0 px-2 md:px-0 no-scrollbar"
+        >
           
           <!-- Pilar 1 -->
-          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+          <div class="w-[82vw] max-w-[320px] md:w-auto shrink-0 md:shrink snap-center p-6 md:p-0 md:pt-6 bg-white md:bg-transparent border border-[#C5A059]/30 md:border-0 md:border-t md:border-stone-300/80 shadow-sm md:shadow-none hover:border-[#C5A059] transition-all duration-300 group">
             <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 15a5 5 0 005-5V4H7v6a5 5 0 005 5zm0 0v5m-3 0h6"></path>
@@ -280,7 +284,7 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
           </div>
 
           <!-- Pilar 2 -->
-          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+          <div class="w-[82vw] max-w-[320px] md:w-auto shrink-0 md:shrink snap-center p-6 md:p-0 md:pt-6 bg-white md:bg-transparent border border-[#C5A059]/30 md:border-0 md:border-t md:border-stone-300/80 shadow-sm md:shadow-none hover:border-[#C5A059] transition-all duration-300 group">
             <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 21a6 6 0 006-6c0-4-6-11-6-11S6 11 6 15a6 6 0 006 6z"></path>
@@ -293,7 +297,7 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
           </div>
 
           <!-- Pilar 3 -->
-          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+          <div class="w-[82vw] max-w-[320px] md:w-auto shrink-0 md:shrink snap-center p-6 md:p-0 md:pt-6 bg-white md:bg-transparent border border-[#C5A059]/30 md:border-0 md:border-t md:border-stone-300/80 shadow-sm md:shadow-none hover:border-[#C5A059] transition-all duration-300 group">
             <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21h18M5 21V9l7-5 7 5v12M10 21v-5a2 2 0 014 0v5"></path>
@@ -306,7 +310,7 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
           </div>
 
           <!-- Pilar 4 -->
-          <div class="group pt-6 border-t border-stone-300/80 hover:border-[#C5A059] transition-colors duration-300">
+          <div class="w-[82vw] max-w-[320px] md:w-auto shrink-0 md:shrink snap-center p-6 md:p-0 md:pt-6 bg-white md:bg-transparent border border-[#C5A059]/30 md:border-0 md:border-t md:border-stone-300/80 shadow-sm md:shadow-none hover:border-[#C5A059] transition-all duration-300 group">
             <div class="w-12 h-12 border border-[#C5A059]/40 bg-[#1A1410]/5 text-[#1A1410] flex items-center justify-center mb-5 group-hover:bg-[#F3D08A] group-hover:border-[#F3D08A] group-hover:text-[#1A1410] transition-colors duration-300">
               <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <circle cx="12" cy="12" r="9" stroke-width="1.8"></circle>
@@ -321,12 +325,44 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
 
         </div>
 
+        <!-- Mobile Carousel Navigation Dots & Controls (Mobile Only) -->
+        <div class="flex md:hidden items-center justify-center gap-3 mt-6">
+          <button 
+            id="identidade-prev" 
+            type="button" 
+            class="w-8 h-8 rounded-full border border-[#C5A059]/60 flex items-center justify-center text-[#2B231D] hover:bg-[#F3D08A] active:scale-95 transition-all cursor-pointer"
+            aria-label="Pilar Anterior"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+          </button>
+          
+          <div class="flex items-center gap-1.5 px-2">
+            <button type="button" class="identidade-dot h-2 w-6 rounded-full bg-[#C5A059] transition-all duration-300 cursor-pointer" data-index="0" aria-label="Slide 1"></button>
+            <button type="button" class="identidade-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="1" aria-label="Slide 2"></button>
+            <button type="button" class="identidade-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="2" aria-label="Slide 3"></button>
+            <button type="button" class="identidade-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="3" aria-label="Slide 4"></button>
+          </div>
+
+          <button 
+            id="identidade-next" 
+            type="button" 
+            class="w-8 h-8 rounded-full border border-[#C5A059]/60 flex items-center justify-center text-[#2B231D] hover:bg-[#F3D08A] active:scale-95 transition-all cursor-pointer"
+            aria-label="Próximo Pilar"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+
       </div>
     </section>
 
     <!-- 6. GALERIA VISUAL DA HERDADE -->
     <section class="py-20 px-6 max-w-7xl mx-auto">
-      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-12">
+      <div class="flex flex-col md:flex-row items-start md:items-end justify-between mb-8 sm:mb-12">
         <div>
           <h2 class="font-serif text-3xl sm:text-4xl text-[#2B231D]">
             Imagens que Contam a Nossa História
@@ -337,63 +373,102 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
         </p>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Mobile Carousel Track / Desktop Grid -->
+      <div 
+        id="galeria-track" 
+        class="flex sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 overflow-x-auto sm:overflow-visible snap-x snap-mandatory scroll-smooth pb-4 sm:pb-0 px-1 sm:px-0 no-scrollbar"
+      >
         
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={imgVinhaPanorama} alt="Vinha do Monte da Colónia" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">As Vinhas</span>
             <p class="font-serif text-sm text-stone-200">As linhas verdes sob o sol de Vale de Seda</p>
           </div>
         </div>
 
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={imgOlival} alt="Olival Centenário" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">O Olival</span>
             <p class="font-serif text-sm text-stone-200">Oliveiras centenárias Galega e Cobrançosa</p>
           </div>
         </div>
 
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={imgAdega} alt="Adega e Barricas" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">A Adega</span>
             <p class="font-serif text-sm text-stone-200">O silêncio e o estágio em carvalho francês</p>
           </div>
         </div>
 
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={imgDegustacao} alt="Degustação de Vinhos" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Enoturismo</span>
             <p class="font-serif text-sm text-stone-200">Momentos de partilha à volta da mesa</p>
           </div>
         </div>
 
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={imgBanco} alt="Banco Tradicional Alentejano" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">Pormenores</span>
             <p class="font-serif text-sm text-stone-200">A serenidade do descanso no pátio</p>
           </div>
         </div>
 
-        <div class="relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
+        <div class="w-[84vw] max-w-[340px] sm:w-auto shrink-0 sm:shrink snap-center relative overflow-hidden shadow-[0_0_25px_rgba(243,208,138,0.22)] border border-[#C5A059]/40 hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 aspect-[4/3] group">
           <Image src={heroMonte} alt="Paisagem Global" class="w-full h-full object-cover" />
-          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-          <div class="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <div class="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-transparent to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300"></div>
+          <div class="absolute bottom-4 left-4 right-4 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
             <span class="font-cinzel text-[10px] uppercase tracking-widest text-[#F3D08A]">A Herdade</span>
             <p class="font-serif text-sm text-stone-200">1000 hectares em comunhão com o Alentejo</p>
           </div>
         </div>
 
       </div>
+
+      <!-- Mobile Carousel Navigation Dots & Controls (Mobile Only) -->
+      <div class="flex sm:hidden items-center justify-center gap-3 mt-6">
+        <button 
+          id="galeria-prev" 
+          type="button" 
+          class="w-8 h-8 rounded-full border border-[#C5A059]/60 flex items-center justify-center text-[#2B231D] hover:bg-[#F3D08A] active:scale-95 transition-all cursor-pointer"
+          aria-label="Imagem Anterior"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+        </button>
+        
+        <div class="flex items-center gap-1.5 px-2">
+          <button type="button" class="galeria-dot h-2 w-6 rounded-full bg-[#C5A059] transition-all duration-300 cursor-pointer" data-index="0" aria-label="Foto 1"></button>
+          <button type="button" class="galeria-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="1" aria-label="Foto 2"></button>
+          <button type="button" class="galeria-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="2" aria-label="Foto 3"></button>
+          <button type="button" class="galeria-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="3" aria-label="Foto 4"></button>
+          <button type="button" class="galeria-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="4" aria-label="Foto 5"></button>
+          <button type="button" class="galeria-dot h-2 w-2 rounded-full bg-stone-300 transition-all duration-300 cursor-pointer" data-index="5" aria-label="Foto 6"></button>
+        </div>
+
+        <button 
+          id="galeria-next" 
+          type="button" 
+          class="w-8 h-8 rounded-full border border-[#C5A059]/60 flex items-center justify-center text-[#2B231D] hover:bg-[#F3D08A] active:scale-95 transition-all cursor-pointer"
+          aria-label="Próxima Imagem"
+        >
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+
     </section>
 
     <!-- 7. INVITATION CTA: VENHA CONHECER-NOS -->
@@ -423,3 +498,156 @@ import imgAntonio from '../assets/real_candidates/antonio-justo.jpg';
   <!-- FOOTER -->
   <Footer currentPage="monte" />
 </Layout>
+
+<!-- CLIENT SCRIPT FOR MOBILE CAROUSELS (USER INPUT ONLY - NO AUTO-PLAY) -->
+<script>
+  function setupMonteCarousels() {
+    // 1. Identidade Carousel (4 Pilares)
+    const idTrack = document.getElementById('identidade-track');
+    const idDots = document.querySelectorAll('.identidade-dot');
+    const idPrev = document.getElementById('identidade-prev');
+    const idNext = document.getElementById('identidade-next');
+
+    if (idTrack && idDots.length > 0) {
+      const idCards = Array.from(idTrack.children) as HTMLElement[];
+
+      function updateIdDots() {
+        if (!idTrack) return;
+        const scrollLeft = idTrack.scrollLeft;
+        const trackCenter = scrollLeft + idTrack.clientWidth / 2;
+        let closestIdx = 0;
+        let minDiff = Infinity;
+
+        idCards.forEach((card, idx) => {
+          const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+          const diff = Math.abs(trackCenter - cardCenter);
+          if (diff < minDiff) {
+            minDiff = diff;
+            closestIdx = idx;
+          }
+        });
+
+        idDots.forEach((dot, idx) => {
+          if (idx === closestIdx) {
+            dot.classList.remove('bg-stone-300', 'w-2');
+            dot.classList.add('bg-[#C5A059]', 'w-6');
+          } else {
+            dot.classList.remove('bg-[#C5A059]', 'w-6');
+            dot.classList.add('bg-stone-300', 'w-2');
+          }
+        });
+      }
+
+      idDots.forEach((dot) => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-index') || '0', 10);
+          const card = idCards[idx];
+          if (card && idTrack) {
+            const targetLeft = card.offsetLeft - (idTrack.clientWidth - card.offsetWidth) / 2;
+            idTrack.scrollTo({ left: targetLeft, behavior: 'smooth' });
+          }
+        });
+      });
+
+      if (idPrev) {
+        idPrev.addEventListener('click', () => {
+          const cardWidth = idCards[0]?.offsetWidth || 300;
+          idTrack.scrollBy({ left: -(cardWidth + 24), behavior: 'smooth' });
+        });
+      }
+
+      if (idNext) {
+        idNext.addEventListener('click', () => {
+          const cardWidth = idCards[0]?.offsetWidth || 300;
+          idTrack.scrollBy({ left: (cardWidth + 24), behavior: 'smooth' });
+        });
+      }
+
+      idTrack.addEventListener('scroll', () => {
+        window.requestAnimationFrame(updateIdDots);
+      }, { passive: true });
+    }
+
+    // 2. Galeria Carousel (6 Imagens)
+    const galTrack = document.getElementById('galeria-track');
+    const galDots = document.querySelectorAll('.galeria-dot');
+    const galPrev = document.getElementById('galeria-prev');
+    const galNext = document.getElementById('galeria-next');
+
+    if (galTrack && galDots.length > 0) {
+      const galCards = Array.from(galTrack.children) as HTMLElement[];
+
+      function updateGalDots() {
+        if (!galTrack) return;
+        const scrollLeft = galTrack.scrollLeft;
+        const trackCenter = scrollLeft + galTrack.clientWidth / 2;
+        let closestIdx = 0;
+        let minDiff = Infinity;
+
+        galCards.forEach((card, idx) => {
+          const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+          const diff = Math.abs(trackCenter - cardCenter);
+          if (diff < minDiff) {
+            minDiff = diff;
+            closestIdx = idx;
+          }
+        });
+
+        galDots.forEach((dot, idx) => {
+          if (idx === closestIdx) {
+            dot.classList.remove('bg-stone-300', 'w-2');
+            dot.classList.add('bg-[#C5A059]', 'w-6');
+          } else {
+            dot.classList.remove('bg-[#C5A059]', 'w-6');
+            dot.classList.add('bg-stone-300', 'w-2');
+          }
+        });
+      }
+
+      galDots.forEach((dot) => {
+        dot.addEventListener('click', () => {
+          const idx = parseInt(dot.getAttribute('data-index') || '0', 10);
+          const card = galCards[idx];
+          if (card && galTrack) {
+            const targetLeft = card.offsetLeft - (galTrack.clientWidth - card.offsetWidth) / 2;
+            galTrack.scrollTo({ left: targetLeft, behavior: 'smooth' });
+          }
+        });
+      });
+
+      if (galPrev) {
+        galPrev.addEventListener('click', () => {
+          const cardWidth = galCards[0]?.offsetWidth || 300;
+          galTrack.scrollBy({ left: -(cardWidth + 16), behavior: 'smooth' });
+        });
+      }
+
+      if (galNext) {
+        galNext.addEventListener('click', () => {
+          const cardWidth = galCards[0]?.offsetWidth || 300;
+          galTrack.scrollBy({ left: (cardWidth + 16), behavior: 'smooth' });
+        });
+      }
+
+      galTrack.addEventListener('scroll', () => {
+        window.requestAnimationFrame(updateGalDots);
+      }, { passive: true });
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupMonteCarousels);
+  } else {
+    setupMonteCarousels();
+  }
+</script>
+
+<style>
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+</style>

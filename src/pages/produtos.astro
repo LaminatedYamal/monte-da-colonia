@@ -829,19 +829,31 @@ const vinagreItem = {
         });
       });
 
-      // Touch swipe
+      // Touch swipe (Strict check: user horizontal input only, ignore vertical page scrolling)
       const carouselEl = document.getElementById('oil-carousel');
       if (carouselEl) {
         let touchStartX = 0;
+        let touchStartY = 0;
         carouselEl.addEventListener('touchstart', (e: TouchEvent) => {
-          touchStartX = e.changedTouches[0].screenX;
+          if (e.changedTouches.length > 0) {
+            touchStartX = e.changedTouches[0].clientX;
+            touchStartY = e.changedTouches[0].clientY;
+          }
         }, { passive: true });
         carouselEl.addEventListener('touchend', (e: TouchEvent) => {
-          const touchEndX = e.changedTouches[0].screenX;
-          if (touchStartX - touchEndX > 45) {
-            goToOilSlide(1);
-          } else if (touchEndX - touchStartX > 45) {
-            goToOilSlide(0);
+          if (e.changedTouches.length === 0) return;
+          const touchEndX = e.changedTouches[0].clientX;
+          const touchEndY = e.changedTouches[0].clientY;
+          const diffX = touchStartX - touchEndX;
+          const diffY = touchStartY - touchEndY;
+
+          // Only trigger if clearly a horizontal swipe and not a vertical scroll
+          if (Math.abs(diffX) > 70 && Math.abs(diffX) > Math.abs(diffY) * 2.5 && Math.abs(diffY) < 45) {
+            if (diffX > 0) {
+              goToOilSlide(1);
+            } else {
+              goToOilSlide(0);
+            }
           }
         }, { passive: true });
       }
@@ -911,19 +923,31 @@ const vinagreItem = {
         });
       });
 
-      // Touch swipe
+      // Touch swipe (Strict check: user horizontal input only, ignore vertical page scrolling)
       const carouselEl = document.getElementById('wine-carousel');
       if (carouselEl) {
         let touchStartX = 0;
+        let touchStartY = 0;
         carouselEl.addEventListener('touchstart', (e: TouchEvent) => {
-          touchStartX = e.changedTouches[0].screenX;
+          if (e.changedTouches.length > 0) {
+            touchStartX = e.changedTouches[0].clientX;
+            touchStartY = e.changedTouches[0].clientY;
+          }
         }, { passive: true });
         carouselEl.addEventListener('touchend', (e: TouchEvent) => {
-          const touchEndX = e.changedTouches[0].screenX;
-          if (touchStartX - touchEndX > 45) {
-            goToWineSlide(currentWineSlide === totalSlides - 1 ? 0 : currentWineSlide + 1);
-          } else if (touchEndX - touchStartX > 45) {
-            goToWineSlide(currentWineSlide === 0 ? totalSlides - 1 : currentWineSlide - 1);
+          if (e.changedTouches.length === 0) return;
+          const touchEndX = e.changedTouches[0].clientX;
+          const touchEndY = e.changedTouches[0].clientY;
+          const diffX = touchStartX - touchEndX;
+          const diffY = touchStartY - touchEndY;
+
+          // Only trigger if clearly a horizontal swipe and not a vertical scroll
+          if (Math.abs(diffX) > 70 && Math.abs(diffX) > Math.abs(diffY) * 2.5 && Math.abs(diffY) < 45) {
+            if (diffX > 0) {
+              goToWineSlide(currentWineSlide === totalSlides - 1 ? 0 : currentWineSlide + 1);
+            } else {
+              goToWineSlide(currentWineSlide === 0 ? totalSlides - 1 : currentWineSlide - 1);
+            }
           }
         }, { passive: true });
       }
