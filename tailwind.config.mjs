@@ -2,6 +2,23 @@
 export default {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
   theme: {
+    screens: {
+      // 3-Tier Responsive Architecture
+      // Mobile: ≤ 600px (unprefixed base styles)
+      // Tablet / Foldable: 601px – 980px
+      // Desktop: > 980px
+      'mobile-only': { max: '600px' },
+      'tablet-only': { min: '601px', max: '980px' },
+      'tablet': '601px',
+      'desktop': '981px',
+
+      // Semantic mapping for standard Tailwind utilities:
+      'sm': '601px',
+      'md': '601px', // 2-column or tablet layout begins at 601px
+      'lg': '981px', // Desktop multi-column and inline navigation begins at 981px (>980px)
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       colors: {
         monte: {

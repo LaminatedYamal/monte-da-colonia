@@ -87,15 +87,15 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     <div class="relative z-10 flex flex-col items-center justify-center max-w-4xl w-full mx-auto px-6 text-center">
       
       <!-- 1. LOGO ANIMATION STAGE -->
-      <div class="relative flex flex-col items-center justify-center w-full max-w-[620px] md:max-w-[720px] min-h-[220px]">
+      <div class="relative flex flex-col items-center justify-center w-full max-w-[340px] sm:max-w-[620px] lg:max-w-[720px] min-h-[180px] sm:min-h-[220px]">
         
         <!-- Authentic House Engraving -->
-        <div id="house-wrapper" class="relative w-36 sm:w-44 md:w-52 h-24 sm:h-28 md:h-34 mb-2 flex items-center justify-center overflow-visible">
+        <div id="house-wrapper" class="relative w-32 sm:w-44 lg:w-52 h-20 sm:h-28 lg:h-34 mb-2 flex items-center justify-center overflow-visible">
           <canvas id="house-draw-canvas" width="360" height="250" class="w-full h-full object-contain filter drop-shadow-[0_2px_16px_rgba(245,215,127,0.5)]"></canvas>
         </div>
 
         <!-- Authentic Calligraphy Text "Monte da Colónia" -->
-        <div id="text-wrapper" class="relative w-full max-w-[580px] sm:max-w-[680px] md:max-w-[740px] h-16 sm:h-20 md:h-24 flex items-center justify-center overflow-visible">
+        <div id="text-wrapper" class="relative w-full max-w-[320px] sm:max-w-[580px] lg:max-w-[740px] h-14 sm:h-20 lg:h-24 flex items-center justify-center overflow-visible">
           <canvas id="text-write-canvas" width="980" height="140" class="w-full h-full object-contain filter drop-shadow-[0_2px_18px_rgba(245,215,127,0.6)]"></canvas>
         </div>
 
@@ -676,27 +676,62 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     transform: translateY(2px);
   }
 
-  /* Responsive Fan for Smaller Devices */
-  @media (max-width: 640px) {
-    #portal-wrapper.is-open .satellite-medallion:nth-child(1) { --fan-x: -150px !important; --fan-y: 80px !important; }
-    #portal-wrapper.is-open .satellite-medallion:nth-child(2) { --fan-x: -75px !important; --fan-y: 125px !important; }
-    #portal-wrapper.is-open .satellite-medallion:nth-child(3) { --fan-x: 0px !important; --fan-y: 145px !important; }
-    #portal-wrapper.is-open .satellite-medallion:nth-child(4) { --fan-x: 75px !important; --fan-y: 125px !important; }
-    #portal-wrapper.is-open .satellite-medallion:nth-child(5) { --fan-x: 150px !important; --fan-y: 80px !important; }
+  /* =========================================================================
+     3-TIER RESPONSIVE RADIAL FAN GEOMETRY
+     ========================================================================= */
+
+  /* TIER 2: TABLET / FOLDABLE (601px – 980px) */
+  @media (min-width: 601px) and (max-width: 980px) {
+    #portal-wrapper.is-open .satellite-medallion:nth-child(1) { --fan-x: -185px !important; --fan-y: 85px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(2) { --fan-x: -95px !important; --fan-y: 125px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(3) { --fan-x: 0px !important; --fan-y: 140px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(4) { --fan-x: 95px !important; --fan-y: 125px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(5) { --fan-x: 185px !important; --fan-y: 85px !important; }
 
     .medallion-circle {
-      width: 58px;
-      height: 58px;
+      width: 68px !important;
+      height: 68px !important;
     }
 
     .medallion-icon {
-      width: 26px;
-      height: 26px;
+      width: 28px !important;
+      height: 28px !important;
     }
 
     .medallion-label {
-      font-size: 10.5px;
-      letter-spacing: 0.16em;
+      font-size: 11.5px !important;
+      letter-spacing: 0.18em !important;
+    }
+  }
+
+  /* TIER 3: MOBILE (≤ 600px, down to 360px smartphones) */
+  @media (max-width: 600px) {
+    #portal-wrapper.is-open .satellite-medallion:nth-child(1) { --fan-x: -125px !important; --fan-y: 75px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(2) { --fan-x: -65px !important; --fan-y: 115px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(3) { --fan-x: 0px !important; --fan-y: 135px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(4) { --fan-x: 65px !important; --fan-y: 115px !important; }
+    #portal-wrapper.is-open .satellite-medallion:nth-child(5) { --fan-x: 125px !important; --fan-y: 75px !important; }
+
+    .medallion-circle {
+      width: 52px !important;
+      height: 52px !important;
+    }
+
+    .medallion-icon {
+      width: 22px !important;
+      height: 22px !important;
+    }
+
+    .medallion-label {
+      font-size: 9.5px !important;
+      letter-spacing: 0.14em !important;
+      margin-top: 5px !important;
+    }
+
+    .button-87 {
+      padding: 12px 28px !important;
+      font-size: 11.5px !important;
+      letter-spacing: 0.2em !important;
     }
   }
 

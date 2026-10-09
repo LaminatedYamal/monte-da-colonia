@@ -10,27 +10,27 @@ const { currentPage = '', isStore = false } = Astro.props;
 ---
 
 <header class="fixed top-0 left-0 right-0 z-50 bg-[#14100D] shadow-2xl transition-all duration-300">
-  <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 lg:h-20 flex items-center justify-between">
     
     <!-- Brand Identity with Gold House Emblem -->
-    <a href={url()} class="flex items-center gap-3.5 group" title="Voltar ao Portal Monte da Colónia">
+    <a href={url()} class="flex items-center gap-2.5 sm:gap-3.5 group" title="Voltar ao Portal Monte da Colónia">
       <img 
         src={url('assets/logos/logo_house_gold.png')} 
         alt="Monte da Colónia" 
-        class="h-10 sm:h-11 w-auto object-contain filter drop-shadow-[0_2px_8px_rgba(243,208,138,0.35)] group-hover:scale-105 transition-transform duration-300" 
+        class="h-9 sm:h-10 lg:h-11 w-auto object-contain filter drop-shadow-[0_2px_8px_rgba(243,208,138,0.35)] group-hover:scale-105 transition-transform duration-300" 
       />
       <div class="flex flex-col text-left">
-        <span class="font-cinzel text-xs sm:text-sm font-semibold tracking-[0.28em] uppercase text-[#F3D08A] group-hover:text-[#FFF4D4] transition-colors">
+        <span class="font-cinzel text-xs sm:text-sm font-semibold tracking-[0.24em] sm:tracking-[0.28em] uppercase text-[#F3D08A] group-hover:text-[#FFF4D4] transition-colors">
           Monte da Colónia
         </span>
-        <span class="font-cinzel text-[9px] tracking-[0.32em] uppercase text-stone-400 mt-0.5">
+        <span class="font-cinzel text-[8.5px] sm:text-[9px] tracking-[0.28em] sm:tracking-[0.32em] uppercase text-stone-400 mt-0.5">
           Vale de Seda · 1980
         </span>
       </div>
     </a>
 
-    <!-- Desktop Navigation: Strictly Content Pages (No Loja Online in Menu List) -->
-    <nav class="hidden md:flex items-center gap-7 lg:gap-8 text-xs font-cinzel uppercase tracking-[0.22em]">
+    <!-- Desktop Navigation: Strictly visible on Desktop (> 980px) -->
+    <nav class="hidden lg:flex items-center gap-7 xl:gap-8 text-xs font-cinzel uppercase tracking-[0.22em]">
       <a 
         href={url('monte')} 
         class={`transition-colors py-1 ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold border-b border-[#C5A059]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
@@ -58,102 +58,156 @@ const { currentPage = '', isStore = false } = Astro.props;
     </nav>
 
     <!-- Header Actions / CTA Button Area -->
-    <div class="flex items-center gap-3">
+    <div class="flex items-center gap-2 sm:gap-3">
       {isStore ? (
         <!-- On Store page: Cart drawer trigger -->
         <button 
           id="open-cart-btn" 
-          class="relative px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[11px] sm:text-xs uppercase tracking-[0.22em] font-semibold shadow-md hover:shadow-[#F3D08A]/25 transition-all duration-300 flex items-center gap-2.5 cursor-pointer"
+          class="relative px-3.5 sm:px-6 py-2 sm:py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[10px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.22em] font-semibold shadow-md hover:shadow-[#F3D08A]/25 transition-all duration-300 flex items-center gap-2 cursor-pointer min-h-[40px]"
           title="Ver Carrinho de Compras"
         >
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
           </svg>
-          <span>Carrinho</span>
+          <span class="hidden sm:inline">Carrinho</span>
           <span id="header-cart-badge" class="w-5 h-5 flex items-center justify-center bg-[#C5A059] text-stone-950 font-sans font-bold text-[11px] leading-none">0</span>
         </button>
       ) : (
         <!-- Standard CTA across all pages: Loja Online -->
         <a 
           href={url('loja')} 
-          class="px-5 sm:px-6 py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[11px] sm:text-xs uppercase tracking-[0.22em] font-semibold shadow-md hover:shadow-[#F3D08A]/25 transition-all duration-300"
+          class="px-3.5 sm:px-6 py-2 sm:py-2.5 border border-[#C5A059]/70 hover:border-[#F3D08A] bg-[#221A14] hover:bg-[#F3D08A] text-[#F3D08A] hover:text-[#14100D] font-cinzel text-[10px] sm:text-xs uppercase tracking-[0.2em] sm:tracking-[0.22em] font-semibold shadow-md hover:shadow-[#F3D08A]/25 transition-all duration-300 min-h-[40px] flex items-center"
         >
           Loja Online
         </a>
       )}
 
-      <!-- Mobile Menu Hamburger Button -->
+      <!-- Mobile & Tablet Menu Hamburger Button (visible <= 980px) -->
       <button 
         id="mobile-menu-toggle"
-        class="md:hidden p-2 text-stone-300 hover:text-[#F3D08A] focus:outline-none"
+        class="lg:hidden p-2 text-stone-300 hover:text-[#F3D08A] focus:outline-none min-w-[44px] min-h-[44px] flex items-center justify-center cursor-pointer"
         aria-label="Abrir Menu"
       >
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path id="hamburger-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
     </div>
 
   </div>
 
-  <!-- Mobile Dropdown Menu -->
-  <div id="mobile-menu" class="hidden md:hidden bg-[#14100D]/98 border-t border-[#C5A059]/30 px-6 py-6 transition-all duration-300">
-    <nav class="flex flex-col gap-4 text-sm font-cinzel uppercase tracking-[0.22em]">
-      <a 
-        href={url('monte')} 
-        class={`py-1.5 transition-colors ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
-      >
-        O Monte
-      </a>
-      <a 
-        href={url('produtos')} 
-        class={`py-1.5 transition-colors ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
-      >
-        Produtos
-      </a>
-      <a 
-        href={url('visitas')} 
-        class={`py-1.5 transition-colors ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
-      >
-        Visitas
-      </a>
-      <a 
-        href={url('contactos')} 
-        class={`py-1.5 transition-colors ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold' : 'text-stone-300 hover:text-[#F3D08A]'}`}
-      >
-        Contactos
-      </a>
-      <div class="pt-4 mt-2 border-t border-stone-800">
-        <a 
-          href={url('loja')} 
-          class="block text-center py-3 border border-[#F3D08A] bg-[#221A14] text-[#F3D08A] font-cinzel text-xs uppercase tracking-[0.25em] font-semibold"
+  <!-- Luxury Off-Canvas Drawer (Collapses for Tablet 601px-980px and Mobile <=600px) -->
+  <div id="drawer-backdrop" class="fixed inset-0 bg-stone-950/80 backdrop-blur-sm z-50 transition-opacity duration-300 opacity-0 pointer-events-none lg:hidden"></div>
+
+  <aside 
+    id="offcanvas-drawer" 
+    class="fixed top-0 right-0 bottom-0 w-full max-w-[320px] sm:max-w-md bg-[#14100D] border-l border-[#C5A059]/30 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col justify-between p-6 sm:p-8 lg:hidden"
+    aria-label="Menu Principal"
+  >
+    <div>
+      <!-- Drawer Header with Brand & Close Button -->
+      <div class="flex items-center justify-between pb-6 border-b border-stone-800/80">
+        <div class="flex items-center gap-3">
+          <img 
+            src={url('assets/logos/logo_house_gold.png')} 
+            alt="Monte da Colónia" 
+            class="h-8 w-auto object-contain" 
+          />
+          <span class="font-cinzel text-xs font-semibold tracking-[0.24em] uppercase text-[#F3D08A]">
+            Menu
+          </span>
+        </div>
+        <button 
+          id="drawer-close-btn"
+          class="w-10 h-10 flex items-center justify-center text-stone-400 hover:text-[#F3D08A] border border-stone-800 hover:border-[#C5A059]/40 bg-[#1A1410] cursor-pointer transition-colors"
+          aria-label="Fechar Menu"
         >
-          Loja Online Oficial
-        </a>
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
       </div>
-    </nav>
-  </div>
+
+      <!-- Navigation Links (Touch-Friendly, min-h-[48px]) -->
+      <nav class="flex flex-col gap-2 pt-6 font-cinzel uppercase tracking-[0.24em] text-sm">
+        <a 
+          href={url('monte')} 
+          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'monte' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+        >
+          <span>O Monte</span>
+          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+        <a 
+          href={url('produtos')} 
+          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'produtos' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+        >
+          <span>Produtos</span>
+          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+        <a 
+          href={url('visitas')} 
+          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'visitas' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+        >
+          <span>Visitas</span>
+          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+        <a 
+          href={url('contactos')} 
+          class={`flex items-center justify-between min-h-[48px] px-3 py-2 transition-colors border-b border-stone-900 ${currentPage === 'contactos' ? 'text-[#F3D08A] font-semibold bg-[#221A14]' : 'text-stone-300 hover:text-[#F3D08A]'}`}
+        >
+          <span>Contactos</span>
+          <svg class="w-4 h-4 text-stone-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+      </nav>
+    </div>
+
+    <!-- Drawer Footer Actions -->
+    <div class="pt-6 border-t border-stone-800 space-y-3">
+      <a 
+        href={url('loja')} 
+        class="block text-center py-3.5 border border-[#F3D08A] bg-gradient-to-r from-[#B58838] via-[#F5D992] to-[#B58838] text-stone-950 font-cinzel text-xs uppercase tracking-[0.25em] font-bold shadow-md"
+      >
+        Loja Online Oficial
+      </a>
+      <p class="text-[10px] text-center text-stone-500 font-cinzel uppercase tracking-widest pt-2">
+        Vale de Seda · Fronteira
+      </p>
+    </div>
+  </aside>
 </header>
 
 <script>
-  const toggleBtn = document.getElementById('mobile-menu-toggle');
-  const mobileMenu = document.getElementById('mobile-menu');
-  const hamburgerIcon = document.getElementById('hamburger-icon');
-  const closeIcon = document.getElementById('close-icon');
+  const toggleBtn = document.getElementById('mobile-menu-toggle') as HTMLButtonElement | null;
+  const drawerBackdrop = document.getElementById('drawer-backdrop') as HTMLElement | null;
+  const offcanvasDrawer = document.getElementById('offcanvas-drawer') as HTMLElement | null;
+  const drawerCloseBtn = document.getElementById('drawer-close-btn') as HTMLButtonElement | null;
 
-  if (toggleBtn && mobileMenu && hamburgerIcon && closeIcon) {
-    toggleBtn.addEventListener('click', () => {
-      const isExpanded = !mobileMenu.classList.contains('hidden');
-      if (isExpanded) {
-        mobileMenu.classList.add('hidden');
-        hamburgerIcon.classList.remove('hidden');
-        closeIcon.classList.add('hidden');
-      } else {
-        mobileMenu.classList.remove('hidden');
-        hamburgerIcon.classList.add('hidden');
-        closeIcon.classList.remove('hidden');
-      }
-    });
+  function openDrawer(): void {
+    if (drawerBackdrop && offcanvasDrawer) {
+      drawerBackdrop.classList.remove('opacity-0', 'pointer-events-none');
+      drawerBackdrop.classList.add('opacity-100', 'pointer-events-auto');
+      offcanvasDrawer.classList.remove('translate-x-full');
+      offcanvasDrawer.classList.add('translate-x-0');
+      document.body.style.overflow = 'hidden';
+    }
   }
+
+  function closeDrawer(): void {
+    if (drawerBackdrop && offcanvasDrawer) {
+      drawerBackdrop.classList.remove('opacity-100', 'pointer-events-auto');
+      drawerBackdrop.classList.add('opacity-0', 'pointer-events-none');
+      offcanvasDrawer.classList.remove('translate-x-0');
+      offcanvasDrawer.classList.add('translate-x-full');
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (toggleBtn) toggleBtn.addEventListener('click', openDrawer);
+  if (drawerCloseBtn) drawerCloseBtn.addEventListener('click', closeDrawer);
+  if (drawerBackdrop) drawerBackdrop.addEventListener('click', closeDrawer);
+
+  // Close drawer with Escape key
+  window.addEventListener('keydown', (e: KeyboardEvent) => {
+    if (e.key === 'Escape') closeDrawer();
+  });
 </script>

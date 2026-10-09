@@ -43,7 +43,7 @@ const experiencias = [
 >
   <Header currentPage="visitas" />
 
-  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-20">
+  <main class="flex-grow bg-[#FAF8F5] text-[#2B231D] selection:bg-[#C5A059] selection:text-white pt-16 lg:pt-20">
     
     <!-- 1. HERO HEADER: VISITAS & ENOTURISMO -->
     <section class="py-16 sm:py-20 bg-stone-950 text-white relative overflow-hidden">
@@ -99,7 +99,7 @@ const experiencias = [
         </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {experiencias.map((exp) => (
           <div class="flex flex-col justify-between border border-[#C5A059]/40 bg-[#FAF8F5] shadow-[0_0_25px_rgba(243,208,138,0.22)] hover:shadow-[0_0_35px_rgba(243,208,138,0.45)] hover:border-[#F3D08A] transition-all duration-500 p-8 group">
             <div>
