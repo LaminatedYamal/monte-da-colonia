@@ -21,7 +21,12 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
 
 <Layout title="Monte da Colónia | Tradição, Vinha & Olival no Alentejo">
   <!-- SPLASH / HERO PORTAL LANDING (IMMERSIVE SINGLE-CANVAS EXPERIENCE) -->
-  <section id="splash-gateway" class="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center bg-stone-950 select-none">
+  <section 
+    id="splash-gateway" 
+    class="relative w-full h-screen overflow-hidden flex flex-col items-center justify-center bg-stone-950 select-none"
+    data-house-gold-url={houseGoldUrl}
+    data-text-gold-url={textGoldUrl}
+  >
     
     <!-- Dynamic Layered Background Photos with Smooth Cross-Fade on Medallion Hover -->
     <div id="hero-bg-container" class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
@@ -219,14 +224,29 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
 </Layout>
 
 <!-- ANIMATION & INTERACTIVE PORTAL SCRIPT -->
-<script define:vars={{ houseGoldUrl, textGoldUrl }}>
-  // DOM Elements
-  const houseCanvas = document.getElementById('house-draw-canvas');
-  const textCanvas = document.getElementById('text-write-canvas');
-  const subtitleContainer = document.getElementById('subtitle-container');
-  const ctaContainer = document.getElementById('cta-container');
+<script>
+  // =========================================================================
+  // MONTE DA COLÓNIA - FULL TYPESCRIPT INTERACTIVE HERO & PORTAL
+  // =========================================================================
+  interface DrawingDimensions {
+    canvasW: number;
+    canvasH: number;
+    imgW: number;
+    imgH: number;
+    drawX: number;
+    drawY: number;
+  }
 
-  function revealUI() {
+  const splashGateway = document.getElementById('splash-gateway') as HTMLElement | null;
+  const houseCanvas = document.getElementById('house-draw-canvas') as HTMLCanvasElement | null;
+  const textCanvas = document.getElementById('text-write-canvas') as HTMLCanvasElement | null;
+  const subtitleContainer = document.getElementById('subtitle-container') as HTMLElement | null;
+  const ctaContainer = document.getElementById('cta-container') as HTMLElement | null;
+
+  const houseGoldUrl: string = splashGateway?.dataset.houseGoldUrl || '/assets/logos/logo_house_gold.png';
+  const textGoldUrl: string = splashGateway?.dataset.textGoldUrl || '/assets/logos/logo_text_gold.png';
+
+  function revealUI(): void {
     if (subtitleContainer) {
       subtitleContainer.style.opacity = '1';
       subtitleContainer.style.transform = 'translateY(0)';
@@ -237,37 +257,38 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     }
   }
 
-  // Load Luminous Gold Logo Elements
-  const houseGoldImg = new Image();
-  const textGoldImg = new Image();
+  // Load Luminous Gold Logo Elements with TypeScript typing
+  const houseGoldImg: HTMLImageElement = new Image();
+  const textGoldImg: HTMLImageElement = new Image();
 
-  let houseReady = false;
-  let textReady = false;
-  let animationStarted = false;
+  let houseReady: boolean = false;
+  let textReady: boolean = false;
+  let animationStarted: boolean = false;
 
-  function renderStaticComplete() {
-    const hCtx = houseCanvas ? houseCanvas.getContext('2d') : null;
-    const tCtx = textCanvas ? textCanvas.getContext('2d') : null;
+  function renderStaticComplete(): void {
+    const hCtx: CanvasRenderingContext2D | null = houseCanvas ? houseCanvas.getContext('2d') : null;
+    const tCtx: CanvasRenderingContext2D | null = textCanvas ? textCanvas.getContext('2d') : null;
+
     if (hCtx && houseCanvas) {
-      const hImgW = houseGoldImg.naturalWidth || 344;
-      const hImgH = houseGoldImg.naturalHeight || 236;
+      const hImgW: number = houseGoldImg.naturalWidth || 344;
+      const hImgH: number = houseGoldImg.naturalHeight || 236;
       hCtx.clearRect(0, 0, houseCanvas.width, houseCanvas.height);
       hCtx.drawImage(houseGoldImg, Math.round((houseCanvas.width - hImgW) / 2), Math.round((houseCanvas.height - hImgH) / 2), hImgW, hImgH);
     }
     if (tCtx && textCanvas) {
-      const tImgW = textGoldImg.naturalWidth || 952;
-      const tImgH = textGoldImg.naturalHeight || 124;
+      const tImgW: number = textGoldImg.naturalWidth || 952;
+      const tImgH: number = textGoldImg.naturalHeight || 124;
       tCtx.clearRect(0, 0, textCanvas.width, textCanvas.height);
       tCtx.drawImage(textGoldImg, Math.round((textCanvas.width - tImgW) / 2), Math.round((textCanvas.height - tImgH) / 2), tImgW, tImgH);
     }
     revealUI();
   }
 
-  function runDrawingAnimation() {
-    const hCtx = houseCanvas ? houseCanvas.getContext('2d') : null;
-    const tCtx = textCanvas ? textCanvas.getContext('2d') : null;
+  function runDrawingAnimation(): void {
+    const hCtx: CanvasRenderingContext2D | null = houseCanvas ? houseCanvas.getContext('2d') : null;
+    const tCtx: CanvasRenderingContext2D | null = textCanvas ? textCanvas.getContext('2d') : null;
 
-    if (!hCtx || !tCtx) {
+    if (!hCtx || !tCtx || !houseCanvas || !textCanvas) {
       revealUI();
       return;
     }
@@ -278,29 +299,30 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     // =========================================================================
     // PHASE 1: DRAWING THE AUTHENTIC HOUSE ENGRAVING (Clean, elegant reveal)
     // =========================================================================
-    const hDuration = 750; // 0.75s swift organic architectural reveal
-    const hStartTime = performance.now();
-    const hCanvasW = houseCanvas.width;   // 360
-    const hCanvasH = houseCanvas.height;  // 250
+    const hDuration: number = 750; // 0.75s swift organic architectural reveal
+    const hStartTime: number = performance.now();
+    const hDims: DrawingDimensions = {
+      canvasW: houseCanvas.width,
+      canvasH: houseCanvas.height,
+      imgW: houseGoldImg.naturalWidth || 344,
+      imgH: houseGoldImg.naturalHeight || 236,
+      drawX: Math.round((houseCanvas.width - (houseGoldImg.naturalWidth || 344)) / 2),
+      drawY: Math.round((houseCanvas.height - (houseGoldImg.naturalHeight || 236)) / 2)
+    };
 
-    const hImgW = houseGoldImg.naturalWidth || 344;
-    const hImgH = houseGoldImg.naturalHeight || 236;
-    const hDrawX = Math.round((hCanvasW - hImgW) / 2);
-    const hDrawY = Math.round((hCanvasH - hImgH) / 2);
-
-    function animateHouse(now) {
-      const elapsed = now - hStartTime;
-      const p = Math.min(elapsed / hDuration, 1);
-      const ease = 1 - Math.pow(1 - p, 3);
+    function animateHouse(now: number): void {
+      const elapsed: number = now - hStartTime;
+      const p: number = Math.min(elapsed / hDuration, 1);
+      const ease: number = 1 - Math.pow(1 - p, 3);
 
       if (hCtx && (houseGoldImg.complete || houseGoldImg.naturalWidth > 0)) {
-        hCtx.clearRect(0, 0, hCanvasW, hCanvasH);
+        hCtx.clearRect(0, 0, hDims.canvasW, hDims.canvasH);
         hCtx.save();
         hCtx.beginPath();
-        const revealH = hDrawY + (hImgH * ease);
-        hCtx.rect(0, 0, hCanvasW, revealH);
+        const revealH: number = hDims.drawY + (hDims.imgH * ease);
+        hCtx.rect(0, 0, hDims.canvasW, revealH);
         hCtx.clip();
-        hCtx.drawImage(houseGoldImg, hDrawX, hDrawY, hImgW, hImgH);
+        hCtx.drawImage(houseGoldImg, hDims.drawX, hDims.drawY, hDims.imgW, hDims.imgH);
         hCtx.restore();
       }
 
@@ -308,8 +330,8 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
         requestAnimationFrame(animateHouse);
       } else {
         if (hCtx) {
-          hCtx.clearRect(0, 0, hCanvasW, hCanvasH);
-          hCtx.drawImage(houseGoldImg, hDrawX, hDrawY, hImgW, hImgH);
+          hCtx.clearRect(0, 0, hDims.canvasW, hDims.canvasH);
+          hCtx.drawImage(houseGoldImg, hDims.drawX, hDims.drawY, hDims.imgW, hDims.imgH);
         }
         setTimeout(startHandwritingText, 50);
       }
@@ -320,48 +342,49 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     // =========================================================================
     // PHASE 2: HANDWRITING THE CALLIGRAPHY "Monte da Colónia"
     // =========================================================================
-    function startHandwritingText() {
+    function startHandwritingText(): void {
       if (!tCtx || !textCanvas) {
         revealUI();
         return;
       }
 
-      const tDuration = 950; // 0.95s cursive flow
-      const tStartTime = performance.now();
-      const canvasW = textCanvas.width;   // 980
-      const canvasH = textCanvas.height;  // 140
+      const tDuration: number = 950; // 0.95s cursive flow
+      const tStartTime: number = performance.now();
+      const tDims: DrawingDimensions = {
+        canvasW: textCanvas.width,
+        canvasH: textCanvas.height,
+        imgW: textGoldImg.naturalWidth || 952,
+        imgH: textGoldImg.naturalHeight || 124,
+        drawX: Math.round((textCanvas.width - (textGoldImg.naturalWidth || 952)) / 2),
+        drawY: Math.round((textCanvas.height - (textGoldImg.naturalHeight || 124)) / 2)
+      };
 
-      const imgW = textGoldImg.naturalWidth || 952;
-      const imgH = textGoldImg.naturalHeight || 124;
-      const drawX = Math.round((canvasW - imgW) / 2);
-      const drawY = Math.round((canvasH - imgH) / 2);
+      function animateText(now: number): void {
+        const elapsed: number = now - tStartTime;
+        const p: number = Math.min(elapsed / tDuration, 1);
 
-      function animateText(now) {
-        const elapsed = now - tStartTime;
-        const p = Math.min(elapsed / tDuration, 1);
-
-        const ease = p < 0.5 
+        const ease: number = p < 0.5 
           ? 4 * p * p * p 
           : 1 - Math.pow(-2 * p + 2, 3) / 2;
 
-        tCtx.clearRect(0, 0, canvasW, canvasH);
-        const activeW = imgW * ease;
-        const revealRightEdge = drawX + activeW;
+        tCtx.clearRect(0, 0, tDims.canvasW, tDims.canvasH);
+        const activeW: number = tDims.imgW * ease;
+        const revealRightEdge: number = tDims.drawX + activeW;
 
         if (textGoldImg.complete || textGoldImg.naturalWidth > 0) {
           tCtx.save();
           tCtx.beginPath();
-          tCtx.rect(0, 0, revealRightEdge, canvasH);
+          tCtx.rect(0, 0, revealRightEdge, tDims.canvasH);
           tCtx.clip();
-          tCtx.drawImage(textGoldImg, drawX, drawY, imgW, imgH);
+          tCtx.drawImage(textGoldImg, tDims.drawX, tDims.drawY, tDims.imgW, tDims.imgH);
           tCtx.restore();
         }
 
         if (p < 1) {
           requestAnimationFrame(animateText);
         } else {
-          tCtx.clearRect(0, 0, canvasW, canvasH);
-          tCtx.drawImage(textGoldImg, drawX, drawY, imgW, imgH);
+          tCtx.clearRect(0, 0, tDims.canvasW, tDims.canvasH);
+          tCtx.drawImage(textGoldImg, tDims.drawX, tDims.drawY, tDims.imgW, tDims.imgH);
 
           // Reveal Subtitle and Portal Button
           revealUI();
@@ -373,7 +396,7 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     }
   }
 
-  function tryStartAnimation() {
+  function tryStartAnimation(): void {
     if (animationStarted) return;
     if (houseReady && textReady) {
       animationStarted = true;
@@ -382,7 +405,7 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
   }
 
   // Guaranteed Failsafe: if network or image stall exceeds 1200ms, unlock everything immediately!
-  const failsafeTimer = setTimeout(() => {
+  const failsafeTimer: ReturnType<typeof setTimeout> = setTimeout(() => {
     if (!animationStarted) {
       animationStarted = true;
       renderStaticComplete();
@@ -391,20 +414,20 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
     }
   }, 1200);
 
-  houseGoldImg.onload = () => {
+  houseGoldImg.onload = (): void => {
     houseReady = true;
     tryStartAnimation();
   };
-  houseGoldImg.onerror = () => {
+  houseGoldImg.onerror = (): void => {
     houseReady = true;
     tryStartAnimation();
   };
 
-  textGoldImg.onload = () => {
+  textGoldImg.onload = (): void => {
     textReady = true;
     tryStartAnimation();
   };
-  textGoldImg.onerror = () => {
+  textGoldImg.onerror = (): void => {
     textReady = true;
     tryStartAnimation();
   };
@@ -421,15 +444,15 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
   // =========================================================================
   // RUSTIC RADIAL PORTAL & HOVER BACKGROUND SWITCH LOGIC
   // =========================================================================
-  const portalWrapper = document.getElementById('portal-wrapper');
-  const portalBtn = document.getElementById('portal-btn');
-  const satelliteLinks = document.querySelectorAll('.satellite-medallion');
-  const bgLayers = document.querySelectorAll('.hero-bg-layer');
-  const defaultBg = document.getElementById('bg-default');
+  const portalWrapper = document.getElementById('portal-wrapper') as HTMLElement | null;
+  const portalBtn = document.getElementById('portal-btn') as HTMLButtonElement | null;
+  const satelliteLinks = document.querySelectorAll<HTMLAnchorElement>('.satellite-medallion');
+  const bgLayers = document.querySelectorAll<HTMLElement>('.hero-bg-layer');
+  const defaultBg = document.getElementById('bg-default') as HTMLElement | null;
 
   // Helper to switch active background
-  function setActiveBackground(bgId) {
-    bgLayers.forEach(layer => {
+  function setActiveBackground(bgId: string | null): void {
+    bgLayers.forEach((layer: HTMLElement) => {
       if (bgId && layer.id === bgId) {
         layer.classList.add('is-active');
       } else if (!bgId && layer === defaultBg) {
@@ -443,7 +466,7 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
   // Toggle Radial Medallions
   if (portalBtn && portalWrapper) {
     portalBtn.addEventListener('click', () => {
-      const isOpen = portalWrapper.classList.toggle('is-open');
+      const isOpen: boolean = portalWrapper.classList.toggle('is-open');
       portalBtn.setAttribute('aria-expanded', String(isOpen));
       if (!isOpen) {
         setActiveBackground(null);
@@ -452,8 +475,8 @@ const textGoldUrl = url('assets/logos/logo_text_gold.png');
   }
 
   // Medallion Hover Events: Swap background image to matching theme
-  satelliteLinks.forEach(link => {
-    const bgTarget = link.getAttribute('data-bg');
+  satelliteLinks.forEach((link: HTMLAnchorElement) => {
+    const bgTarget: string | null = link.getAttribute('data-bg');
     
     link.addEventListener('mouseenter', () => {
       if (bgTarget) {
